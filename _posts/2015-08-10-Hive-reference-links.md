@@ -8,7 +8,7 @@ sitemap: true
 permalink:
 tags: [hadoop, apache hive]
 image:
-  feature: /images/flight_analysis.jpg
+  feature: /assets/images/flight_analysis.jpg
   credit: Aman Mundra
   creditlink: http://mundra-aman.github.io
 published: true

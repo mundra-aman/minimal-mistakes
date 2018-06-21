@@ -8,7 +8,7 @@ sitemap: true
 permalink:
 tags: [life-snippets]
 image:
-  feature: /images/stars.jpg
+  feature: /assets/images/stars.jpg
   credit: Aman Mundra
   creditlink: http://mundra-aman.github.io
 published: true
