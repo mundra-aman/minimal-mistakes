@@ -8,7 +8,7 @@ sitemap: true
 permalink:
 tags: [hadoop, hive, analysis]
 image:
-  feature: /assets/images/flight_analysis.jpg
+  feature: /images/flight_analysis.jpg
   credit: stat-computing.org
   creditlink: http://stat-computing.org/dataexpo/2009/posters/wickham.pdf
 published: true
