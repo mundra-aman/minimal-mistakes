@@ -1,6 +1,7 @@
 ---
 title: "Apache Hive reference links"
 layout: single
+type: posts
 excerpt: "Reference videos, articles, slides and pointers to learn hive."
 author_profile: true
 sitemap: true
