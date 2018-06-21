@@ -11,8 +11,6 @@ image:
   credit: Aman Mundra
   creditlink: http://mundra-aman.github.io
 published: true
-date: 2018-06-21 16:16:01 -0600
-modified: 
 categories: jekyll update
 comments: true
 read_time: true

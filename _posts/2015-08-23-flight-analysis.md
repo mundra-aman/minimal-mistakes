@@ -11,8 +11,6 @@ image:
   credit: stat-computing.org
   creditlink: http://stat-computing.org/dataexpo/2009/posters/wickham.pdf
 published: true
-date: 
-modified: 
 categories: 
 comments: true
 read_time: true

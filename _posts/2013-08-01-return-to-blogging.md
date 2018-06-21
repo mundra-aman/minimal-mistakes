@@ -11,8 +11,6 @@ image:
   credit: Aman Mundra
   creditlink: http://mundra-aman.github.io
 published: true
-date: 
-modified: 
 categories: 
 comments: true
 read_time: true

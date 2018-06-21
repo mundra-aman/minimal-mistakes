@@ -10,7 +10,6 @@ image:
   feature: /images/projects.jpg
   credit: Aman Mundra
   creditlink: http://www.associatedairbalance.com/
-modified: 
 comments: false
 ---
 

@@ -10,7 +10,6 @@ image:
   feature: 
   credit:
   creditlink:
-modified:
 comments: false
 ---
 
