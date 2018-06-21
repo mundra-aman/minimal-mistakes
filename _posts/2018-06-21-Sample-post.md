@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Blogging Like a Hacker
 date:   2018-06-21 16:16:01 -0600
 categories: jekyll update
