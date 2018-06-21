@@ -1,19 +1,23 @@
 ---
-layout: single
-type: posts
 title: "US flight data analysis using hive"
+layout: single
 excerpt: "This post is about analyzing 20 million rows of flight on-time/delay performance data using hadoop/hive."
-read_time: true
-share: true
-related: true
-comments: true
+author_profile: true
+sitemap: true
+permalink:
 tags: [hadoop, hive, analysis]
 image:
   feature: /images/flight_analysis.jpg
   credit: stat-computing.org
   creditlink: http://stat-computing.org/dataexpo/2009/posters/wickham.pdf
-author_profile: true
 published: true
+date: 
+modified: 
+categories: 
+comments: true
+read_time: true
+share: true
+related: true
 ---
 
 This post is about analysing 20 million rows of flight on-time/delay performance using hadoop and hive.

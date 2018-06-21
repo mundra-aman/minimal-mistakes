@@ -1,13 +1,17 @@
 ---
-layout: single
 title: "Projects"
-tags: [projects]
+layout: single
+excerpt:
+author_profile: true
 sitemap: true
 permalink: /projects/
+tags: [projects]
 image:
   feature: /images/projects.jpg
   credit: Aman Mundra
   creditlink: http://www.associatedairbalance.com/
+modified:
+comments: false
 ---
 
 **List of Projects and POC's:**

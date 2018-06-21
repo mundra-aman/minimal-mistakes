@@ -1,5 +1,4 @@
-# Kodevelop
-# mundra-aman.github.io
+# Kodevelop - mundra-aman.github.io
 
 I share my personal thoughts here and write about what I do.
 
