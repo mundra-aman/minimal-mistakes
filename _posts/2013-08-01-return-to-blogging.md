@@ -1,6 +1,6 @@
 ---
 title: "Returning to blogging again, but this time with a change and as a serious+mature programmer"
-layout: post
+layout: single
 type: posts
 tags: [life-snippets]
 
