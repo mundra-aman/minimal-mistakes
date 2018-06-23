@@ -9,6 +9,10 @@ excerpt: "This document describes about me and the stuff I'll be blogging in the
 header:
   image: /assets/images/sample-image-1.jpg
 
+toc: true
+toc_label:
+toc_icon:
+
 author_profile: true
 author: Aman Mundra
 permalink:

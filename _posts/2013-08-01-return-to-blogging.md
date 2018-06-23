@@ -11,10 +11,6 @@ header:
   image_description: ""
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
-toc: false
-toc_label:
-toc_icon:
-
 permalink:
 sitemap: true
 published: true
