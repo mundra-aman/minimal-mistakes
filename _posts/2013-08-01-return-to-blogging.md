@@ -9,6 +9,8 @@ author_profile: true
 
 header:
   image: /assets/images/sample-image-1.jpg
+  credit: Aman Mundra
+  creditlink: http://mundra-aman.github.io
 
 author: Aman Mundra
 permalink:
