@@ -4,11 +4,11 @@ layout: single
 type: posts
 excerpt: "This document describes about me and the stuff I'll be blogging in the coming days. Mostly I'll be doing programming and some open source projects."
 author_profile: true
-sitemap: true
+sitemap: false
 permalink:
 tags: [life-snippets]
 image:
-  feature: /assets/images/stars.jpg
+  feature: /assets/images/sample-image-1.jpg
   credit: Aman Mundra
   creditlink: http://mundra-aman.github.io
 published: true
