@@ -14,16 +14,10 @@ toc: true
 toc_label:
 toc_icon:
 
-author_profile: true
-author: Aman Mundra
 permalink:
 sitemap: false
 published: true
 categories: 
-comments: true
-read_time: true
-share: true
-related: true
 ---
 
 This post contain pointers to refer apache hive related articles and webinars. 

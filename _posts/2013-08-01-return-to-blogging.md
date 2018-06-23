@@ -13,16 +13,10 @@ toc: true
 toc_label:
 toc_icon:
 
-author_profile: true
-author: Aman Mundra
 permalink:
 sitemap: false
 published: true
 categories: 
-comments: true
-read_time: true
-share: true
-related: true
 ---
 
 After an year or so, I'll be again writing for my blog and will make it a habit to post regularly. And this time only the original stuff ... no more copy-pastings and no syndications.

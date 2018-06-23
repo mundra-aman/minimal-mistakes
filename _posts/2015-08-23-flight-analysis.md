@@ -14,16 +14,10 @@ toc: true
 toc_label:
 toc_icon:
 
-author_profile: true
-author: Aman Mundra
 permalink:
 sitemap: false
 published: true
 categories: 
-comments: true
-read_time: true
-share: true
-related: true
 ---
 
 This post is about analysing 20 million rows of flight on-time/delay performance using hadoop and hive.
