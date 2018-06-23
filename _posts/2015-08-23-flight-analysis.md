@@ -9,13 +9,13 @@ excerpt: "This post is about analyzing 20 million rows of flight on-time/delay p
 header:
   image: /assets/images/flight_analysis.jpg
   image_description: ""
+  caption: "Photo credit: [**Aman Mundra**](/about/)"
 
 toc: true
 toc_label:
 toc_icon:
 
 permalink:
-sitemap: false
 published: true
 categories: 
 ---
@@ -25,16 +25,6 @@ This post is about analysing 20 million rows of flight on-time/delay performance
 Knowledge required: SQL and basic hadoop(hdfs, hive) concepts
 Tools required: Any host system(I'm using windows7), cloudera's CDH 5.4.0 quickstart virtual instance 
 
-Introduction
-Get the flight data
-Load data in HDFS
-  create table structure
-  describe table
-  load data
-  show data in table
-Bucketing and sampling 
-Running Ad-Hoc queries
-Graphs and visualizations
 
 # Introduction  
 

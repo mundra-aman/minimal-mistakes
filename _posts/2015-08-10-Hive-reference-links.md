@@ -12,7 +12,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   
 permalink:
-sitemap: true
 published: true
 categories: 
 ---
