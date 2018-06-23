@@ -26,7 +26,7 @@ Knowledge required: SQL and basic hadoop(hdfs, hive) concepts
 Tools required: Any host system(I'm using windows7), cloudera's CDH 5.4.0 quickstart virtual instance 
 
 
-# Introduction #
+# Introduction
 
 The Airline On-Time Performance Data, "contains on-time arrival data for non-stop domestic flights by major air carriers, and provides such additional items as departure and arrival delays, origin and destination airports, flight numbers, scheduled and actual departure and arrival times, cancelled or diverted flights, taxi-out and taxi-in times, air time, and non-stop distance."
 
@@ -39,7 +39,7 @@ This dataset can be used to work on cool travel ideas like:
 5. Can you detect cascading failures as delays in one airport create delays in others? Are there critical links in the system?
 
     
-# Get the flight data # 
+# Get the flight data 
     
 we can easily get the data from [here](http://stat-computing.org/dataexpo/2009/). The data is provided in the form of .csv files from year 1987 to 2008. It's a huge dataset(2 decades old) which contains around 120 million rows of flight details and sums up to about 12GB when uncompressed.
 Following is the detailed description of all the variables used in the dataset.
@@ -107,7 +107,7 @@ Some important variables:
   <a href="/assets/images/flight_analysis_intro.jpg"><img src="/images/flight_analysis_intro.jpg"></a>
 </figure>
 
-#Load data in HDFS
+# Load data in HDFS
 
 Once we get the data, our next task is to load it in HDFS for further analysis. Currently the data is in the host OS's file system. In order to load the data in HDFS we have to move the data from host OS to guest OS first and then from guest OS's file-system to HDFS. 
 To transer data from host to guest OS, we can simply create a shared folder in host OS and access it from guest OS.
@@ -129,7 +129,7 @@ Note that at this point, only the logical structure is defined, data is still no
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5BTTClK3uQPb6I" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/awadallah/schemaonread-vs-schemaonwrite" title="Schema-on-Read vs Schema-on-Write" target="_blank">Schema-on-Read vs Schema-on-Write</a> </strong> from <strong><a href="//www.slideshare.net/awadallah" target="_blank">Amr Awadallah</a></strong> </div>
 
-#Create External Table
+# Create External Table
 Here we're creating an external hive table, so that the same dataset can be used for other operations(pig, Hbase) as well.
   
 {% highlight SQL %}
@@ -178,7 +178,7 @@ Once the table structure is created we can easily view it using Hive describe cl
 describe airlines;
 {% endhighlight %}
 
-#Load data in Table
+# Load data in Table
 
 Next step is to load the data in the hive table that we created. 
 
@@ -202,7 +202,7 @@ select count(*) from airlines;
 {% endhighlight %}
 
 
-#Bucketing and data sampling
+# Bucketing and data sampling
 We can also bucket the data using the following query or can further use these buckets to create sample data for test anaysis.
 
 {% highlight SQL %}
@@ -267,7 +267,7 @@ LIMIT 1000;
 {% endhighlight %}
 
 
-#Running ad-hoc queries using Hive
+# Running ad-hoc queries using Hive
 We can use Hive to answer “ad-hoc” queries at the same cost as that for generating aggregate reports. 
 For instance: What was the worst year due to delays caused by weather in the state of Oregon? 
 Answer is 2004, with 383 delayed flights due to weather causes
@@ -402,7 +402,7 @@ order by
    Indeed, the later in the day, the more delays there are, because flight delays are usually accumulative. Because flights that arrive late in the night still arrive after midnight, the early hours of the day are the ones that accumulate the most delay time.
 
 
-#Creating visualizations and graphs
+# Creating visualizations and graphs
 
 Other questions that could be asked the same way and at the same cost: 
 What days in the week accumulated the majority of delayed flights? 
