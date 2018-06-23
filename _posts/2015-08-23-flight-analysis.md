@@ -2,12 +2,17 @@
 title: "US flight data analysis using hive"
 layout: single
 type: posts
+classes: wide
 tags: [hadoop, hive, analysis]
 
 excerpt: "This post is about analyzing 20 million rows of flight on-time/delay performance data using hadoop/hive."
 
 header:
   image: /assets/images/flight_analysis.jpg
+
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 
 author_profile: true
 author: Aman Mundra
