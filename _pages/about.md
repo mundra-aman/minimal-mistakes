@@ -6,10 +6,10 @@ author_profile: true
 sitemap: true
 permalink: /about/
 tags: [about-me]
-image:
-  feature: 
-  credit:
-  creditlink:
+
+header:
+  image: /assets/images/aboutme.jpg
+
 comments: false
 ---
 

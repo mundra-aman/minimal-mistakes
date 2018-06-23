@@ -6,10 +6,10 @@ author_profile: true
 sitemap: true
 permalink: /projects/
 tags: [projects]
-image:
-  feature: /images/projects.jpg
-  credit: Aman Mundra
-  creditlink: http://www.associatedairbalance.com/
+
+header:
+  image: /assets/images/projects.jpg
+
 comments: false
 ---
 
