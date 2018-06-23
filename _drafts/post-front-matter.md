@@ -2,17 +2,19 @@
 title: "Returning to blogging again, but this time with a change and as a serious+mature programmer"
 layout: single
 type: posts
-excerpt: "This document describes about me and the stuff I'll be blogging in the coming days. Mostly I'll be doing programming and some open source projects."
-author_profile: true
-sitemap: true
-permalink:
 tags: [life-snippets]
-image:
-  feature: /images/stars.jpg
-  credit: Aman Mundra
-  creditlink: http://mundra-aman.github.io
+
+excerpt: "This document describes about me and the stuff I'll be blogging in the coming days. Mostly I'll be doing programming and some open source projects."
+
+header:
+  image: /assets/images/sample-image-1.jpg
+
+author_profile: true
+author: Aman Mundra
+permalink:
+sitemap: false
 published: true
-categories: jekyll update
+categories: 
 comments: true
 read_time: true
 share: true

@@ -2,15 +2,17 @@
 title: "Apache Hive reference links"
 layout: single
 type: posts
-excerpt: "Reference videos, articles, slides and pointers to learn hive."
-author_profile: true
-sitemap: true
-permalink:
 tags: [hadoop, apache hive]
-image:
-  feature: /assets/images/flight_analysis.jpg
-  credit: Aman Mundra
-  creditlink: http://mundra-aman.github.io
+
+excerpt: "Reference videos, articles, slides and pointers to learn hive."
+
+header:
+  image: /assets/images/sample-image-2.jpg
+  
+author_profile: true
+author: Aman Mundra
+permalink:
+sitemap: false
 published: true
 categories: 
 comments: true
