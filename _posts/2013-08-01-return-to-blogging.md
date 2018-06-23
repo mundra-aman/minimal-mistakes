@@ -7,10 +7,8 @@ tags: [life-snippets]
 excerpt: "This document describes about me and the stuff I'll be blogging in the coming days. Mostly I'll be doing programming and some open source projects."
 author_profile: true
 
-image:
-  feature: /assets/images/sample-image-1.jpg
-  credit: Aman Mundra
-  creditlink: http://mundra-aman.github.io
+header:
+  image: /assets/images/sample-image-1.jpg
 
 author: Aman Mundra
 permalink:
