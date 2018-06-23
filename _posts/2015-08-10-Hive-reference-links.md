@@ -1,7 +1,7 @@
 ---
 title: "Apache Hive reference links"
 layout: single
-type: posts
+classes: wide
 tags: [hadoop, apache hive]
 
 excerpt: "Reference videos, articles, slides and pointers to learn hive."

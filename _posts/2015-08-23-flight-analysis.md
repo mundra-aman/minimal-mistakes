@@ -1,9 +1,8 @@
 ---
 title: "US flight data analysis using hive"
 layout: single
-type: posts
-tags: [hadoop, hive, analysis]
 classes: wide
+tags: [hadoop, hive, analysis]
 
 excerpt: "This post is about analyzing 20 million rows of flight on-time/delay performance data using hadoop/hive."
 
