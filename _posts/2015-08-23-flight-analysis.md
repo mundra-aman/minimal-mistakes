@@ -26,7 +26,7 @@ Knowledge required: SQL and basic hadoop(hdfs, hive) concepts
 Tools required: Any host system(I'm using windows7), cloudera's CDH 5.4.0 quickstart virtual instance 
 
 
-#Introduction
+# Introduction #
 
 The Airline On-Time Performance Data, "contains on-time arrival data for non-stop domestic flights by major air carriers, and provides such additional items as departure and arrival delays, origin and destination airports, flight numbers, scheduled and actual departure and arrival times, cancelled or diverted flights, taxi-out and taxi-in times, air time, and non-stop distance."
 
@@ -39,7 +39,7 @@ This dataset can be used to work on cool travel ideas like:
 5. Can you detect cascading failures as delays in one airport create delays in others? Are there critical links in the system?
 
     
-#Get the flight data 
+# Get the flight data # 
     
 we can easily get the data from [here](http://stat-computing.org/dataexpo/2009/). The data is provided in the form of .csv files from year 1987 to 2008. It's a huge dataset(2 decades old) which contains around 120 million rows of flight details and sums up to about 12GB when uncompressed.
 Following is the detailed description of all the variables used in the dataset.
