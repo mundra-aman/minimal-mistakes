@@ -39,3 +39,9 @@ https://0x0fff.com/spark-architecture/
 https://0x0fff.com/spark-misconceptions/
 https://0x0fff.com/spark-architecture-shuffle/
 
+https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee
+https://medium.com/@thejasbabu/rdds-building-block-of-spark-bf16136afbc6
+https://medium.com/@thejasbabu/spark-dataframes-10c349de04c
+https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c
+https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7
+https://legacy.gitbook.com/book/umbertogriffo/apache-spark-best-practices-and-tuning/details
