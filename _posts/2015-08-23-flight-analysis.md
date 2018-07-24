@@ -20,9 +20,10 @@ published: true
 categories: 
 ---
 
-This post is about analysing 20 million rows of flight on-time/delay performance using hadoop and hive.
+> This post is about analysing 20 million rows of flight on-time/delay performance using hadoop and hive.
 
 Knowledge required: SQL and basic hadoop(hdfs, hive) concepts
+
 Tools required: Any host system(I'm using windows7), cloudera's CDH 5.4.0 quickstart virtual instance 
 
 
@@ -104,7 +105,7 @@ Some important variables:
     flight number
 
 <figure>
-  <a href="/assets/images/flight_analysis_intro.jpg"><img src="/images/flight_analysis_intro.jpg"></a>
+  <a href="/assets/images/flight_analysis_intro.jpg"><img src="/assets/images/flight_analysis_intro.jpg"></a>
 </figure>
 
 # Load data in HDFS
@@ -122,10 +123,12 @@ $~ hadoop fs -ls /path/to/your/directory
 
 Another easier way is upload it using HUE web GUI(from host OS).
 
-#Create table structure in hive
+# Create table structure in hive
 
 Now we will create a schema for the dataset and then load all the .csv files in this newly created table. In the background we are simply creating a logical table structure over the HDFS dataset using Hive.
-Note that at this point, only the logical structure is defined, data is still not loaded in the table. This property is called Schema on read. “*Schema-on-read*” means you do not need to know how you will use your data when you are storing it. This allows you to innovate quickly by asking different and more powerful questions after storing the data. 
+Note that at this point, only the logical structure is defined, data is still not loaded in the table. This property is called Schema on read. 
+
+“*Schema-on-read*” means you do not need to know how you will use your data when you are storing it. This allows you to innovate quickly by asking different and more powerful questions after storing the data. 
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5BTTClK3uQPb6I" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/awadallah/schemaonread-vs-schemaonwrite" title="Schema-on-Read vs Schema-on-Write" target="_blank">Schema-on-Read vs Schema-on-Write</a> </strong> from <strong><a href="//www.slideshare.net/awadallah" target="_blank">Amr Awadallah</a></strong> </div>
 
@@ -179,7 +182,6 @@ describe airlines;
 {% endhighlight %}
 
 # Load data in Table
-
 Next step is to load the data in the hive table that we created. 
 
 {% highlight SQL %}
@@ -316,7 +318,7 @@ select airport_cd, count(*), max(delay) from airlines group by airport_cd;
 average arrival delay in minutes for each U.S. certified carrier
 
 
-Delayed flights performance by state: Which states have had more relative delayed flights during this time? 
+**Delayed flights performance by state:** Which states have had more relative delayed flights during this time? 
 (For convenience, we will consider a delay each flight whose departure delay in minutes is greater than two times the average: 19.16 minutes).
 {% highlight SQL linenos %}    
 select OriginState, count(if(DepDelay > 19.16, "", NULL)), count(*), count(if(DepDelayMinutes > 19.16, "", NULL)) / count(*) as pcent_retraso
@@ -330,7 +332,7 @@ NJ  413214  2567503 0.16
 GA  934228  6012156 0.15
 
 
-Delayed flights annual performance by carrier: Which flight carriers have had more relative delayed flights during this time, by year? 
+**Delayed flights annual performance by carrier:** Which flight carriers have had more relative delayed flights during this time, by year? 
 This query shows us a “negative annual ranking” of carriers.
 {% highlight SQL linenos %}    
 create table year_carrier_stats(year string, carrier string, delayed int, total int, percent double) row format delimited fields terminated by '\t' stored as textfile;
@@ -359,12 +361,13 @@ select year,count(*) as TotalFlights from airlines where origin = 'SFO' group by
 {% endhighlight %}
 
 ResultSet:
-Year  Carrier A: Delayed flights  B: Flights  A / B
-2007  EV  78482 286234  0.27
-2007  AA  134338  633857  0.21
-2007  MQ  110457  540494  0.20
-2007  B6  38695 191450  0.20
-2007  UA  97736 490002  0.19
+Year | Carrier| A: Delayed flights | B: Flights | A / B
+-----|--------|--------------------|------------|
+2007 | EV | 78482 | 286234 | 0.27
+2007 | AA | 134338|  633857|  0.21
+2007 | MQ |110457 | 540494 | 0.20
+2007 | B6 | 38695 | 191450 | 0.20
+2007 | UA | 97736 | 490002 | 0.19
 
 {% highlight SQL linenos %}
 select
@@ -403,7 +406,6 @@ order by
 
 
 # Creating visualizations and graphs
-
 Other questions that could be asked the same way and at the same cost: 
 What days in the week accumulated the majority of delayed flights? 
 Which flights are delayed the most, by company?

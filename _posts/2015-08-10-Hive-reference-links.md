@@ -16,8 +16,7 @@ published: true
 categories: 
 ---
 
-This post contain pointers to refer apache hive related articles and webinars. 
-
+> This post contain pointers to refer apache hive related articles and webinars. 
 How hive got transformed into an active apache project and how it helped analysts at facebook to execute complex map-reduce programs using SQL like syntax called HQL.
 
 1. **A webinar on how the idea of Hive came up at facebook** : [Rethinking the Data Warehouse with Hadoop and Hive - Ashish Thusoo](https://vimeo.com/7111203)  

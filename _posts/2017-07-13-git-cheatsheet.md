@@ -17,9 +17,10 @@ published: true
 
 > This post is about the common git workflows and gotchas that I come across, while version controlling our codebase
 
-
-**Remote:** Stuff that's on your hard drive is local. Stuff that's on GitHub's server is remote.
+Before I start, a glossary is must for the common git terms and phrases:
  
+**Remote:** Stuff that's on your hard drive is local. Stuff that's on GitHub's server is remote.
+
 **origin:** The default name of the remote repository on GitHub corresponding to the repo you're currently in on your machine. 
 
 **master:** The default name of the initial branch of a repository. So, "origin master" is the default branch of your repository on GitHub. 
@@ -36,13 +37,19 @@ Now that we have fetched the upstream repository, we want to merge its changes i
 This will bring that branch into sync with the upstream, without losing our local changes.
 
 
+Now the most common commands that I issue to my gitbash console:
 
 **Viewing un-pushed Git Commits** 
 
-    $~ git log origin/master..HEAD
-		
+One of the things that I do most often is view a list of commits in my local which are not yet pushed to the remote.
+Or sometimes I simply check the last commit to ensure that I'm on the latest code.
+
+    $ git log origin/master..HEAD
+    $ git log --oneline
 
 **List the current remotes**
+
+Editing the remotes is another common process which I generally go through, while setting up a new git repo for a new project.
 
     $ git remote -v
 
@@ -71,4 +78,34 @@ This will bring that branch into sync with the upstream, without losing our loca
                     C  master (your work)
 
 Before you can sync, you need to add a remote that points to the upstream repository. You may have done this when you originally forked.
+
 **Tip:** Syncing your fork only updates your local copy of the repository; it does not update your repository on GitHub.
+
+# Common commands I use in my gitbash
+
+To query your Git settings of the local repository, execute the following command:
+    
+    $ git config --list 
+
+If you want to query the global settings you can use the following command.
+
+    $ git config --global --list 
+    
+Adding username and password to the config
+
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
+
+To clone and do a first remote push
+
+    $ git clone https://username:password@/add/repo/path.git
+    $ git log --oneline
+    $ git branch -a
+    $ git pull
+    $ git add .
+    $ git commit -m "message"
+    $ git add . && git commit -am "comment"
+    $ git push
+    
+    
+

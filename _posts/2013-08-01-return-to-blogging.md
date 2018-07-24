@@ -25,11 +25,11 @@ Over the years, a person's interests & priorities change, goals and objectives a
 In the last 6 months, one another change I observed in me is, I'm fascinated by entrepreneurship, technopreneur, building products for society and other such terms. I'll be sharing my experience with such things in later posts, but for now yes I love startups, excited to do one in future and recently tried my hands at one of the friend's startup as well. Startups are cool, but they are risky plus frustrating too.
 
 In The next 6 months I'll be:
--doing java
--building android apps
--spending my time with a small data-center-in-a-box named Devey, which I created at home.
--contributing to an open source project on Eclipse framework named Code Recommenders and
--preparing for GRE and lots of other freaky things.
+- doing java
+- building android apps
+- spending my time with a small data-center-in-a-box named Devey, which I created at home.
+- contributing to an open source project on Eclipse framework named Code Recommenders and
+- preparing for GRE and lots of other freaky things.
 
 So that's all for now.
 keep surfing !!
