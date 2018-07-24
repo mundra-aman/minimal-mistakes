@@ -16,12 +16,28 @@ published: true
 categories: 
 ---
 
+# Distributed Systems
+1. [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
+
 # Official Apache Spark guide
 1. [RDD Programming Guide](http://spark.apache.org/docs/latest/rdd-programming-guide.html)
 
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
+
+# Spark Architecture
+1. [Spark Architecture](https://0x0fff.com/spark-architecture/)
+2. [Spark Misconceptions](https://0x0fff.com/spark-misconceptions/)
+3. [Spark Architecture: Shuffle](https://0x0fff.com/spark-architecture-shuffle/)
+4. [RDD’s : Building block of Spark](https://medium.com/@thejasbabu/rdds-building-block-of-spark-bf16136afbc6)
+5. [Spark DataFrames](https://medium.com/@thejasbabu/spark-dataframes-10c349de04c)
+
+
+# Spark Partitioning
+1. [An Intro to Apache Spark Partitioning: What You Need to Know](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
+2. [Spark Under The Hood : Partition](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
+
 
 # Shuffling in Apche Spark
 1. **A brief coursera lecture on shuffling in Apache Spark** : [Shuffling: What it is and why it's important](https://www.coursera.org/lecture/scala-spark-big-data/shuffling-what-it-is-and-why-its-important-bT1YR)
@@ -35,18 +51,3 @@ categories:
 # Commonly occuring errors and issues in Apache Spark
 1. [Some Lessons of Spark and Memory Issues on EMR](http://top-performance.blogspot.com/2018/03/some-lessons-of-spark-and-memory-issues.html?_sm_au_=iVVTLJSkSst0fqqF)
 
-
-
-
-
-
-[](https://0x0fff.com/spark-architecture/)
-[](https://0x0fff.com/spark-misconceptions/)
-[](https://0x0fff.com/spark-architecture-shuffle/)
-
-[](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
-[](https://medium.com/@thejasbabu/rdds-building-block-of-spark-bf16136afbc6)
-[](https://medium.com/@thejasbabu/spark-dataframes-10c349de04c)
-[](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
-[](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
-[](https://legacy.gitbook.com/book/umbertogriffo/apache-spark-best-practices-and-tuning/details)

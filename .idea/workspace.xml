@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-08-23-flight-analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015-08-23-flight-analysis.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,7 +67,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor>
-                <caret lean-forward="true" />
+                <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -363,7 +361,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor>
-            <caret lean-forward="true" />
+            <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
