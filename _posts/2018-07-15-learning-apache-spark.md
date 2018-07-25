@@ -19,12 +19,18 @@ categories:
 # Distributed Systems
 1. [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
 
+
+
 # Official Apache Spark guide
 1. [RDD Programming Guide](http://spark.apache.org/docs/latest/rdd-programming-guide.html)
+
+
 
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
+
+
 
 # Spark Architecture
 1. [Spark Architecture](https://0x0fff.com/spark-architecture/)
@@ -34,9 +40,11 @@ categories:
 5. [Spark DataFrames](https://medium.com/@thejasbabu/spark-dataframes-10c349de04c)
 
 
+
 # Spark Partitioning
 1. [An Intro to Apache Spark Partitioning: What You Need to Know](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
 2. [Spark Under The Hood : Partition](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
+
 
 
 # Shuffling in Apche Spark
@@ -45,8 +53,12 @@ categories:
 3. **In-depth explanation on Spark shuffle** : [Apache Spark Shuffles Explained In Depth](http://hydronitrogen.com/apache-spark-shuffles-explained-in-depth.html)
 4. [You Won’t Believe How Spark Shuffling Will Probably Bite You (Also Windowing)](https://medium.com/@foundev/you-won-t-believe-how-spark-shuffling-will-probably-bite-you-also-windowing-e39d07bf754e)
 
+
+
 # Tuning Apache Spark for performance
 1. [Spark performance tuning from the trenches](https://medium.com/teads-engineering/spark-performance-tuning-from-the-trenches-7cbde521cf60)
+
+
 
 # Commonly occuring errors and issues in Apache Spark
 1. [Some Lessons of Spark and Memory Issues on EMR](http://top-performance.blogspot.com/2018/03/some-lessons-of-spark-and-memory-issues.html?_sm_au_=iVVTLJSkSst0fqqF)
