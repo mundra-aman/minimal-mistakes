@@ -56,10 +56,29 @@ categories:
 
 
 # Tuning Apache Spark for performance
-1. [Spark performance tuning from the trenches](https://medium.com/teads-engineering/spark-performance-tuning-from-the-trenches-7cbde521cf60)
+1. [How-to: Tune Your Apache Spark Jobs (Part 1)](http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/)
+2. [How-to: Tune Your Apache Spark Jobs (Part 2)](http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-2/)
+3. [Spark performance tuning from the trenches](https://medium.com/teads-engineering/spark-performance-tuning-from-the-trenches-7cbde521cf60)
+4. [Tune your Spark (Part 2) jobs](https://www.linkedin.com/pulse/tune-spark-jobs-2-chaaranpall-lambba/)
+5. [One operation and maintenance](http://bigdatatn.blogspot.com/2017/06/spark-optimization.html?_sm_au_=iVVWqPTfRq1MfR7H)
 
 
 
 # Commonly occuring errors and issues in Apache Spark
 1. [Some Lessons of Spark and Memory Issues on EMR](http://top-performance.blogspot.com/2018/03/some-lessons-of-spark-and-memory-issues.html?_sm_au_=iVVTLJSkSst0fqqF)
+
+
+
+# Running Apache Spark on EMR
+Apache Spark on EMR with S3 as the storage is a best combination for executing your ETL tasks in cloud these days. 
+Running Spark on EMR takes away the hassle of setting up a spark/hadoop cluster and it's administration. Also it comes with auto scaling feature.
+
+So a regular spark execution on EMR looks like this: 
+
+Spawn a new EMR cluster considering the resources required for your job. Select the latest Spark version and other tools like Hive, Zeppelin, Ganglia. 
+Pass the necessary configurations for spark and yarn which need to be loaded during the bootstrap process. 
+Once the cluster is up, simply run your spark applications using Step execution, AWS lambda or spark-submit. 
+
+1. **Discusses about shuffle, task memory spill in EMR**[Tuning My Apache Spark Data Processing Cluster on Amazon EMR](https://aranair.github.io/posts/2017/03/10/tuning-my-apache-spark-cluster-on-aws-emr/)
+2. [Tuning Spark Jobs on EMR with YARN - Lessons Learnt](https://www.richakhandelwal.com/tuning-your-spark-jobs/)
 
