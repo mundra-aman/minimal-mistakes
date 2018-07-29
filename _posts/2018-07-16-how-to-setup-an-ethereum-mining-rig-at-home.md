@@ -31,14 +31,14 @@ One can configure the hardware to mine any of the common cryptocurrencies(I've m
 Mining refers to the distributed computational review process performed on each "block" of data in a "block-chain". 
 This allows for achievement of consensus in an environment where neither party knows or trusts each other.
 
-Bitcoin blockchain: The process of adding and verifying new transaction records to the bitcoin blockchain (distributed public ledger), which includes all past transactions. 
+**Bitcoin blockchain:** The process of adding and verifying new transaction records to the bitcoin blockchain (distributed public ledger), which includes all past transactions. 
 During this process, new bitcoins are released from the remaining unmined pool of 21 million total bitcoins.
 
-Ethereum: allows a network of peers to administer their own ‘smart contracts’ – short computer programmes that execute their instructions once certain criteria have been met.
+**Ethereum:** allows a network of peers to administer their own ‘smart contracts’ – short computer programmes that execute their instructions once certain criteria have been met.
 Ethereum’s big innovation is that it runs Turing-complete smart contracts, applications that rely on if-then scenarios to execute specific terms of an agreement.
 Ethereum was invented by Vitalik Buterin and announced in early 2014.
 
-Ripple: Distributed ledger are validated by consensus rather than using a proof-of-work approach like Bitcoin because a level of trust is assumed between the parties to a transaction.
+**Ripple:** Distributed ledger are validated by consensus rather than using a proof-of-work approach like Bitcoin because a level of trust is assumed between the parties to a transaction.
 
 
 # Hardware recommendation for Setting up a Mining Rig
