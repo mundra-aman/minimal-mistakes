@@ -18,18 +18,18 @@ categories:
 
 # Distributed Systems
 1. [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
-
+&NewLine;
 
 
 # Official Apache Spark guide
 1. [RDD Programming Guide](http://spark.apache.org/docs/latest/rdd-programming-guide.html)
-
+&NewLine;
 
 
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
-
+&NewLine;
 
 
 # Spark Architecture
@@ -38,13 +38,13 @@ categories:
 3. [Spark Architecture: Shuffle](https://0x0fff.com/spark-architecture-shuffle/)
 4. [RDD’s : Building block of Spark](https://medium.com/@thejasbabu/rdds-building-block-of-spark-bf16136afbc6)
 5. [Spark DataFrames](https://medium.com/@thejasbabu/spark-dataframes-10c349de04c)
-
+&NewLine;
 
 
 # Spark Partitioning
 1. [An Intro to Apache Spark Partitioning: What You Need to Know](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
 2. [Spark Under The Hood : Partition](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
-
+&NewLine;
 
 
 # Shuffling in Apche Spark
@@ -53,7 +53,7 @@ categories:
 3. **In-depth explanation on Spark shuffle** : [Apache Spark Shuffles Explained In Depth](http://hydronitrogen.com/apache-spark-shuffles-explained-in-depth.html)
 4. [You Won’t Believe How Spark Shuffling Will Probably Bite You (Also Windowing)](https://medium.com/@foundev/you-won-t-believe-how-spark-shuffling-will-probably-bite-you-also-windowing-e39d07bf754e)
 5. **A video on shuffle by Yandex on coursera**[Shuffle. Where to send data?](https://www.coursera.org/lecture/big-data-analysis/shuffle-where-to-send-data-qUmiz)
-
+&NewLine;
 
 
 # Tuning Apache Spark for performance
@@ -63,12 +63,12 @@ categories:
 3. [Spark performance tuning from the trenches](https://medium.com/teads-engineering/spark-performance-tuning-from-the-trenches-7cbde521cf60)
 4. [Tune your Spark (Part 2) jobs](https://www.linkedin.com/pulse/tune-spark-jobs-2-chaaranpall-lambba/)
 5. [One operation and maintenance](http://bigdatatn.blogspot.com/2017/06/spark-optimization.html?_sm_au_=iVVWqPTfRq1MfR7H)
-
+&NewLine;
 
 
 # Commonly occuring errors and issues in Apache Spark
 1. [Some Lessons of Spark and Memory Issues on EMR](http://top-performance.blogspot.com/2018/03/some-lessons-of-spark-and-memory-issues.html?_sm_au_=iVVTLJSkSst0fqqF)
-
+&NewLine;
 
 
 # Running Apache Spark on EMR
