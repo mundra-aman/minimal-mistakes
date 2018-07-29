@@ -106,6 +106,16 @@ To clone and do a first remote push
     $ git commit -m "message"
     $ git add . && git commit -am "comment"
     $ git push
-    
+
+### Git Add, Commit and Push in a single line
+Add the following alias to the .gitconfig file
+
+Note: It'll not accept commit messages with a space. So I prefer using '_' between my words.
+
+{% highlight BASH %}
+[alias]
+acp = "!f() { !git add -A && git commit -m "$@" && git push }; f"    
+{% endhighlight %}
+
     
 > Inspired from this article on Dzone: [Top 20 Git Commands with Examples](https://dzone.com/articles/top-20-git-commands-with-examples?edition=385286&utm_source=Daily%20Digest&utm_medium=email&utm_campaign=Daily%20Digest%202018-07-25)
