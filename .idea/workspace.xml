@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2018-07-15-learning-apache-spark.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="672">
-                <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -184,7 +170,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -198,7 +183,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.31354985" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22556391" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22556391" />
       <window_info id="Learn" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -397,14 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_drafts/sample-draft-post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_drafts/2017-07-11-testing-spark-code.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -503,8 +480,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="672">
-            <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <first_editor relative-caret-position="780">
+            <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
           </first_editor>
           <second_editor />
         </state>
@@ -512,6 +489,17 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="940">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/dev_hadoop_info_script">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/sample-draft-post.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

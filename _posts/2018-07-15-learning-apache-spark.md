@@ -71,6 +71,19 @@ categories:
 &NewLine;
 
 
+# Most common Apache Spark mistakes and gotcha's
+1. [Top 5 Mistakes to Avoid When Writing Apache Spark Applications](https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications)
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N" width="595" height="485" 
+frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; 
+border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<div 
+style="margin-bottom:5px"> <strong> 
+<a href="//www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications" 
+title="Top 5 Mistakes to Avoid When Writing Apache Spark Applications" target="_blank">
+Top 5 Mistakes to Avoid When Writing Apache Spark Applications</a> </strong> from <strong>
+<a href="//www.slideshare.net/cloudera" target="_blank">Cloudera, Inc.</a></strong> 
+</div>
+
 # Running Apache Spark on EMR
 Apache Spark on EMR with S3 as the storage is a best combination for executing your ETL tasks in cloud these days. 
 Running Spark on EMR takes away the hassle of setting up a spark/hadoop cluster and it's administration. Also it comes with auto scaling feature.
