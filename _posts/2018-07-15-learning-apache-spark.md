@@ -84,6 +84,15 @@ Top 5 Mistakes to Avoid When Writing Apache Spark Applications</a> </strong> fro
 <a href="//www.slideshare.net/cloudera" target="_blank">Cloudera, Inc.</a></strong> 
 </div>
 
+
+> Spark input splits works same way as Hadoop input splits, it uses same underlining hadoop InputFormat API's. When it comes to the spark partitions, by default it will create one partition for each hdfs blocks, For example: if you have file with 1GB size and your hdfs block size is 128 MB then you will have total 8 HDFS blocks and spark will create 8 partitions by default . But incase if you want further split within partition then it would be done on line split.
+
+> On ingest, Spark relies on HDFS settings to determine the splits based on block size which maps 1:1 to RDD partition. However, Spark then gives you fine grain control over the number of partitions at run time. Spark provides transformation like repartition, coalesce, and repartitionAndSortWithinPartition give you direct control over the number of partitions being computed. When these transformations are used correctly, they can greatly improve the efficiency of the Spark job.
+
+> when reading compressed file formats from disk, Spark partitioning depends on whether the format is splittable. For instance, these formats are splittable: bzip2, snappy, LZO (if indexed), while gzip is not splittable.
+
+
+
 # Running Apache Spark on EMR
 Apache Spark on EMR with S3 as the storage is a best combination for executing your ETL tasks in cloud these days. 
 Running Spark on EMR takes away the hassle of setting up a spark/hadoop cluster and it's administration. Also it comes with auto scaling feature.
