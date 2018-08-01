@@ -20,8 +20,7 @@ published: true
 categories: 
 ---
 
-Here in this post I've briefly discussed about the hardware and software requirements for setting up your own ethereum mining
-rig at home. 
+Here in this post I've briefly discussed about the hardware and software requirements for setting up your own ethereum mining rig at home. 
 The hardware recommended is for a small 6-GPU mining rig which can be easily scaled up for a multinode system as well.
 One can configure the hardware to mine any of the common cryptocurrencies(I've mined Ether here). 
  
@@ -44,31 +43,32 @@ Ethereum was invented by Vitalik Buterin and announced in early 2014.
 # Hardware recommendation for Setting up a Mining Rig
 
 ### 6 X Graphics Cards(GPUs)
-RX Radeon 480/470 4GB RAM
-Memory Types: HYNIX, ELPIDA, SAMSUNG, MICRON 
-Serial number:
-Hynix A1637, A1640,  A1648, A1630, A1715
-Elpida A1641, A1637, A1638, A1643, A1712
-Samsung A1645, A1636, A1647, A1700, A1650, A1639, A1644, A1706
-Micron A1610, A1701, A1707, A1702
-*A1637 and A1641 may also be a Samsung
+- RX Radeon 480/470 4GB RAM
+- Memory Types: HYNIX, ELPIDA, SAMSUNG, MICRON 
+- Serial number:
+- Hynix A1637, A1640,  A1648, A1630, A1715
+- Elpida A1641, A1637, A1638, A1643, A1712
+- Samsung A1645, A1636, A1647, A1700, A1650, A1639, A1644, A1706
+- Micron A1610, A1701, A1707, A1702
+
+**A1637 and A1641 may also be a Samsung
 
 
 ### 1 X Motherboard/CPU Combination
 motherboard with 6 x16 PCIe slots
-Asrock/Biostar
-ASRock Z97 Anniversary LGA 1150 Motherboard 	|  Intel Celeron G1840 Processor  
-ASRock ATX H97 Anniversary Edition Motherboard  |  Intel Celeron G1840 Processor  
-MSI Z97 Intel LGA 1150 Gaming Motherboard 		|  Intel Celeron G1840 Processor  
-Asrock H61 Pro BTC Motherboard					|  Intel Celeron G1840 Processor  
-Asrock H81 Pro BTC Motherboard 					|  Intel Celeron G1840 Processor  
-Asrock B85 Anniversary Motherboard 				|  Intel Celeron G1840 Processor  
-Gigabyte F2A88X-D3H Motherboard 				|  AMD Athlon X4 860k Processor
+- Asrock/Biostar
+- ASRock Z97 Anniversary LGA 1150 Motherboard 	|  Intel Celeron G1840 Processor  
+- ASRock ATX H97 Anniversary Edition Motherboard  |  Intel Celeron G1840 Processor  
+- MSI Z97 Intel LGA 1150 Gaming Motherboard 		|  Intel Celeron G1840 Processor  
+- Asrock H61 Pro BTC Motherboard					|  Intel Celeron G1840 Processor  
+- Asrock H81 Pro BTC Motherboard 					|  Intel Celeron G1840 Processor  
+- Asrock B85 Anniversary Motherboard 				|  Intel Celeron G1840 Processor  
+- Gigabyte F2A88X-D3H Motherboard 				|  AMD Athlon X4 860k Processor
 
 
 ### 1 X Power Supply
-EVGA SuperNOVA 1200 P2 of 1200W
-500W X2 - sonic/zebronics(cheap)
+- EVGA SuperNOVA 1200 P2 of 1200W
+- 500W X2 - sonic/zebronics(cheap)
 
 
 ### 1 x RAM(System Memory)
