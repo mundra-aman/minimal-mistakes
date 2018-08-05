@@ -18,18 +18,26 @@ categories:
 
 # Distributed Systems
 1. [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
-&NewLine;
+
 
 
 # Official Apache Spark guide
 1. [RDD Programming Guide](http://spark.apache.org/docs/latest/rdd-programming-guide.html)
-&NewLine;
+
+
+
+# Web resources, ebooks, gitbooks and tutorials for Apache Spark
+1. **A nice brief gitbook on running spark from a USB stick in local mode**[How to light your 'Spark on a stick'](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/index.html)
+2. [SparkSQL Getting Started](https://pawanmishra.github.io/spark-sql-part-1/)
+3. [Running Spark App In Standalone Cluster Mode](https://pawanmishra.github.io/spark-stand-alone-mode/)
+4. [Spark Recipes](https://pawanmishra.github.io/spark-tips/)
+
 
 
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
-&NewLine;
+
 
 
 # Spark Architecture
@@ -38,13 +46,18 @@ categories:
 3. [Spark Architecture: Shuffle](https://0x0fff.com/spark-architecture-shuffle/)
 4. [RDD’s : Building block of Spark](https://medium.com/@thejasbabu/rdds-building-block-of-spark-bf16136afbc6)
 5. [Spark DataFrames](https://medium.com/@thejasbabu/spark-dataframes-10c349de04c)
-&NewLine;
+
+
+
+# Spark Execution modes
+1. [Spark Master UI](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/spark_web_uis/spark_stages_ui.html)
+
 
 
 # Spark Partitioning
 1. [An Intro to Apache Spark Partitioning: What You Need to Know](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
 2. [Spark Under The Hood : Partition](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
-&NewLine;
+
 
 
 # Shuffling in Apche Spark
@@ -53,7 +66,7 @@ categories:
 3. **In-depth explanation on Spark shuffle** : [Apache Spark Shuffles Explained In Depth](http://hydronitrogen.com/apache-spark-shuffles-explained-in-depth.html)
 4. [You Won’t Believe How Spark Shuffling Will Probably Bite You (Also Windowing)](https://medium.com/@foundev/you-won-t-believe-how-spark-shuffling-will-probably-bite-you-also-windowing-e39d07bf754e)
 5. **A video on shuffle by Yandex on coursera**[Shuffle. Where to send data?](https://www.coursera.org/lecture/big-data-analysis/shuffle-where-to-send-data-qUmiz)
-&NewLine;
+
 
 
 # Tuning Apache Spark for performance
@@ -63,12 +76,12 @@ categories:
 3. [Spark performance tuning from the trenches](https://medium.com/teads-engineering/spark-performance-tuning-from-the-trenches-7cbde521cf60)
 4. [Tune your Spark (Part 2) jobs](https://www.linkedin.com/pulse/tune-spark-jobs-2-chaaranpall-lambba/)
 5. [One operation and maintenance](http://bigdatatn.blogspot.com/2017/06/spark-optimization.html?_sm_au_=iVVWqPTfRq1MfR7H)
-&NewLine;
+
 
 
 # Commonly occuring errors and issues in Apache Spark
 1. [Some Lessons of Spark and Memory Issues on EMR](http://top-performance.blogspot.com/2018/03/some-lessons-of-spark-and-memory-issues.html?_sm_au_=iVVTLJSkSst0fqqF)
-&NewLine;
+
 
 
 # Most common Apache Spark mistakes and gotcha's
@@ -105,4 +118,5 @@ Once the cluster is up, simply run your spark applications using Step execution,
 
 1. **Discusses about shuffle, task memory spill in EMR**[Tuning My Apache Spark Data Processing Cluster on Amazon EMR](https://aranair.github.io/posts/2017/03/10/tuning-my-apache-spark-cluster-on-aws-emr/)
 2. [Tuning Spark Jobs on EMR with YARN - Lessons Learnt](https://www.richakhandelwal.com/tuning-your-spark-jobs/)
+
 
