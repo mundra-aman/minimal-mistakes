@@ -31,7 +31,8 @@ categories:
 2. [SparkSQL Getting Started](https://pawanmishra.github.io/spark-sql-part-1/)
 3. [Running Spark App In Standalone Cluster Mode](https://pawanmishra.github.io/spark-stand-alone-mode/)
 4. [Spark Recipes](https://pawanmishra.github.io/spark-tips/)
-
+5. [HOW TO SETUP APACHE SPARK STANDALONE CLUSTER ON MULTIPLE MACHINE](http://paxcel.net/blog/how-to-setup-apache-spark-standalone-cluster-on-multiple-machine/)
+6. [how spark internally executes a program](https://blog.knoldus.com/how-spark-internally-executes-a-program/)
 
 
 # Papers published on Apache Spark
@@ -49,8 +50,18 @@ categories:
 
 
 
-# Spark Execution modes
+# Spark Topics which one needs to be aware of for building efficient data pipelines
+
+## Spark Execution modes
 1. [Spark Master UI](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/spark_web_uis/spark_stages_ui.html)
+2. [Spark on Yarn](https://medium.com/@wx.london.cun/spark-on-yarn-f74e82ab6070)
+3. [Spark standalone cluster tutorial](https://mbonaci.github.io/mbo-spark/)
+
+## Spark dynamic allocation
+1. [Smart Resource Utilization With Spark Dynamic Allocation](https://dzone.com/articles/spark-dynamic-allocation)
+
+## Spark Speculative tasks
+1. [Speculative execution in Spark](http://www.waitingforcode.com/apache-spark/speculative-execution-spark/read#speculative_task_example)
 
 
 
@@ -118,5 +129,15 @@ Once the cluster is up, simply run your spark applications using Step execution,
 
 1. **Discusses about shuffle, task memory spill in EMR**[Tuning My Apache Spark Data Processing Cluster on Amazon EMR](https://aranair.github.io/posts/2017/03/10/tuning-my-apache-spark-cluster-on-aws-emr/)
 2. [Tuning Spark Jobs on EMR with YARN - Lessons Learnt](https://www.richakhandelwal.com/tuning-your-spark-jobs/)
+3. [Setting spark.speculation in Spark 2.1.0 while writing to s3](https://stackoverflow.com/questions/46375631/setting-spark-speculation-in-spark-2-1-0-while-writing-to-s3)
+
+
+# Apache Spark best practices
+
+1. [Spark Best Practices](https://docs.qubole.com/en/latest/user-guide/spark/spark-best-practices.html)
+2. [Lessons From the Field: Applying Best Practices to Your Apache Spark Applications](https://databricks.com/session/lessons-from-the-field-applying-best-practices-to-your-apache-spark-applications)
+3. [Spark Best Practices](https://github.com/beeva/beeva-best-practices/blob/master/big_data/spark/README.md)
+4. [](https://robertovitillo.com/2015/06/30/spark-best-practices/)
+5. [Best Practices for Spark Programming - Part I](https://community.hortonworks.com/articles/75022/optimizing-your-first-spark-program.html)
 
 
