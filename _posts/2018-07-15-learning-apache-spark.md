@@ -35,6 +35,7 @@ categories:
 6. [how spark internally executes a program](https://blog.knoldus.com/how-spark-internally-executes-a-program/)
 
 
+
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
@@ -50,7 +51,7 @@ categories:
 
 
 
-# Spark Topics which one needs to be aware of for building efficient data pipelines
+# Spark Topics about which one needs to be aware of, for building efficient data pipelines
 
 ## Spark Execution modes
 1. [Spark Master UI](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/spark_web_uis/spark_stages_ui.html)
@@ -97,16 +98,11 @@ categories:
 
 # Most common Apache Spark mistakes and gotcha's
 1. [Top 5 Mistakes to Avoid When Writing Apache Spark Applications](https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications)
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N" width="595" height="485" 
-frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; 
-border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-<div 
-style="margin-bottom:5px"> <strong> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; 
+border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> 
 <a href="//www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications" 
-title="Top 5 Mistakes to Avoid When Writing Apache Spark Applications" target="_blank">
-Top 5 Mistakes to Avoid When Writing Apache Spark Applications</a> </strong> from <strong>
-<a href="//www.slideshare.net/cloudera" target="_blank">Cloudera, Inc.</a></strong> 
-</div>
+title="Top 5 Mistakes to Avoid When Writing Apache Spark Applications" target="_blank"> Top 5 Mistakes to Avoid When Writing Apache Spark Applications</a> </strong> from <strong>
+<a href="//www.slideshare.net/cloudera" target="_blank">Cloudera, Inc.</a></strong> </div>
 
 
 > Spark input splits works same way as Hadoop input splits, it uses same underlining hadoop InputFormat API's. When it comes to the spark partitions, by default it will create one partition for each hdfs blocks, For example: if you have file with 1GB size and your hdfs block size is 128 MB then you will have total 8 HDFS blocks and spark will create 8 partitions by default . But incase if you want further split within partition then it would be done on line split.

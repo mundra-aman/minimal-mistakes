@@ -18,6 +18,8 @@ categories:
 
 # Apache Spark Q&A's
 
+> Apache Spark - Execution Model
+
 ## 1. How does the spark context read the user code and convert it to tasks?
 The driver code generates job, stages and tasks. The entire driver code can be called as one application and each action constitutes a job.
 When a job is submitted is to the driver, the job is divided into logical plan and physical plan.
@@ -61,3 +63,57 @@ Spark doesn't define any specific Task class for RDD transformation. If you use 
 If you use aggregate/reduce by key etc, it can be Function2. Anyway, it's not anything Spark specific, it's just plain Scala (Java) class.
 
 
+> Apache Spark - repartition() vs coalesce()
+
+Keep in mind that repartitioning your data is a fairly expensive operation. 
+Spark also has an optimized version of repartition() called coalesce() that allows avoiding data movement, 
+but only if you are decreasing the number of RDD partitions.
+
+It avoids a full shuffle. If it's known that the number is decreasing then the executor can safely keep data on the minimum number of partitions, only moving the data off the extra nodes, onto the nodes that we kept.
+
+So, it would go something like this:
+
+Node 1 = 1,2,3
+Node 2 = 4,5,6
+Node 3 = 7,8,9
+Node 4 = 10,11,12
+Then coalesce down to 2 partitions:
+
+Node 1 = 1,2,3 + (10,11,12)
+Node 3 = 7,8,9 + (4,5,6)
+Notice that Node 1 and Node 3 did not require its original data to move.
+
+# 2. What's the differences between Apache Spark coalesce and repartition?
+The repartition algorithm does a full shuffle of the data and creates equal sized partitions of data. 
+Coalesce combines existing partitions to avoid a full shuffle.
+
+
+
+> Apache Spark - Shuffle hash join vs Broadcast hash join
+
+The default implementation of a join in Spark is a shuffled hash join. The shuffled hash join ensures that data on each partition will contain the same keys by partitioning the second dataset with the same default partitioner as the first, so that the keys with the same hash value from both datasets are in the same partition. While this approach always works, it can be more expensive than necessary because it requires a shuffle. The shuffle can be avoided if:
+
+Both RDDs have a known partitioner.
+
+One of the datasets is small enough to fit in memory, in which case we can do a broadcast hash join
+
+The easiest optimization is that if one of the datasets is small enough to fit in memory, it should be broadcasted to every compute node. This use case is very common as data needs to be combined with side data, such as a dictionary, all the time.
+
+Mostly joins are slow due to too much data being shuffled over the network. With the Broadcast join, the smaller dataset is copied to all the worker nodes so the original parallelism of the larger DataFrame is maintained.
+
+    Example :
+      import org.apache.spark.sql.functions.broadcast  
+      val employeesDF = employeesRDD.toDF
+      val departmentsDF = departmentsRDD.toDF
+    
+      // materializing the department data
+      val tmpDepartments = broadcast(departmentsDF.as("departments"))
+    
+      import context.implicits._
+      employeesDF.join(broadcast(tmpDepartments), 
+      $"depId" === $"id",  // join by employees.depID == departments.id 
+      "inner").show()
+
+  
+  [](https://github.com/jaceklaskowski/mastering-apache-spark-book/blob/master/spark-sql-joins-broadcast.adoc)
+  [](https://www.youtube.com/watch?v=fp53QhSfQcI)
