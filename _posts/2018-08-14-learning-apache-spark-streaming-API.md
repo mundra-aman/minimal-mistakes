@@ -4,7 +4,7 @@ layout: single
 classes: wide
 tags: [apache-spark]
 
-excerpt: "I'll be writing about apache spark streaming API for beginners"
+excerpt: "Here I'll be writing about apache spark streaming API for beginners"
 
 header:
   image: /assets/images/life.jpg
