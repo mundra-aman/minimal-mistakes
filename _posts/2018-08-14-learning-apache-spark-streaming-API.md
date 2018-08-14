@@ -7,7 +7,7 @@ tags: [apache-spark]
 excerpt: "Here I'll be writing about apache spark streaming API for beginners"
 
 header:
-  image: /assets/images/life.jpg
+  image: /assets/images/feature_images/stream.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 
