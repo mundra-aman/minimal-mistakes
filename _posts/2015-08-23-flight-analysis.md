@@ -100,7 +100,7 @@ Some important variables:
 
  **Flight Data**
 
-  carrier code
+    carrier code
     tail number
     flight number
 
