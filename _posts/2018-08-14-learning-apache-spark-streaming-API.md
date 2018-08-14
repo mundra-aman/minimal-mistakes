@@ -22,8 +22,8 @@ There are many sources of ingesting data such as Flume, ZeroMQ, Twitter, Kinesis
 It first takes live input data streams and then divides them into batches. After this, the Spark engine processes those streams and generates the final stream results in batches.
 <figure> <a href="/assets/images/Spark-Streaming-Overview.png"><img src="/assets/images/Spark-Streaming-Overview.png"></a> </figure>
 
-<figure> <a href="/assets/images/spark_streaming_working.jpg"><img src="/assets/images/spark_streaming_working.jpg"></a> </figure>
 The fundamental stream unit is DStream which is basically a series of RDDs to process the real-time data.
+<figure> <a href="/assets/images/spark_streaming_working.jpg"><img src="/assets/images/spark_streaming_working.jpg"></a> </figure>
 
 **Micro Batch**
 Micro batching is a core Spark technique that lets a task or process handle a stream as a sequence containing data chunks or small batches. 
