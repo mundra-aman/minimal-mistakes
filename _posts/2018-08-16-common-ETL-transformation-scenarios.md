@@ -2,7 +2,7 @@
 title: "Common ETL transformation scenarios"
 layout: single
 classes: wide
-tags: [apache-spark]
+tags: [data-engineer, ETL]
 
 excerpt: "Most common scenarios and situations a Data Engineer comes across while building data pipelines and working with data"
 

@@ -2,7 +2,7 @@
 title: "My reviews about maruti suzuki Baleno after 1 year"
 layout: single
 classes: wide
-tags: [apache-spark]
+tags: [life snipets, baleno, maruti-suzuki]
 
 excerpt: ""
 

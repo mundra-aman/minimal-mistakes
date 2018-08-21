@@ -2,7 +2,7 @@
 title: "Learning Apache Spark Streaming API"
 layout: single
 classes: wide
-tags: [apache-spark]
+tags: [apache-spark, spark-streaming]
 
 excerpt: "Here I'll be writing about apache spark streaming API for beginners"
 
