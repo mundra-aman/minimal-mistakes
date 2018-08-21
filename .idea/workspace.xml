@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2018-08-21-my-reviews-about-maruti-suzuki-baleno-after-1-year.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/feature_images/baleno.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5420">
-              <caret line="271" column="19" lean-forward="true" selection-start-line="271" selection-start-column="19" selection-end-line="271" selection-end-column="19" />
+      <file leaf-file-name="2018-08-21-my-reviews-about-maruti-suzuki-baleno-after-1-year.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-21-my-reviews-about-maruti-suzuki-baleno-after-1-year.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="526">
+                <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -32,6 +37,7 @@
       <find>Schema-on-read</find>
       <find>tail number</find>
       <find>https://aws.amazon.com/blogs/big-data/submitting-user-applications-with-spark-submit/</find>
+      <find>kodevelop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,8 +63,9 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-08-How-Apache-Spark-works-internally.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-21-my-reviews-about-maruti-suzuki-baleno-after-1-year.md" />
       </list>
     </option>
   </component>
@@ -82,6 +89,16 @@
               <item name="mundra-aman.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mundra-aman.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mundra-aman.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mundra-aman.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mundra-aman.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mundra-aman.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -93,14 +110,14 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images\feature_images" />
-      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_posts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images\feature_images" />
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images" />
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_drafts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images\feature_images" />
+      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_posts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,7 +197,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -242,26 +258,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-13-git-cheatsheet.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2200">
-            <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1660">
-            <caret line="83" selection-start-line="83" selection-end-line="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -650,19 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/feature_images/ETL.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="440">
-            <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -695,6 +678,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5420">
           <caret line="271" column="19" lean-forward="true" selection-start-line="271" selection-start-column="19" selection-end-line="271" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/feature_images/baleno.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/feature_images/ETL.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret selection-end-line="16" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-21-my-reviews-about-maruti-suzuki-baleno-after-1-year.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="526">
+            <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
