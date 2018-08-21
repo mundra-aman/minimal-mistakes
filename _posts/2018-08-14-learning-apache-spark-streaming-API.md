@@ -37,6 +37,30 @@ StreamingContext object can be created from a SparkContext object. A SparkContex
     import org.apache.spark._
     import org.apache.spark.streaming._
     var ssc = new StreamingContext(sc,Seconds(1))
+    
+Can SparkContext and StreamingContext co-exist in the same program?
+yes they can, first start spark session and then use its context to start any number of streaming context
+    
+    val spark = SparkSession.builder().appName("someappname").
+    config("spark.sql.warehouse.dir",warehouseLocation).getOrCreate()    
+    val ssc = new StreamingContext(spark.sparkContext, Seconds(1))
+
+Prior to spark 2.0.0
+sparkContext was used as a channel to access all spark functionality.
+The spark driver program uses spark context to connect to the cluster through a resource manager (YARN orMesos..).
+sparkConf is required to create the spark context object, which stores configuration parameter like appName (to identify your spark driver), application, number of core and memory size of executor running on worker node
+
+In order to use APIs of SQL,HIVE , and Streaming, separate contexts need to be created. like
+    
+    val conf=newSparkConf()
+    val sc = new SparkContext(conf)
+    val hc = new hiveContext(sc)
+    val ssc = new streamingContext(sc)
+
+SPARK 2.0.0 onwards
+SparkSession provides a single point of entry to interact with underlying Spark functionality and allows programming Spark with Dataframe and Dataset APIs. All the functionality available with sparkContext are also available in sparkSession.
+In order to use APIs of SQL, HIVE, and Streaming, no need to create separate contexts as sparkSession includes all the APIs.
+Once the SparkSession is instantiated, we can configure Spark’s run-time config properties
 
 **DStreams**
 Spark streaming provides a feature called discretized stream or DStream that is a high-level abstraction. It represents a continuous stream of data and is represented as an RDD sequence internally.
@@ -44,6 +68,15 @@ They can be created by either applying high-level operations on other Dstreams o
 by using input data streams. These streams are available from sources like Flume, Kinesis, and Kafka. Also, internally, it is characterized by a series of RDDs that is continuous.
 All operations that you apply on a DStream get translated to operations that are applicable to the underlying RDDs.
 <figure> <a href="/assets/images/dstream-spark-streaming.JPG"><img src="/assets/images/dstream-spark-streaming.JPG"></a> </figure>
+
+**Architecture of Spark Streaming: Discretized Streams**
+Instead of processing the streaming data one record at a time, Spark Streaming discretizes the streaming data into tiny, sub-second micro-batches. In other words, Spark Streaming’s Receivers 
+accept data in parallel and buffer it in the memory of Spark’s workers nodes. 
+Then the latency-optimized Spark engine runs short tasks (tens of milliseconds) to process the batches and output the results to other systems. Note that unlike the traditional continuous 
+operator model, where the computation is statically allocated to a node, Spark tasks are assigned dynamically to the workers based on the locality of the data and available resources. 
+This enables both better load balancing and faster fault recovery, as we will illustrate next.
+In addition, each batch of data is a Resilient Distributed Dataset (RDD), which is the basic abstraction of a fault-tolerant dataset in Spark. This allows the streaming data to be processed 
+using any Spark code or library.
 
 **Input DStreams and Receivers**
 Input DStreams represent the input data stream that is received from sources of streaming. Except for file stream, each input Dstream is linked with a Receiver object. 
@@ -89,3 +122,6 @@ queue of RDDs as a stream - you can also create a DStream using the given method
 1. [Spark Streaming Programming Guide](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
 2. [Spark Streaming Tutorial – Sentiment Analysis Using Apache Spark](https://www.edureka.co/blog/spark-streaming/)
 3. [Apache Spark Streaming Tutorial](https://www.simplilearn.com/spark-streaming-tutorial-video)
+4. [Do You Know all about Apache Spark Streaming? Read This.](https://www.linkedin.com/pulse/do-you-know-all-apache-spark-streaming-read-santosh-bakliwal/)
+5. [Diving into Apache Spark Streaming’s Execution Model](https://databricks.com/blog/2015/07/30/diving-into-apache-spark-streamings-execution-model.html)
+6. [Discretized Streams: Fault-Tolerant Streaming Computation at Scale](http://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf)

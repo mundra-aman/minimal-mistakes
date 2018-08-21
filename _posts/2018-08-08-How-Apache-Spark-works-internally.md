@@ -87,6 +87,7 @@ Notice that Node 1 and Node 3 did not require its original data to move.
 The repartition algorithm does a full shuffle of the data and creates equal sized partitions of data. 
 Coalesce combines existing partitions to avoid a full shuffle.
 
+[Managing Spark Partitions with Coalesce and Repartition](https://hackernoon.com/managing-spark-partitions-with-coalesce-and-repartition-4050c57ad5c4)
 
 
 > Apache Spark - Shuffle hash join vs Broadcast hash join

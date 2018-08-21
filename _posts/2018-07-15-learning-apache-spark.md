@@ -126,10 +126,9 @@ Once the cluster is up, simply run your spark applications using Step execution,
 1. **Discusses about shuffle, task memory spill in EMR**[Tuning My Apache Spark Data Processing Cluster on Amazon EMR](https://aranair.github.io/posts/2017/03/10/tuning-my-apache-spark-cluster-on-aws-emr/)
 2. [Tuning Spark Jobs on EMR with YARN - Lessons Learnt](https://www.richakhandelwal.com/tuning-your-spark-jobs/)
 3. [Setting spark.speculation in Spark 2.1.0 while writing to s3](https://stackoverflow.com/questions/46375631/setting-spark-speculation-in-spark-2-1-0-while-writing-to-s3)
-
+4. [Submitting User Applications with spark-submit](https://aws.amazon.com/blogs/big-data/submitting-user-applications-with-spark-submit/)
 
 # Apache Spark best practices
-
 1. [Spark Best Practices](https://docs.qubole.com/en/latest/user-guide/spark/spark-best-practices.html)
 2. [Lessons From the Field: Applying Best Practices to Your Apache Spark Applications](https://databricks.com/session/lessons-from-the-field-applying-best-practices-to-your-apache-spark-applications)
 3. [Spark Best Practices](https://github.com/beeva/beeva-best-practices/blob/master/big_data/spark/README.md)
@@ -137,3 +136,6 @@ Once the cluster is up, simply run your spark applications using Step execution,
 5. [Best Practices for Spark Programming - Part I](https://community.hortonworks.com/articles/75022/optimizing-your-first-spark-program.html)
 
 
+# StackOverflow questions on Apache Spark
+1. [Spark: driver/worker configuration. Does driver run on Master node?](https://stackoverflow.com/questions/34930108/spark-driver-worker-configuration-does-driver-run-on-master-node)
+2. [Resolving dependency problems in Apache Spark](https://stackoverflow.com/questions/41383460/resolving-dependency-problems-in-apache-spark)
