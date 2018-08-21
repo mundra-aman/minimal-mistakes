@@ -20,14 +20,25 @@ ETL include any change that you do to your source data before storing in your ta
 filtering data, adding new custom derived columns etc.
 
 > Data cleaning
+
 > mapping NULL to 0 
+
 > "Male" to "M" and "Female" to "F"
+
 > date formats consistency
+
 > running aggregates
+
 > you have two points (X1,Y1) and (X2,Y2) and you need to store the distance between them in your target
+
 > data enrichment 
+
 > feature generation
+
 > corroboration
+
 > deduplication
+
 > data increment, updation, delta delivery 
+
 > data skewness
