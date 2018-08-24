@@ -75,18 +75,18 @@ Let's suppose job starts in Spark and goes through stage 1 to 5. Stage 1 is read
     SparkContext.setCheckpointDir(directory: String)
     
 There are two types of checkpointing:
+
 reliable - in Spark (core), RDD checkpointing that saves the actual intermediate RDD data to a reliable distributed file system, e.g. HDFS.
+
 local - in Spark Streaming or GraphX - RDD checkpointing that truncates RDD lineage graph.
 
 *Eager vs Non Eager Checkpointing - Follow the link below for more details
 
-Persist
-Persisting or caching with StorageLevel.DISK_ONLY cause the generation of RDD to be computed and stored in a location such that subsequent use of that RDD will not go beyond that points in recomputing the linage.
+> Persisting or caching with StorageLevel.DISK_ONLY cause the generation of RDD to be computed and stored in a location such that subsequent use of that RDD will not go beyond that points in recomputing the linage.
 After persist is called, Spark still remembers the lineage of the RDD even though it doesn't call it.
 Secondly, after the application terminates, the cache is cleared or file destroyed
 
-Checkpointing
-Checkpointing stores the rdd physically to hdfs and destroys the lineage that created it.
+> Checkpointing stores the rdd physically to hdfs and destroys the lineage that created it.
 The checkpoint file won't be deleted even after the Spark application terminated.
 Checkpoint files can be used in subsequent job run or driver program
 Checkpointing an RDD causes double computation because the operation will first call a cache before doing the actual job of computing and writing to the checkpoint directory.
