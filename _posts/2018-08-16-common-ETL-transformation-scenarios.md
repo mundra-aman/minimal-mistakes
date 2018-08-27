@@ -42,3 +42,5 @@ filtering data, adding new custom derived columns etc.
 > data increment, updation, delta delivery 
 
 > data skewness
+
+> Salting and hashing
