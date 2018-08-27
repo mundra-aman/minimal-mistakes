@@ -16,7 +16,11 @@ published: true
 categories: 
 ---
 
-I'll be regularly updating this post with the list of new updates I read/write about Data Engineering.
+I'll be regularly updating this post with the list of new posts I write about Data Engineering.
+
+# Distributed Computing
+
+# Hadoop
 
 # Apache Spark
 [Apache Spark Caching Vs Checkpointing](http://www.lifeisafile.com/Apache-Spark-Caching-Vs-Checkpointing/)
