@@ -58,7 +58,8 @@ Ideally something is not Serializable and that threw the issue. Some basic Guide
 
 
 ## Pointers to follow:
-[Data Serialization](https://spark.apache.org/docs/latest/tuning.html)
-[How spark handles object?](https://stackoverflow.com/questions/40596871/how-spark-handles-object)
-[When to use Kryo serialization in Spark?](https://stackoverflow.com/questions/40261987/when-to-use-kryo-serialization-in-spark)
-[Serialization in Spark](http://www.waitingforcode.com/apache-spark/serialization-in-spark/read)
+
+1. [Data Serialization](https://spark.apache.org/docs/latest/tuning.html)
+2. [How spark handles object?](https://stackoverflow.com/questions/40596871/how-spark-handles-object)
+3. [When to use Kryo serialization in Spark?](https://stackoverflow.com/questions/40261987/when-to-use-kryo-serialization-in-spark)
+4. [Serialization in Spark](http://www.waitingforcode.com/apache-spark/serialization-in-spark/read)

@@ -20,4 +20,5 @@ I'll be regularly updating this post with the list of new updates I read/write a
 
 # Apache Spark
 [Apache Spark Caching Vs Checkpointing](http://www.lifeisafile.com/Apache-Spark-Caching-Vs-Checkpointing/)
-[Serialization in Spark](http://www.lifeisafile.com/Serialization-in-Spark/)
+
+[Serialization in Spark](http://www.lifeisafile.com/Serialization-in-spark/)
