@@ -22,8 +22,11 @@ categories:
 what are the main things a developer should be familiar with, in order to make an efficient software? 
 
 •	Efficient Algorithms to perform tasks
+
 •	data Structures to hold and manipulate data
+
 •	OOPS to make a secure, stable, scalable and reusable code
+
 •	Software Engineering to do above said tasks in the best possible way
 
 ## Data Structures
@@ -98,28 +101,42 @@ This part describes about some commonly used data structures and their applicati
 
 Computer system is mainly used as a data manipulation system.
 Elementary data can be represented in these forms:
+
 •	Data
+
 •	data items
+
 •	data structures
 
 Data structures are mainly used to accomplish the following tasks on the given data:
+
 •	data representation
+
 •	data storage
+
 •	data organisation
+
 •	data processing
+
 •	data management
 
 All these are data manipulation processes only. Data structures let us combine data of different types and process them together. It refers to a named group of data of different types which 
 can be processed as a single unit. A data structure has well defined set of operations, behaviour and properties.
 
 Situations in which they’re useful are classified into three categories:
+
 • Real-world data storage
+
 • Programmer’s tools
+
 • Modelling
 
 Things to keep in mind while designing a data structure:
+
 •	logical picture
+
 •	data representation method
+
 •	operations to be applied
 
 In computer science, a data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
@@ -251,7 +268,9 @@ As algorithms are programs that perform just a computation, and not other things
 fast a program is when it performs computations. Examples of operations that are purely computational include:
 
 •	numerical floating-point operations such as addition and multiplication
+
 •	searching within a database that fits in RAM for a given value
+
 •	running a regular expression pattern match on a string.
 
 Clearly, computation is ubiquitous in computer programs.
@@ -283,20 +302,24 @@ and g(n) given, we need a rough measure that characterizes how fast each functio
 Counting instructions
 The maximum element in an array can be looked up using a simple piece of code written in javascript. Given an input array A of size n:
 
-var M = A[ 0 ];
-for ( var i = 0; i < n; ++i ) {
-if ( A[ i ] >= M ) {
-M = A[ i ];
-}
-}
+    var M = A[ 0 ];
+    for ( var i = 0; i < n; ++i ) {
+    if ( A[ i ] >= M ) {
+    M = A[ i ];
+    }
+    }
 
 Now, the first thing we'll do is count how many fundamental instructions this piece of code executes. As we analyse this piece of code, we want to break it up into simple instructions; things that
 can be executed by the CPU directly - or close to that. We'll assume our processor can execute the following operations as one instruction each:
 
 •	Assigning a value to a variable
+
 •	Looking up the value of a particular element in an array
+
 •	Comparing two values
+
 •	Incrementing a value
+
 •	Basic arithmetic operations such as addition and multiplication
 
 We'll assume branching (the choice between if and else parts of code after the if condition has been evaluated) occurs instantly and won't count these instructions. In the above code, the first 
@@ -347,7 +370,8 @@ In that case, M needs to be replaced every single time and so that yields the mo
 that's nothing more than just considering the case when we're the most unlucky. So, in the worst case, we have 4 instructions to run within the for body, so we have f( n ) = 4 + 2n + 4n = 6n + 4. 
 This function f, given a problem size n, gives us the number of instructions that would be needed in the worst-case.
 
-Asymptotic behavior
+
+**Asymptotic behavior**
 
 In our function, 6n + 4, we have two terms: 6n and 4. In complexity analysis we only care about what happens to the instruction-counting function as the program input (n) grows large. 
 This really goes along with the previous ideas of "worst-case scenario" behaviour: We're interested in how our algorithm behaves when treated badly; when it's challenged to do something hard. 
@@ -401,12 +425,12 @@ Complexity
 So what this is telling us is that since we can drop all these decorative constants, it's pretty easy to tell the asymptotic behaviour of the instruction-counting function of a program. In fact, any program that doesn't have any loops will have f( n ) = 1, since the number of instructions it needs is just a constant (unless it uses recursion; see below). Any program with a single loop which goes from 1 to n will have f( n ) = n, since it will do a constant number of instructions before the loop, a constant number of instructions after the loop, and a constant number of instructions within the loop which all run n times.
 This should now be much easier and less tedious than counting individual instructions, so let's take a look at a couple of examples to get familiar with this. The following PHP program checks to see if a particular value exists within an array A of size n:
 
-<?php
-$exists = false;
-for ( $i = 0; $i < n; ++$i ) {
-if ( $A[ $i ] == $value ) {
-$exists = true;
-break;
+    <?php
+    $exists = false;
+    for ( $i = 0; $i < n; ++$i ) {
+    if ( $A[ $i ] == $value ) {
+    $exists = true;
+    break;
 
 This method of searching for a value within an array is called linear search. This is a reasonable name, as this program has f( n ) = n . You may notice that there's a "break" statement here that may make the program terminate sooner, even after a single iteration. But recall that we're interested in the worst-case scenario, which for this program is for the array A to not contain the value. So we still have f( n ) = n.
 
@@ -417,18 +441,18 @@ Let's look at a Python program which adds two array elements together to produce
 v = a[ 0 ] + a[ 1 ]
 Here we have a constant number of instructions, so we have f( n ) = 1.
 The following program in C++ checks to see if a vector (a form of array) named A of size n contains the same two values anywhere within it:
-bool duplicate = false;
-for ( int i = 0; i < n; ++i ) {
-for ( int j = 0; j < n; ++j ) {
-if ( i != j && A[ i ] == A[ j ] ) {
-duplicate = true;
-break;
-}
-}
-if ( duplicate ) {
-break;
-}
-}
+    bool duplicate = false;
+    for ( int i = 0; i < n; ++i ) {
+    for ( int j = 0; j < n; ++j ) {
+    if ( i != j && A[ i ] == A[ j ] ) {
+    duplicate = true;
+    break;
+    }
+    }
+    if ( duplicate ) {
+    break;
+    }
+    }
 
 As here we have two nested loops within each other, we'll have an asymptotic behaviour described by f( n ) = n^2(n-square).
 
