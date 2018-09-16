@@ -16,6 +16,10 @@ published: true
 categories: 
 ---
 
+I've tried to collect good links on Apache spark and it's architecture here.
+I'll be regularly updating this list as and when I come across new articles on Apache Spark. 
+
+
 # Distributed Systems
 1. [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
 2. [Why I love databases](https://medium.com/@jeeyoungk/why-i-love-databases-1d4cc433685f)
