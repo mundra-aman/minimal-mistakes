@@ -22,7 +22,7 @@ categories:
 
 ## 1. How does the spark context read the user code and convert it to tasks?
 The driver code generates job, stages and tasks. The entire driver code can be called as one application and each action constitutes a job.
-When a job is submitted is to the driver, the job is divided into logical plan and physical plan.
+When a job is submitted to the driver, the job is divided into logical plan and physical plan.
 
 During logical plan the transformations() build the computation, chaning a series of RDD. 
 Since each action() triggers a job, during the physical plan the complete dependency graph of transformations is divided in to stages. 
@@ -30,10 +30,12 @@ Unlike hadoop where the execution process is fixed map-shuffle-sort-aggregate, s
 The data is computed when they are actually needed in a flow fashion. It starts from the final result of RDD and check backwards the RDD chain
 to find what RDDs and parititons are needed for computing the final result. 
 During the backtracking if it encounters the ShuffleDependency it cuts the data flow and forms a new stage leaving the chainings of RDD 
-by NarrowDepedency. So it the ShuffleDependency that break out for a new stage.
+by NarrowDepedency. So it is the ShuffleDependency that break out the spark job for a new stage.
 
-Within each stage the tasks are exectued and data is pipelined through the transformations. The number of tasks is equivalent to number of partitions number in the RDDs of each stage.
-All the tasks are packaged in TaskSet and sent to the TaskScheduler.The Driver actor sends the serialized tasks to CoarseGrainedExecutorBackend Actor on worker node. Upon receiving , the executor deserializes the it to a normal task and runs to get the result. TaskScheduler will be notified that the task is finished, and its result will be processed
+Within each stage the tasks are executed and data is pipelined through the transformations. The number of tasks is equivalent to number of partitions in the RDDs of each stage.
+All the tasks are packaged in TaskSet and sent to the TaskScheduler. 
+The Driver actor sends the serialized tasks to CoarseGrainedExecutorBackend Actor on worker node. Upon receiving , the executor de-serializes it to a normal task and runs to get the result. 
+TaskScheduler will be notified that the task is finished, and its result will be processed
 
 If the received task on driver is the last task in the stage, then next stage will be submitted. If the stage is already the last one, dagScheduler will be informed that the job is finished.
 
@@ -69,7 +71,8 @@ Keep in mind that repartitioning your data is a fairly expensive operation.
 Spark also has an optimized version of repartition() called coalesce() that allows avoiding data movement, 
 but only if you are decreasing the number of RDD partitions.
 
-It avoids a full shuffle. If it's known that the number is decreasing then the executor can safely keep data on the minimum number of partitions, only moving the data off the extra nodes, onto the nodes that we kept.
+It avoids a full shuffle. If it's known that the number is decreasing then the executor can safely keep data on the minimum number of partitions, only moving the data off the extra nodes, 
+onto the nodes that we kept.
 
 So, it would go something like this:
 
@@ -92,7 +95,10 @@ Coalesce combines existing partitions to avoid a full shuffle.
 
 > Apache Spark - Shuffle hash join vs Broadcast hash join
 
-The default implementation of a join in Spark is a shuffled hash join. The shuffled hash join ensures that data on each partition will contain the same keys by partitioning the second dataset with the same default partitioner as the first, so that the keys with the same hash value from both datasets are in the same partition. While this approach always works, it can be more expensive than necessary because it requires a shuffle. The shuffle can be avoided if:
+The default implementation of a join in Spark is a shuffled hash join. The shuffled hash join ensures that data on each partition will contain the same keys by partitioning the second dataset 
+with the same default partitioner as the first, so that the keys with the same hash value from both datasets are in the same partition. 
+While this approach always works, it can be more expensive than necessary because it requires a shuffle. 
+The shuffle can be avoided if:
 
 Both RDDs have a known partitioner.
 

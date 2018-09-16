@@ -18,7 +18,6 @@ categories:
 
 I'll be regularly updating this post with the list of new posts I write about Data Engineering.
 
-# Apache Spark
-[Apache Spark Caching Vs Checkpointing](http://www.lifeisafile.com/Apache-Spark-Caching-Vs-Checkpointing/)
+[Pointers for beginners to learn Apache Spark](http://www.lifeisafile.com/learning-apache-spark/)
 
-[Serialization in Spark](http://www.lifeisafile.com/Serialization-in-spark/)
+[Common ETL transformation scenarios](http://www.lifeisafile.com/common-ETL-transformation-scenarios)

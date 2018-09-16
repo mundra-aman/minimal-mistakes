@@ -4,7 +4,7 @@ layout: single
 classes: wide
 tags: [apache spark, analysis, spark]
 
-excerpt: "This post provides pointers to learn apache spark, the architecture of spark and concepts related to it."
+excerpt: "This post provides pointers to learn about apache spark, the architecture and concepts related to it."
 
 header:
   image: /assets/images/apache_spark.PNG
@@ -18,6 +18,13 @@ categories:
 
 # Distributed Systems
 1. [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
+2. [Why I love databases](https://medium.com/@jeeyoungk/why-i-love-databases-1d4cc433685f)
+3. [How Sharding Works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
+
+
+
+# Hadoop-Map Reduce paradigm
+1. [Shuffle Operation in Hadoop and Spark](https://www.analyticsindiamag.com/shuffle-operation-hadoop-spark/)
 
 
 
@@ -27,7 +34,7 @@ categories:
 
 
 # Web resources, ebooks, gitbooks and tutorials for Apache Spark
-1. **A nice brief gitbook on running spark from a USB stick in local mode**[How to light your 'Spark on a stick'](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/index.html)
+1. **A nice brief gitbook on running spark from a USB stick in local mode: **[How to light your 'Spark on a stick'](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/index.html)
 2. [SparkSQL Getting Started](https://pawanmishra.github.io/spark-sql-part-1/)
 3. [Running Spark App In Standalone Cluster Mode](https://pawanmishra.github.io/spark-stand-alone-mode/)
 4. [Spark Recipes](https://pawanmishra.github.io/spark-tips/)
@@ -39,6 +46,7 @@ categories:
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
+3. [Optimizing Shuffle Performance in Spark](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F13/projects/reports/project16_report.pdf)
 
 
 
@@ -53,10 +61,11 @@ categories:
 
 # Spark Topics about which one needs to be aware of, for building efficient data pipelines
 
-## Spark Execution modes
-1. [Spark Master UI](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/spark_web_uis/spark_stages_ui.html)
+## Spark Execution
+1. [Spark Execution - plans](http://balajireddyblog.blogspot.com/2017/01/spark-execution.html?_sm_au_=iVVJ2FZtkJMSQqVN)
 2. [Spark on Yarn](https://medium.com/@wx.london.cun/spark-on-yarn-f74e82ab6070)
 3. [Spark standalone cluster tutorial](https://mbonaci.github.io/mbo-spark/)
+4. [Spark Master UI](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/spark_web_uis/spark_stages_ui.html)
 
 ## Spark dynamic allocation
 1. [Smart Resource Utilization With Spark Dynamic Allocation](https://dzone.com/articles/spark-dynamic-allocation)
@@ -64,6 +73,11 @@ categories:
 ## Spark Speculative tasks
 1. [Speculative execution in Spark](http://www.waitingforcode.com/apache-spark/speculative-execution-spark/read#speculative_task_example)
 
+## Persisting and Checkpointing in Apache Spark
+1. [Apache Spark Caching Vs Checkpointing](http://www.lifeisafile.com/Apache-Spark-Caching-Vs-Checkpointing/)
+
+## Spark Serialization
+1. [Serialization in Spark](http://www.lifeisafile.com/Serialization-in-spark/)
 
 
 # Spark Partitioning
@@ -73,11 +87,12 @@ categories:
 
 
 # Shuffling in Apche Spark
-1. **A brief coursera lecture on shuffling in Apache Spark** : [Shuffling: What it is and why it's important](https://www.coursera.org/lecture/scala-spark-big-data/shuffling-what-it-is-and-why-its-important-bT1YR)
+1. [All about Shuffling](http://www.lifeisafile.com/All-about-Shuffling/)
 2. **Another good article on shuffle by Cloudera** : [Working with Apache Spark: Or, How I Learned to Stop Worrying and Love the Shuffle](http://blog.cloudera.com/blog/2015/05/working-with-apache-spark-or-how-i-learned-to-stop-worrying-and-love-the-shuffle/)
 3. **In-depth explanation on Spark shuffle** : [Apache Spark Shuffles Explained In Depth](http://hydronitrogen.com/apache-spark-shuffles-explained-in-depth.html)
 4. [You Won’t Believe How Spark Shuffling Will Probably Bite You (Also Windowing)](https://medium.com/@foundev/you-won-t-believe-how-spark-shuffling-will-probably-bite-you-also-windowing-e39d07bf754e)
 5. **A video on shuffle by Yandex on coursera**[Shuffle. Where to send data?](https://www.coursera.org/lecture/big-data-analysis/shuffle-where-to-send-data-qUmiz)
+6. **A brief coursera lecture on shuffling in Apache Spark** : [Shuffling: What it is and why it's important](https://www.coursera.org/lecture/scala-spark-big-data/shuffling-what-it-is-and-why-its-important-bT1YR)
 
 
 
@@ -99,8 +114,8 @@ categories:
 # Most common Apache Spark mistakes and gotcha's
 1. [Top 5 Mistakes to Avoid When Writing Apache Spark Applications](https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications)
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; 
-border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> 
-<a href="//www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications" 
+border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications" 
 title="Top 5 Mistakes to Avoid When Writing Apache Spark Applications" target="_blank"> Top 5 Mistakes to Avoid When Writing Apache Spark Applications</a> </strong> from <strong>
 <a href="//www.slideshare.net/cloudera" target="_blank">Cloudera, Inc.</a></strong> </div>
 
@@ -134,6 +149,7 @@ Once the cluster is up, simply run your spark applications using Step execution,
 3. [Spark Best Practices](https://github.com/beeva/beeva-best-practices/blob/master/big_data/spark/README.md)
 4. [](https://robertovitillo.com/2015/06/30/spark-best-practices/)
 5. [Best Practices for Spark Programming - Part I](https://community.hortonworks.com/articles/75022/optimizing-your-first-spark-program.html)
+6. [Apache Spark - Best Practices and Tuning](https://legacy.gitbook.com/book/umbertogriffo/apache-spark-best-practices-and-tuning/details)
 
 
 # StackOverflow questions on Apache Spark

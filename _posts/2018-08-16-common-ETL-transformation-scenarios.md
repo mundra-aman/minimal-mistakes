@@ -4,7 +4,7 @@ layout: single
 classes: wide
 tags: [data-engineer, ETL]
 
-excerpt: "Most common scenarios and situations a Data Engineer comes across while building data pipelines and working with data"
+excerpt: "Most common scenarios and situations a Data Engineer comes across, while building data pipelines and working with big data"
 
 header:
   image: /assets/images/feature_images/ETL.jpg
@@ -21,26 +21,26 @@ filtering data, adding new custom derived columns etc.
 
 > Data cleaning
 
-> mapping NULL to 0 
+> Mapping NULL to 0 
 
 > "Male" to "M" and "Female" to "F"
 
-> date formats consistency
+> Date formats consistency
 
-> running aggregates
+> Running aggregates
 
-> you have two points (X1,Y1) and (X2,Y2) and you need to store the distance between them in your target
+> You have two points (X1,Y1) and (X2,Y2) and you need to store the distance between them in your target
 
-> data enrichment 
+> Data enrichment 
 
-> feature generation
+> Feature generation
 
-> corroboration
+> Corroboration
 
-> deduplication
+> Deduplication
 
-> data increment, updation, delta delivery 
+> Data increment, updation, delta delivery 
 
-> data skewness
+> Data skewness
 
 > Salting and hashing
