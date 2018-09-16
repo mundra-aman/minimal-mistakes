@@ -26,8 +26,7 @@ I'll be regularly updating this list as and when I come across new articles on A
 3. [How Sharding Works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
 
 
-<br\>
-<br\>
+<br><br>
 # Hadoop-Map Reduce paradigm
 1. [Shuffle Operation in Hadoop and Spark](https://www.analyticsindiamag.com/shuffle-operation-hadoop-spark/)
 
