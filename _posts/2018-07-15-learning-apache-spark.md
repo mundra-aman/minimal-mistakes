@@ -33,12 +33,12 @@ categories:
 
 
 
-# Web resources, ebooks, gitbooks and tutorials for Apache Spark
+# Web resources, gitbooks and tutorials for Apache Spark
 1. **A nice brief gitbook on running spark from a USB stick in local mode: **[How to light your 'Spark on a stick'](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/index.html)
 2. [SparkSQL Getting Started](https://pawanmishra.github.io/spark-sql-part-1/)
 3. [Running Spark App In Standalone Cluster Mode](https://pawanmishra.github.io/spark-stand-alone-mode/)
 4. [Spark Recipes](https://pawanmishra.github.io/spark-tips/)
-5. [HOW TO SETUP APACHE SPARK STANDALONE CLUSTER ON MULTIPLE MACHINE](http://paxcel.net/blog/how-to-setup-apache-spark-standalone-cluster-on-multiple-machine/)
+5. [how to setup apache spark standalone cluster on multiple machine](http://paxcel.net/blog/how-to-setup-apache-spark-standalone-cluster-on-multiple-machine/)
 6. [how spark internally executes a program](https://blog.knoldus.com/how-spark-internally-executes-a-program/)
 
 
@@ -78,6 +78,7 @@ categories:
 
 ## Spark Serialization
 1. [Serialization in Spark](http://www.lifeisafile.com/Serialization-in-spark/)
+
 
 
 # Spark Partitioning
