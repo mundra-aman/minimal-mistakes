@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="267">
-                <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+              <first_editor relative-caret-position="383">
+                <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -224,6 +224,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -734,8 +735,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="267">
-            <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+          <first_editor relative-caret-position="383">
+            <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>

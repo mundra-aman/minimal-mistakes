@@ -31,12 +31,12 @@ I'll be regularly updating this list as and when I come across new articles on A
 1. [Shuffle Operation in Hadoop and Spark](https://www.analyticsindiamag.com/shuffle-operation-hadoop-spark/)
 
 
-
+<br><br>
 # Official Apache Spark guide
 1. [RDD Programming Guide](http://spark.apache.org/docs/latest/rdd-programming-guide.html)
 
 
-
+<br><br>
 # Web resources, gitbooks and tutorials for Apache Spark
 1. **A nice brief gitbook on running spark from a USB stick in local mode: **[How to light your 'Spark on a stick'](https://blueplastic.gitbooks.io/how-to-light-your-spark-on-a-stick/content/index.html)
 2. [SparkSQL Getting Started](https://pawanmishra.github.io/spark-sql-part-1/)
@@ -46,14 +46,14 @@ I'll be regularly updating this list as and when I come across new articles on A
 6. [how spark internally executes a program](https://blog.knoldus.com/how-spark-internally-executes-a-program/)
 
 
-
+<br><br>
 # Papers published on Apache Spark
 1. [Spark SQL: Relational Data Processing in Spark](http://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf)
 2. [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf)
 3. [Optimizing Shuffle Performance in Spark](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F13/projects/reports/project16_report.pdf)
 
 
-
+<br><br>
 # Spark Architecture
 1. [Spark Architecture](https://0x0fff.com/spark-architecture/)
 2. [Spark Misconceptions](https://0x0fff.com/spark-misconceptions/)
@@ -62,7 +62,7 @@ I'll be regularly updating this list as and when I come across new articles on A
 5. [Spark DataFrames](https://medium.com/@thejasbabu/spark-dataframes-10c349de04c)
 
 
-
+<br><br>
 # Spark Topics about which one needs to be aware of, for building efficient data pipelines
 
 ## Spark Execution
@@ -84,13 +84,13 @@ I'll be regularly updating this list as and when I come across new articles on A
 1. [Serialization in Spark](http://www.lifeisafile.com/Serialization-in-spark/)
 
 
-
+<br><br>
 # Spark Partitioning
 1. [An Intro to Apache Spark Partitioning: What You Need to Know](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
 2. [Spark Under The Hood : Partition](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
 
 
-
+<br><br>
 # Shuffling in Apche Spark
 1. [All about Shuffling](http://www.lifeisafile.com/All-about-Shuffling/)
 2. **Another good article on shuffle by Cloudera** : [Working with Apache Spark: Or, How I Learned to Stop Worrying and Love the Shuffle](http://blog.cloudera.com/blog/2015/05/working-with-apache-spark-or-how-i-learned-to-stop-worrying-and-love-the-shuffle/)
@@ -100,7 +100,7 @@ I'll be regularly updating this list as and when I come across new articles on A
 6. **A brief coursera lecture on shuffling in Apache Spark** : [Shuffling: What it is and why it's important](https://www.coursera.org/lecture/scala-spark-big-data/shuffling-what-it-is-and-why-its-important-bT1YR)
 
 
-
+<br><br>
 # Tuning Apache Spark for performance
 1. **Official Spark configuration page - version 2.3.x**[Spark Configuration](http://spark.apache.org/docs/latest/configuration.html#compression-and-serialization)
 1. [How-to: Tune Your Apache Spark Jobs (Part 1)](http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/)
@@ -110,12 +110,12 @@ I'll be regularly updating this list as and when I come across new articles on A
 5. [One operation and maintenance](http://bigdatatn.blogspot.com/2017/06/spark-optimization.html?_sm_au_=iVVWqPTfRq1MfR7H)
 
 
-
+<br><br>
 # Commonly occuring errors and issues in Apache Spark
 1. [Some Lessons of Spark and Memory Issues on EMR](http://top-performance.blogspot.com/2018/03/some-lessons-of-spark-and-memory-issues.html?_sm_au_=iVVTLJSkSst0fqqF)
 
 
-
+<br><br>
 # Most common Apache Spark mistakes and gotcha's
 1. [Top 5 Mistakes to Avoid When Writing Apache Spark Applications](https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications)
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; 
@@ -132,7 +132,7 @@ title="Top 5 Mistakes to Avoid When Writing Apache Spark Applications" target="_
 > when reading compressed file formats from disk, Spark partitioning depends on whether the format is splittable. For instance, these formats are splittable: bzip2, snappy, LZO (if indexed), while gzip is not splittable.
 
 
-
+<br><br>
 # Running Apache Spark on EMR
 Apache Spark on EMR with S3 as the storage is a best combination for executing your ETL tasks in cloud these days. 
 Running Spark on EMR takes away the hassle of setting up a spark/hadoop cluster and it's administration. Also it comes with auto scaling feature.
@@ -148,6 +148,8 @@ Once the cluster is up, simply run your spark applications using Step execution,
 3. [Setting spark.speculation in Spark 2.1.0 while writing to s3](https://stackoverflow.com/questions/46375631/setting-spark-speculation-in-spark-2-1-0-while-writing-to-s3)
 4. [Submitting User Applications with spark-submit](https://aws.amazon.com/blogs/big-data/submitting-user-applications-with-spark-submit/)
 
+
+<br><br>
 # Apache Spark best practices
 1. [Spark Best Practices](https://docs.qubole.com/en/latest/user-guide/spark/spark-best-practices.html)
 2. [Lessons From the Field: Applying Best Practices to Your Apache Spark Applications](https://databricks.com/session/lessons-from-the-field-applying-best-practices-to-your-apache-spark-applications)
@@ -157,6 +159,7 @@ Once the cluster is up, simply run your spark applications using Step execution,
 6. [Apache Spark - Best Practices and Tuning](https://legacy.gitbook.com/book/umbertogriffo/apache-spark-best-practices-and-tuning/details)
 
 
+<br><br>
 # StackOverflow questions on Apache Spark
 1. [Spark: driver/worker configuration. Does driver run on Master node?](https://stackoverflow.com/questions/34930108/spark-driver-worker-configuration-does-driver-run-on-master-node)
 2. [Resolving dependency problems in Apache Spark](https://stackoverflow.com/questions/41383460/resolving-dependency-problems-in-apache-spark)
