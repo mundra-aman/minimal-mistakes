@@ -19,6 +19,14 @@ categories:
 ETL include any change that you do to your source data before storing in your target, including conforming different source systems, 
 filtering data, adding new custom derived columns etc.
 
+> Parsing and Validation
+
+This is done in a series of map(), flatMap(), filter(), groupByKey(), reduceByKey() and leftOuterJoin() transformations which gets reused across Streaming and Batch jobs
+
+>Data Enrichment and state maintenance
+
+Data enrichment and state maintenance is done under updateStateByKey() in Streaming and mapPartitions() in case of batch processing with the business logic for merging the sessions and enriching the session with additional information getting reused across batch and streaming jobs.
+
 > Data cleaning
 
 > Mapping NULL to 0 
@@ -44,3 +52,7 @@ filtering data, adding new custom derived columns etc.
 > Data skewness
 
 > Salting and hashing
+
+> Metric Generation and Save to DB
+ 
+Metrics are generated using flatMap() and reduceByKey() after the Sessionization and data enrichment and are saved to DB

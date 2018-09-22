@@ -83,11 +83,17 @@ I'll be regularly updating this list as and when I come across new articles on A
 ## Spark Serialization
 1. [Serialization in Spark](http://www.lifeisafile.com/Serialization-in-spark/)
 
+## External shuffle service
+1. [External shuffle service in Apache Spark](http://www.waitingforcode.com/apache-spark/external-shuffle-service-apache-spark/read)
+
+
 
 <br><br>
 # Spark Partitioning
 1. [An Intro to Apache Spark Partitioning: What You Need to Know](https://dzone.com/articles/an-intro-to-apache-spark-partitioning-what-you-nee)
 2. [Spark Under The Hood : Partition](https://medium.com/@thejasbabu/spark-under-the-hood-partition-d386aaaa26b7)
+3. [Partitioning in Spark](http://www.waitingforcode.com/apache-spark/partitioning-in-spark/read)
+4. [Partitioning internals in Spark](http://www.waitingforcode.com/apache-spark/partitioning-internals-spark/read)
 
 
 <br><br>
@@ -100,6 +106,7 @@ I'll be regularly updating this list as and when I come across new articles on A
 6. **A brief coursera lecture on shuffling in Apache Spark** : [Shuffling: What it is and why it's important](https://www.coursera.org/lecture/scala-spark-big-data/shuffling-what-it-is-and-why-its-important-bT1YR)
 
 
+
 <br><br>
 # Tuning Apache Spark for performance
 1. **Official Spark configuration page - version 2.3.x**[Spark Configuration](http://spark.apache.org/docs/latest/configuration.html#compression-and-serialization)
@@ -108,6 +115,19 @@ I'll be regularly updating this list as and when I come across new articles on A
 3. [Spark performance tuning from the trenches](https://medium.com/teads-engineering/spark-performance-tuning-from-the-trenches-7cbde521cf60)
 4. [Tune your Spark (Part 2) jobs](https://www.linkedin.com/pulse/tune-spark-jobs-2-chaaranpall-lambba/)
 5. [One operation and maintenance](http://bigdatatn.blogspot.com/2017/06/spark-optimization.html?_sm_au_=iVVWqPTfRq1MfR7H)
+
+
+
+<br><br>
+# Spark SQL
+[Introducing Window Functions in Spark SQL](https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html)
+
+
+
+<br><br>
+# Spark Operations
+[Union, reduce, map Operations](http://balajireddyblog.blogspot.com/search/label/Spark-RDD?_sm_au_=iVVFSt5T5fLsFQkP)
+
 
 
 <br><br>

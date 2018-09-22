@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="" />
+    <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2018-09-17-transitioning-to-functional-programming.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/feature_images/functional_programming.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,20 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2018-07-15-learning-apache-spark.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="383">
-                <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -60,7 +54,6 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming.md" />
         <option value="$PROJECT_DIR$/_posts/2015-08-23-flight-analysis.md" />
         <option value="$PROJECT_DIR$/CNAME" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-21-my-reviews-about-maruti-suzuki-baleno-after-1-year.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-08-23-Apache-Spark-Caching-Vs-Checkpointing.md" />
@@ -71,11 +64,14 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-28-All-about-data-shuffling.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-28-All-about-data-shuffling-in-apache-spark.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-08-How-Apache-Spark-works-internally.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-23-Data-Engineering-Series.md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-03-Spark-accumulators.md" />
         <option value="$PROJECT_DIR$/_posts/2013-08-02-algorithms-and-data-structures.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-09-17-scala-functional-programming.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-09-17-transitioning-to-functional-programming.md" />
       </list>
     </option>
   </component>
@@ -92,6 +88,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,8 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +220,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -238,7 +233,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" visible="true" weight="0.25083986" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28893661" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2932331" />
       <window_info id="Learn" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -247,11 +242,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -261,23 +256,23 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28893661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Learn" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" visible="true" weight="0.25083986" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.25083986" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053704" side_tool="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42777157" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -286,16 +281,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-All-about-data-shuffling-in-apache-spark.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1360">
-            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-All-about-data-shuffling-in-apache-spark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -629,36 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="20">
-            <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Apache-Spark-Caching-Vs-Checkpointing.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1860">
-            <caret line="93" column="3" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Data-Engineering-Series.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -732,11 +687,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="692">
+            <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2940">
+            <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Apache-Spark-Caching-Vs-Checkpointing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="692">
+            <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="383">
-            <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="8" />
+          <first_editor relative-caret-position="1280">
+            <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -744,6 +729,16 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="940">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-transitioning-to-functional-programming.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="630">
+            <caret line="85" selection-start-line="85" selection-end-line="85" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
