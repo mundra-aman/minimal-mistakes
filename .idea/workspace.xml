@@ -131,16 +131,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images\feature_images" />
-      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images" />
-      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_drafts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io" />
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_includes" />
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images\feature_images" />
       <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_posts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images\feature_images" />
+      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\assets\images" />
+      <recent name="C:\DataStore\Aman\dev\gitrepos\mundra-aman.github.io\_drafts" />
     </key>
   </component>
   <component name="RunDashboard">

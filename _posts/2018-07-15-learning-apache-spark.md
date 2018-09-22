@@ -174,7 +174,7 @@ Once the cluster is up, simply run your spark applications using Step execution,
 1. [Spark Best Practices](https://docs.qubole.com/en/latest/user-guide/spark/spark-best-practices.html)
 2. [Lessons From the Field: Applying Best Practices to Your Apache Spark Applications](https://databricks.com/session/lessons-from-the-field-applying-best-practices-to-your-apache-spark-applications)
 3. [Spark Best Practices](https://github.com/beeva/beeva-best-practices/blob/master/big_data/spark/README.md)
-4. [](https://robertovitillo.com/2015/06/30/spark-best-practices/)
+4. [Spark best practices](https://robertovitillo.com/2015/06/30/spark-best-practices/)
 5. [Best Practices for Spark Programming - Part I](https://community.hortonworks.com/articles/75022/optimizing-your-first-spark-program.html)
 6. [Apache Spark - Best Practices and Tuning](https://legacy.gitbook.com/book/umbertogriffo/apache-spark-best-practices-and-tuning/details)
 
