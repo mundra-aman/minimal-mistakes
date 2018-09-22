@@ -7,7 +7,7 @@ tags: [scala, functional programming]
 excerpt: "Here's I'll be sharing my points to transition from imperative to functional style of programming"
 
 header:
-  image: /assets/images/functional_programming.jpg
+  image: /assets/images/feature_images/functional_programming.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 

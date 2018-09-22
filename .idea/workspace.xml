@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-09-17-transitioning-to-functional-programming.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/feature_images/functional_programming.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" afterDir="false" />
-    </list>
+    <list default="true" id="54609bb2-5bb8-4230-b652-db636f17e84d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +11,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="2018-07-15-learning-apache-spark.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="308">
+                <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -68,10 +74,10 @@
         <option value="$PROJECT_DIR$/_posts/2018-09-03-Spark-accumulators.md" />
         <option value="$PROJECT_DIR$/_posts/2013-08-02-algorithms-and-data-structures.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-14-learning-apache-spark-streaming-API.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-16-common-ETL-transformation-scenarios.md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-17-scala-functional-programming.md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-17-transitioning-to-functional-programming.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md" />
       </list>
     </option>
   </component>
@@ -233,7 +239,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" visible="true" weight="0.25083986" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2932331" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932331" />
       <window_info id="Learn" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -717,21 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1280">
-            <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-transitioning-to-functional-programming.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -739,6 +730,21 @@
             <caret line="85" selection-start-line="85" selection-end-line="85" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-learning-apache-spark.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="308">
+            <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
