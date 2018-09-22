@@ -85,6 +85,9 @@ The same map() utility can map over objects, strings, numbers, or any other data
 ## More Information pointers:
 
 [Functional Programming — A new paradigm](https://www.hackerearth.com/practice/notes/functional-programming-a-new-paradigm/)
+
 [Master the JavaScript Interview: What is Functional Programming?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+
 [Master the JavaScript Interview: What is a Pure Function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
+
 [So You Want to be a Functional Programmer (Part 1)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536)
