@@ -18,7 +18,6 @@ categories:
 
 # Reading/Writing to a file - Scala I/O
 
-Open, read and write files in Scala
 Scala doesn't provide any native class/library support when it comes to writing output to a file or reading a file.
 So we borrow java I/O class in scala, create a new instance of PrintWriter and pass a new File object to it:
     
