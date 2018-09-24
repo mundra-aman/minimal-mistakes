@@ -51,8 +51,8 @@ This level is exactly same as MEMORY_ONLY but it will serialize the objects befo
 **MEMORY_AND_DISK_SER** 
 Objects are serialized and stored in RAM as well as disk
 
-**DISK_ONLY RAM** 
-is not used to store RDD, instead all partitions are on disk
+**DISK_ONLY** 
+RAM is not used to store RDD, instead all partitions are on disk
 
 **OFF_HEAP** 
 Partitions may store off heap memory. Off heap memory needs to be enabled for this storage level to work. Off heap is another topic but for summary this is the memory outside of RAM allocated to Spark worker JVM. It's a bit slow to access data from off heap as compared to on heap but still much better than disk access
