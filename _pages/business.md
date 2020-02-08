@@ -1,10 +1,13 @@
 ---
 title: "Business"
-layout: single
+layout: collection
+collection: portfolio
 excerpt:
 author_profile: true
 sitemap: true
 permalink: /business/
+entries_layout: grid
+classes: wide
 tags: [business]
 
 header:
@@ -12,6 +15,8 @@ header:
 
 comments: false
 ---
+
+Sample document listing for the collection `_portfolio`.
 
 Learn business at home
 
