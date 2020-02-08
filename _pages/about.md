@@ -13,6 +13,6 @@ header:
 comments: false
 ---
 
-Data Engineer in Hewlett-Packard Enterprises(HPE), introvert, sweet tooth, INTJ personality and a budding data analyst.
+Data Engineer at Koch Industries (Georgia-Pacific), sweet tooth, INTJ-Virgo-Type-A personality and a budding deep learning engineer.
 
 <a href="https://about.me/aman.adsm" > Know more about me </a>
