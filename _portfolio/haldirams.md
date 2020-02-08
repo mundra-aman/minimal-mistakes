@@ -1,10 +1,6 @@
 ---
 title: "Haldiram's"
-excerpt: "Founder: Shivkisan Agrawal
-          Founded: 1937
-          Headquarter: Noida
-          Revenue: 5,532 crores INR (US$800 million, 2018)
-          Type of business: Private Limited with share capital"
+excerpt: "Founded by Shivkisan Agrawal in 1937 with a current revenue of 5,532 crores INR"
 header:
   image: 
   teaser: assets/images/business/haldirams.jpg
