@@ -100,9 +100,9 @@ analytics:
 # Site Author
 author:
   name             : "Aman"
-  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/post_images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Devey exhibits here"
-  location         : "Chandigarh --> Bangalore"
+  location         : "Chandigarh → Bangalore"
   email            : "aman.adsm@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
