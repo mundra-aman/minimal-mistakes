@@ -1,6 +1,6 @@
 ---
-title: "Haldirams"
-excerpt: ""
+title: "Haldiram's"
+excerpt: "Ganga Bishen Aggarwal, Revenue:5,532 crores"
 header:
   image: 
   teaser: assets/images/business/haldirams.jpg
