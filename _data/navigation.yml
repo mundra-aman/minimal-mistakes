@@ -4,9 +4,6 @@ main:
   - title: "Business"
     url: /business/
 
-  - title: "Tech"
-    url: /tech/
-  
   - title: "Archive"
     url: /archive/
 
@@ -15,9 +12,5 @@ main:
 
   - title: "About"
     url: /about/
-
-  - title: "portfolio"
-    url: /portfolio/
-
 
   

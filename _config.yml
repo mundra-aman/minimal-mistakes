@@ -270,7 +270,6 @@ defaults:
       share: true
       related: true
       sitemap: true
-
    # _portfolio
   - scope:
       path: ""
