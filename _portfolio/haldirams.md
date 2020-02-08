@@ -1,6 +1,6 @@
 ---
 title: "Haldiram's"
-excerpt: "Founded by Shivkisan Agrawal in 1937 with a current revenue of 5,532 crores INR"
+excerpt: "Founded by Shivkisan Agrawal in 1937 with a current revenue of 5532 crores INR"
 header:
   image: 
   teaser: assets/images/business/haldirams.jpg
