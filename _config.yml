@@ -281,6 +281,6 @@ defaults:
 
 # Collections
 collections:
-  business:
+  portfolio:
     output: true
     permalink: /:collection/:path/
