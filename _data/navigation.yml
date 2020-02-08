@@ -3,6 +3,9 @@ main:
 
   - title: "Business"
     url: /business/
+
+- title: "Tech"
+    url: /tech/
   
   - title: "Archive"
     url: /archive/
