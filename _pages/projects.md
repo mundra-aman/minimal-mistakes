@@ -28,7 +28,7 @@ comments: false
 </figure>
 
 Summary: This project is about analyzing 20 million rows of flight on-time/delay performance data using hadoop/hive.
-[More Details here](http://mundra-aman.github.io/flight-analysis/)
+[More Details here](http://lifeisafile.com/flight-analysis/)
 
 
 
