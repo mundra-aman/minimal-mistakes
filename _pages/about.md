@@ -14,5 +14,3 @@ comments: false
 ---
 
 Data Engineer at Koch Industries (Georgia-Pacific), sweet tooth, INTJ-Virgo-Type-A personality and a budding deep learning engineer.
-
-<a href="https://about.me/aman.adsm" > Know more about me </a>

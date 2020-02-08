@@ -1,10 +1,5 @@
-# Kodevelop - mundra-aman.github.io
+# http://www.lifeisafile.com/
 
-I share my personal thoughts here and write about what I do.
+I share my personal thoughts here.
 
-See a [live version of this blog](http://mundra-aman.github.io/) hosted on GitHub.
-
-[![Kodevelop][2]][1]
-
-[1]: https://mundra-aman.github.io/assets/images/
-[2]: Screenshot.jpg (live preview)
+See a [live version of this blog](http://www.lifeisafile.com/) hosted on GitHub.
