@@ -1,7 +1,7 @@
 ---
 title: "Business"
 layout: collection
-collection: business
+collection: portfolio
 excerpt:
 author_profile: true
 sitemap: true
