@@ -3,17 +3,11 @@ title: "Returning to blogging again, but this time with a change and as a seriou
 layout: single
 classes: wide
 tags: [life-snippets]
-
 excerpt: "This document describes about me and the stuff I'll be blogging in the coming days. Mostly I'll be doing programming and some open source projects."
-
 header:
   image: /assets/images/typewriter.jpg
-  image_description: ""
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-
-permalink:
 published: true
-categories: 
 ---
 
 After an year or so, I'll be again writing for my blog and will make it a habit to post regularly. And this time only the original stuff ... no more copy-pastings and no syndications.
