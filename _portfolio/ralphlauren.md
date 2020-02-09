@@ -8,5 +8,3 @@ header:
     id: b3T8ttxTX-I
     provider: youtube
 ---
-
-{% include video id="b3T8ttxTX-I" provider="youtube" %}
