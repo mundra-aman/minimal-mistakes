@@ -270,10 +270,18 @@ defaults:
       share: true
       related: true
       sitemap: true
-   # _portfolio
+  # _business
   - scope:
       path: ""
       type: business
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _achievers
+  - scope:
+      path: ""
+      type: achievers
     values:
       layout: single
       author_profile: false
@@ -282,5 +290,8 @@ defaults:
 # Collections
 collections:
   business:
+    output: true
+    permalink: /:collection/:path/
+  achievers:
     output: true
     permalink: /:collection/:path/
