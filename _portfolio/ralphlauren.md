@@ -9,5 +9,4 @@ header:
     provider: youtube
 ---
 
-https://www.youtube.com/watch?v=b3T8ttxTX-I
 {% include video id="b3T8ttxTX-I" provider="youtube" %}
