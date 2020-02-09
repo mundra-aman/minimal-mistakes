@@ -7,4 +7,5 @@ header:
 ---
 
 
-- <a https://www.quora.com/q/dhandhafounders/ReadLegends-2-Haldiram-s-The-Journey-from-Rs-100-to-5-000-Crores /a>
+1. [https://www.quora.com/q/dhandhafounders/ReadLegends-2-Haldiram-s-The-Journey-from-Rs-100-to-5-000-Crores]
+(https://www.quora.com/q/dhandhafounders/ReadLegends-2-Haldiram-s-The-Journey-from-Rs-100-to-5-000-Crores)
