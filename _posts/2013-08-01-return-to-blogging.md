@@ -27,4 +27,3 @@ In The next 6 months I'll be:
 
 So that's all for now.
 keep surfing !!
-
