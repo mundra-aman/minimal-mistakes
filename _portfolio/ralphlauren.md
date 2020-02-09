@@ -1,6 +1,6 @@
 ---
 title: "Ralph Lauren"
-excerpt: ""
+excerpt: "Founded by Ralph Lifshitz in 1967 with a current revenue of ‎US $163 million (2018)"
 header:
   image: 
   teaser: assets/images/business/ralphlauren.jpg
