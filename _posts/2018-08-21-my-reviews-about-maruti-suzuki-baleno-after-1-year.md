@@ -40,4 +40,4 @@ Android auto and Apple car play, both work like a charm
 
 Mediocre music system and speakers
 
-No rear AV vent
+No rear AC vent
