@@ -1,15 +1,10 @@
 ---
 title: "Business"
-layout: collection
-collection: business
-excerpt:
-author_profile: true
+layout: single
 sitemap: true
 permalink: /business/
-entries_layout: grid
 classes: wide
 tags: [business]
-comments: false
 header:
   image: /assets/images/feature_images/business.jpg
 
