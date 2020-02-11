@@ -11,16 +11,10 @@ classes: wide
 tags: [business]
 comments: false
 
+
 sidebar:
-  - title: 'Companies'
-    image: 
-    image_alt:
-    text:
+  title: "Sample Title"
+  nav: sidebar-sample
 
-  - title: "Achievers"
-
-  - title: "Stories"
-   
-    nav: sidebar-sample
 ---
 
