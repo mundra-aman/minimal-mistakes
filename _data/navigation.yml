@@ -9,15 +9,12 @@ main:
   - title: "Projects"
     url: /projects/
   
-  - title: "achievers"
-    url: /achievers/
-
 
 sidebar-sample:
   - title: "Companies"
     children:
       - title: "Child Page A2"
-        url: /business
+        url: /Companies
       
   - title: "Achievers"
       url: /achievers
