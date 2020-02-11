@@ -2,6 +2,7 @@
 title: "Business"
 layout: single
 sitemap: true
+author_profile: true
 permalink: /business/
 classes: wide
 tags: [business]
