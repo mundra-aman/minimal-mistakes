@@ -12,6 +12,7 @@ main:
 
 sidebar-sample:
   - title: "Companies"
+    url: /companies
     children:
       - title: "Child Page A2"
         url: /companies
