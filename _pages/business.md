@@ -16,8 +16,10 @@ sidebar:
     image: 
     image_alt:
     text:
+    url: /business
 
   - title: "Achievers"
+  	url: /achievers
 
   - title: "Stories"
    
