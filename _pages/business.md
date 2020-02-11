@@ -16,10 +16,10 @@ sidebar:
     image: 
     image_alt:
     text:
-    url: /business
+    url: http://www.lifeisafile.com/business/
 
   - title: "Achievers"
-  	url: /achievers
+  	url: http://www.lifeisafile.com/achievers/
 
   - title: "Stories"
    
