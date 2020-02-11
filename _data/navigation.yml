@@ -14,9 +14,10 @@ sidebar-sample:
   - title: "Companies"
     children:
       - title: "Child Page A2"
-        url: /Companies
+        url: /companies
       
   - title: "Achievers"
+    url: /achievers
     children:
       - title: "Child Page B1"
         url: /achievers
