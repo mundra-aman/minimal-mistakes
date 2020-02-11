@@ -273,7 +273,7 @@ defaults:
   # _business
   - scope:
       path: ""
-      type: business
+      type: companies
     values:
       layout: single
       author_profile: false
