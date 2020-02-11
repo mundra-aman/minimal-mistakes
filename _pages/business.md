@@ -10,7 +10,8 @@ entries_layout: grid
 classes: wide
 tags: [business]
 comments: false
-
+header:
+  image: /assets/images/feature_images/business.jpg
 
 sidebar:
   title: "Sample Title"
