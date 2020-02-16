@@ -18,6 +18,7 @@ published: true
 *Roughly defined, a business is a repeatable process that:*
 
 >Creates and delivers something of value,
+
 That other people want or need,
 At a price they’re willing to pay,
 In a way that satisfies the customer’s needs and expectations,
