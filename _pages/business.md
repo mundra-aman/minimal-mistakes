@@ -15,10 +15,9 @@ sidebar:
 published: true
 ---
 
-**Roughly defined, a business is a repeatable process that:**
+** Roughly defined, a business is a repeatable process that: **
 
->Creates and delivers something of value,
-
+>Creates and delivers something of value, \n
 That other people want or need,
 At a price they’re willing to pay,
 In a way that satisfies the customer’s needs and expectations,
@@ -32,4 +31,4 @@ It doesn’t matter if you’re running a solo venture or a billion-dollar brand
 -A venture that doesn’t deliver what it promises is a scam.
 -A venture that doesn’t bring in enough money to keep operating will inevitably close.
 
-[- The Personal MBA by Josh Kaufman](https://personalmba.com/){: .notice--warning}
+*[- The Personal MBA by Josh Kaufman](https://personalmba.com/){: .notice--warning}*
