@@ -15,7 +15,7 @@ sidebar:
 published: true
 ---
 
-*Roughly defined, a business is a repeatable process that:*
+##Roughly defined, a business is a repeatable process that:##
 
 >Creates and delivers something of value,
 
