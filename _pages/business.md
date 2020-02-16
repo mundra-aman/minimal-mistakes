@@ -23,9 +23,13 @@ published: true
  Take any one of these five factors away, and you don’t have a business — you have something else.
 
 -A venture that doesn’t create value for others is a hobby.
+
 -A venture that doesn’t attract attention is a flop.
+
 -A venture that doesn’t sell the value it creates is a non-profit.
+
 -A venture that doesn’t deliver what it promises is a scam.
+
 -A venture that doesn’t bring in enough money to keep operating will inevitably close.
 
-*[Josh Kaufman, The Personal MBA](https://personalmba.com/){: .notice--warning}*
+*[Josh Kaufman - The Personal MBA](https://personalmba.com/){: .notice--warning}*
