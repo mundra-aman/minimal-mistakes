@@ -10,6 +10,6 @@ header:
   image: /assets/images/feature_images/business.jpg
 
 sidebar:
-  title: "Learn business at home"
-  nav: sidebar-sample
+  title: "Business Stories"
+  nav: business
 ---

@@ -10,14 +10,12 @@ main:
     url: /projects/
   
 
-sidebar-sample:
+business:
   - title: "Companies"
     url: /companies
       
   - title: "Achievers"
     url: /achievers
       
-  - title: "Stories"
-    children:
-      - title: "all_stories"
-        url: /all_stories
+  - title: "Case Studies"
+    url: /casestudies
