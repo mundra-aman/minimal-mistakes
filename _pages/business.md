@@ -22,13 +22,12 @@ published: true
 
 
 {% capture notice-2 %}
-#### New Site Features
+#### It doesn’t matter if you’re running a solo venture or a billion-dollar brand. Take any one of these five factors away, and you don’t have a business — you have something else.
 
 * You can now have cover images on blog pages
 * Drafts will now auto-save while writing
 
-It doesn’t matter if you’re running a solo venture or a billion-dollar brand. 
-Take any one of these five factors away, and you don’t have a business — you have something else.
+
 
 * A venture that doesn’t create value for others is a hobby.
 * A venture that doesn’t attract attention is a flop.
