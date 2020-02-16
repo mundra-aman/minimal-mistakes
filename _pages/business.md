@@ -33,5 +33,6 @@ A venture that doesn’t bring in enough money to keep operating will inevitably
 
 
 [The Personal MBA](https://personalmba.com/){: .notice--warning}
+
 [Josh Kaufman]{: .notice--warning}
 
