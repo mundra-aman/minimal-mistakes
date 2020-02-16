@@ -32,6 +32,5 @@ A venture that doesn’t deliver what it promises is a scam.
 A venture that doesn’t bring in enough money to keep operating will inevitably close.
 
 
-[The Personal MBA](https://personalmba.com/){: .notice--warning}
-(Josh Kaufman){: .notice--warning}
+[ - The Personal MBA by Josh Kaufman](https://personalmba.com/){: .notice--warning}
 
