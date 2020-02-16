@@ -2,7 +2,7 @@
 title: Business
 layout: single
 sitemap: true
-author_profile: true
+author_profile: false
 permalink: /business/
 classes: wide
 tags:
