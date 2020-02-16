@@ -1,17 +1,18 @@
 ---
-title: "Business"
+title: Business
 layout: single
 sitemap: true
 author_profile: true
 permalink: /business/
 classes: wide
-tags: [business]
+tags:
+  - business
 header:
   image: /assets/images/feature_images/business.jpg
-
 sidebar:
-  title: "Business Stories"
+  title: Business Stories
   nav: business
+published: true
 ---
 
 Roughly defined, a business is a repeatable process that:
@@ -30,7 +31,7 @@ A venture that doesn’t deliver what it promises is a scam.
 A venture that doesn’t bring in enough money to keep operating will inevitably close.
 
 
-The Personal MBA {: .notice--warning} class.
 
+-The Personal MBA {: .notice--warning} class. 
 {: .notice--warning} class. -Josh Kaufman
 {: .notice--warning} class. -https://personalmba.com/
