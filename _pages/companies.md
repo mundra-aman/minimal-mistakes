@@ -10,4 +10,7 @@ entries_layout: grid
 classes: wide
 tags: [business]
 comments: false
+sidebar:
+  title: Business Stories
+  nav: business
 ---
