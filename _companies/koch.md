@@ -20,6 +20,45 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 	margin: 0 auto;
 	}
 
+  .timeline-item {
+	padding: 3em 2em 2em;
+  	position: relative;
+	color: rgba(black, .7);
+	border-left: 2px solid $border-color;
+	
+	&::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 1em;
+		display: block;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: .785rem;
+	}
+
+	&::after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid $border-color;
+		background: white;
+	}
+
+	&:last-child {
+		border-image: linear-gradient(
+			to bottom,
+			$border-color 60%,
+			rgba($border-color, 0)) 1 100%;
+	}
+	}
+
 </style>
 
 
