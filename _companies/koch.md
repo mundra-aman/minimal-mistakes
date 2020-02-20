@@ -10,7 +10,7 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225697/dex993.htm
 
 https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -25,24 +25,22 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 				<li>
 					<a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
 					<a href="#" class="float-right">21 March, 2014</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum.</p>
 				</li>
 				<li>
 					<a href="#">21 000 Job Seekers</a>
 					<a href="#" class="float-right">4 March, 2014</a>
-					<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+					<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan.</p>
 				</li>
 				<li>
 					<a href="#">Awesome Employers</a>
 					<a href="#" class="float-right">1 April, 2014</a>
-					<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+					<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit</p>
 				</li>
 			</ul>
 		</div>
 	</div>
 </div>
-
-<div class="text-muted mt-5 mb-5 text-center small">by : <a class="text-muted" target="_blank" href="http://totoprayogo.com">totoprayogo.com</a></div>
 
 
 
@@ -50,6 +48,7 @@ ul.timeline {
     list-style-type: none;
     position: relative;
 }
+
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
@@ -60,10 +59,12 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
 }
+
 ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
 }
+
 ul.timeline > li:before {
     content: ' ';
     background: white;
