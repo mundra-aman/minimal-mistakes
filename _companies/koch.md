@@ -10,39 +10,6 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225697/dex993.htm
 
 https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<div class="container mt-5 mb-5">
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<h4>Latest News</h4>
-			<ul class="timeline">
-				<li>
-					<a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
-					<a href="#" class="float-right">21 March, 2014</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum.</p>
-				</li>
-				<li>
-					<a href="#">21 000 Job Seekers</a>
-					<a href="#" class="float-right">4 March, 2014</a>
-					<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan.</p>
-				</li>
-				<li>
-					<a href="#">Awesome Employers</a>
-					<a href="#" class="float-right">1 April, 2014</a>
-					<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit</p>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
-
-
 
 ul.timeline {
     list-style-type: none;
@@ -77,5 +44,39 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<h4>Latest News</h4>
+			<ul class="timeline">
+				<li>
+					<a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+					<a href="#" class="float-right">21 March, 2014</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum.</p>
+				</li>
+				<li>
+					<a href="#">21 000 Job Seekers</a>
+					<a href="#" class="float-right">4 March, 2014</a>
+					<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan.</p>
+				</li>
+				<li>
+					<a href="#">Awesome Employers</a>
+					<a href="#" class="float-right">1 April, 2014</a>
+					<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
 
 
