@@ -13,6 +13,8 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 <style type="text/css">
   
+  @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
+
   .container {
 	background-color: #dadae3;
 	max-width: 1024px;
@@ -20,6 +22,8 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 	margin: 0 auto;
 	}
 
+  $border-color: rgba(black, .3);
+  
   .timeline-item {
 	padding: 3em 2em 2em;
   	position: relative;
@@ -35,8 +39,7 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 		display: block;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 700;
-		font-size: .785rem;
-	}
+		font-size: .785rem; }
 
 	&::after {
 		width: 10px;
@@ -48,15 +51,13 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 		border-radius: 10px;
 		content: '';
 		border: 2px solid $border-color;
-		background: white;
-	}
+		background: white; }
 
 	&:last-child {
 		border-image: linear-gradient(
 			to bottom,
 			$border-color 60%,
-			rgba($border-color, 0)) 1 100%;
-	}
+			rgba($border-color, 0)) 1 100%; }
 	}
 
 </style>
