@@ -4,19 +4,11 @@
 	margin: 0 auto;
 }
 
-// ----------------  THE FONTS
-
-$border-color: rgba(black, .3);
-
 .timeline-item {
 	padding: 3em 2em 2em;
 	position: relative;
 	color: rgba(black, .7);
 	border-left: 2px solid $border-color;
-	
-	p {
-		font-size: 1rem;
-	}
 	
 	&::before {
 		content: attr(date-is);
@@ -47,7 +39,6 @@ $border-color: rgba(black, .3);
 		border-image: linear-gradient(
 			to bottom,
 			$border-color 60%,
-			rgba($border-color, 0)) 1 100%
-		;
+			rgba($border-color, 0)) 1 100%;
 	}
 }

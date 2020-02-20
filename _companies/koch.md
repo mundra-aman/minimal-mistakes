@@ -11,6 +11,12 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225697/dex993.htm
 https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 
+.container {
+	max-width: 1024px;
+	width: 90%;
+	margin: 0 auto;
+}
+
 <div class="container">
 	
 	<div class="timeline-item" date-is='20-07-1990'>
