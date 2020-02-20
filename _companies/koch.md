@@ -13,40 +13,13 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 <style type="text/css">
   
-  // ----------------  THE BASICS
-
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
-
-body {
-	font-size: 14px;
-	line-height: 1.5;
-}
-
-// ----------------  THE FONTS
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
-}
-
-h1 {
-	font-size: 2rem;
-	margin-bottom: .5em;
-}
-
-p {
-	font-family: 'Roboto', sans-serif;
-	font-size: .8rem;
-}
-
-// ----------------  LAYOUT
 
 .container {
 	max-width: 1024px;
 	width: 90%;
 	margin: 0 auto;
 }
-
-// ----------------  THE FONTS
 
 $border-color: rgba(black, .3);
 
@@ -55,11 +28,7 @@ $border-color: rgba(black, .3);
 	position: relative;
 	color: rgba(black, .7);
 	border-left: 2px solid $border-color;
-	
-	p {
-		font-size: 1rem;
-	}
-	
+		
 	&::before {
 		content: attr(date-is);
 		position: absolute;
