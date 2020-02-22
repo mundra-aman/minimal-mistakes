@@ -18,7 +18,9 @@ header:
 		position: absolute; display: block;
 		left: 2em;
 		top: 1em;
-		font-weight: 700; font-weight: bold; font-size: .785rem; }
+		font-weight: 700; font-weight: bold; font-size: .785rem; 
+    	background: red;    	
+    	}
 	
 .timeline::after {
 		content: '';
