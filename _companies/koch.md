@@ -57,7 +57,7 @@ ul.timeline > li:before {
 		</li>
 		<li>
 			<h3 class="float-right"> 1 April, 2014 </h3>
-			<h2> Awesome Employers </h2>
+			<h4> Awesome Employers </h4>
 			<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh</p>
 		</li>
 	</ul>	
