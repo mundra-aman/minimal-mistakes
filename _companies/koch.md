@@ -35,7 +35,7 @@ ul.timeline > li {
     padding-left: 20px; }
 
 ul.timeline > li:before {
-    content: ' ';
+    content: attr(date-is);
     background: white;
     display: inline-block;
     position: absolute;
@@ -50,7 +50,8 @@ ul.timeline > li:before {
 
 <div class="container">
 	<ul class="timeline">
-		<li>
+		<li>	
+			date-is='20-07-1990'
 			<h4 class="float-right"> 21 March, 2014 </h4>
 			<h2> New Web Design </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula</p>
