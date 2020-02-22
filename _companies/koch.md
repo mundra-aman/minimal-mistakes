@@ -12,7 +12,7 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 
 <style>
-	
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -48,6 +48,8 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400; }
 
+</style>
+
 
 <div class="container mt-5 mb-5">
 	<div class="row">
@@ -74,4 +76,3 @@ ul.timeline > li:before {
 	</div>
 </div>
 
-</style>
