@@ -50,11 +50,8 @@ ul.timeline > li:before {
     z-index: 400; }
 </style>
 
-<div class="container mt-5 mb-5">
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<h4>Latest News</h4>
-			<ul class="timeline">
+<div class="container">
+	<ul class="timeline">
 				<li>
 					<a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
 					<a href="#" class="float-right">21 March, 2014</a>
@@ -70,10 +67,6 @@ ul.timeline > li:before {
 					<a href="#" class="float-right">1 April, 2014</a>
 					<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
 				</li>
-			</ul>
-		</div>
-	</div>
+	</ul>
+	
 </div>
-
-<div class="text-muted mt-5 mb-5 text-center small">by : <a class="text-muted" target="_blank" href="http://totoprayogo.com">totoprayogo.com</a></div>
-
