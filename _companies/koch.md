@@ -50,8 +50,7 @@ ul.timeline > li:before {
 
 <div class="container">
 	<ul class="timeline">
-		<li>	
-			date-is='20-07-1990'
+		<li date-is='20-07-1990'>	
 			<h4 class="float-right"> 21 March, 2014 </h4>
 			<h2> New Web Design </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula</p>
