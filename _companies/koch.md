@@ -32,7 +32,7 @@ ul.timeline > li:before {
     content: ' ';
     background: orange;
     display: inline-block; position: absolute;
-    border-radius:50%; border: 3px solid green; left:10px; width:20px; height:20px; z-index:400; }
+    border-radius:50%; border: 3px solid green; left:5px; width:20px; height:20px; z-index:400; }
 </style>
 
 
