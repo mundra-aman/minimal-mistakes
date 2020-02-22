@@ -15,10 +15,10 @@ header:
 
 .timeline::before {
 		content: attr(date-is);
-		display: inline-block; position: absolute;		
-		font-weight: 700; font-weight: bold; font-size: .785rem;
-    	background: red;    
-    	left:20px; width:5px; height:100%; z-index:400; }
+		position: absolute; display: block;
+		left: 2em;
+		top: 1em;
+		font-weight: 700; font-weight: bold; font-size: .785rem; }
 	
 .timeline::after {
 		content: '';
