@@ -20,7 +20,8 @@ header:
 		top: 1em;
 		font-weight: 700; font-weight: bold; font-size: .785rem;
 
-    	left:10px; width:5px; height:100%; z-index:400;  	
+    	background: red;    	
+    	left:20px; width:5px; height:100%; z-index:400;  	
     	}
 	
 .timeline::after {
