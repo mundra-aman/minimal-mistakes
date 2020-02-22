@@ -30,9 +30,7 @@ ul.timeline:before {
     height: 100%;
     z-index: 400; }
 
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px; }
+ul.timeline > li { margin: 20px 0; padding-left: 20px; }
 
 ul.timeline > li:before {
     content: ' ';
