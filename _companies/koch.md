@@ -23,34 +23,50 @@ p { font-family: 'Roboto', sans-serif; font-size: .8rem; }
 ul.timeline { list-style-type: none; position: relative; }
 
 ul.timeline:before {
-    content: ' ';
-    background: red;
-    display: inline-block; position: absolute;
-    left:20px; width:5px; height:100%; z-index:400; }
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 1em;
+		display: block;
+		font-weight: 700;
+		font-size: .785rem; }
 
-ul.timeline > li { margin: 20px 0; padding-left: 20px; }
-
-ul.timeline > li:before {
-    content: ' ';
-    background: orange;
-    display: inline-block; position: absolute;
-    border-radius:50%; border: 3px solid green; left:10px; width:20px; height:20px; z-index:400; }
+ul.timeline:after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid $border-color;
+		background: white; }
 </style>
 
 
 <div class="container">
-	<ul class="timeline">
-		<li>	
-			<h3 class="float-right"> 21 March, 2014 </h3>	<h2> New Web Design </h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula</p>
-		</li>
-		<li>
-			<h3 class="float-right"> 4 March, 2014 </h3>	<h2> 21000 Job Seekers </h2>			
-			<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin</p>
-		</li>
-		<li>
-			<h3 class="float-right"> 1 April, 2014 </h3>	<h2> Awesome Employers </h2>
-			<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh</p>
-		</li>
-	</ul>	
+
+	<div class="timeline" date-is='20-07-1990'>
+		<h1>single div responsive timeline</h1>
+		<p>
+			I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I think the only card she has is the Lorem card.
+		</p>
+	</div>
+	
+	<div class="timeline-item" date-is='20-07-1990'>
+		<h1>that's awesome</h1>
+		<p>
+			I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I think the only card she has is the Lorem card.
+		</p>
+	</div>
+	
+	<div class="timeline-item" date-is='20-07-1990'>
+		<h1>last border fades</h1>
+		<p>
+			I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I think the only card she has is the Lorem card.
+		</p>
+	</div>
+	
 </div>
