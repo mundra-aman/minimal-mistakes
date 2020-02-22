@@ -46,17 +46,17 @@ ul.timeline > li:before {
 <div class="container">
 	<ul class="timeline">
 		<li>
-			<h1> New Web Design </h1>
-			<a href="#" class="float-right">21 March, 2014</a>
+			<h2 class="float-right"> 21 March, 2014 </h2>
+			<h4> New Web Design </h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula</p>
 		</li>
 		<li>
-			<h1> 21000 Job Seekers </h1>			
+			<h2> 21000 Job Seekers </h2>			
 			<a href="#" class="float-right">4 March, 2014</a>
 			<p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin</p>
 		</li>
 		<li>
-			<h1> Awesome Employers </h1>
+			<h2> Awesome Employers </h2>
 			<a href="#" class="float-right">1 April, 2014</a>
 			<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh</p>
 		</li>
