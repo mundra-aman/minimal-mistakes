@@ -15,11 +15,10 @@ header:
 
 .timeline::before {
 		content: attr(date-is);
-		position: absolute; display: block;
+		position: absolute; display: inline-block;
 		left: 2em;
 		top: 1em;
-		font-weight: 700; font-weight: bold; font-size: .785rem; 
-    	background: red;    	
+		font-weight: 700; font-weight: bold; font-size: .785rem;  	
     	}
 	
 .timeline::after {
