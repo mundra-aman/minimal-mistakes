@@ -20,8 +20,7 @@ header:
 		top: 1em;
 		font-weight: 700; font-weight: bold; font-size: .785rem;
 
-    	background: red;    	
-    	left:20px; width:5px; height:100%; z-index:400;  	
+    	left:10px; width:5px; height:100%; z-index:400;  	
     	}
 	
 .timeline::after {
@@ -33,7 +32,7 @@ header:
 		left: -7px;
 		border-radius: 10px;		
 		border: 2px solid rgba(red, .5);
-		background: yellow; }
+		background: orange; }
 </style>
 
 
