@@ -11,7 +11,7 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225697/dex993.htm
 https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 
-<style>
+<style type="text/css">>
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
