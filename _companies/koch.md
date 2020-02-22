@@ -16,33 +16,23 @@ I'm speaking with myself, number one, because I have a very good brain and I've 
 I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I think the only card she has is the Lorem card.
 
 <style type="text/css">
-.container { max-width: 1024px; width: 90%; margin: 0 auto; }
+.container { max-width:1024px; width:95%; margin:0 auto; }
 
 ul.timeline { list-style-type: none; position: relative; }
 
 ul.timeline:before {
     content: ' ';
     background: red;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400; }
+    display: inline-block; position: absolute;
+    left:20px; width:5px; height:100%; z-index:400; }
 
 ul.timeline > li { margin: 20px 0; padding-left: 20px; }
 
 ul.timeline > li:before {
     content: ' ';
     background: orange;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid green;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400; }
+    display: inline-block; position: absolute;
+    border-radius:50%; border: 3px solid green; left: 20px; width: 20px; height: 20px; z-index: 400; }
 </style>
 
 
