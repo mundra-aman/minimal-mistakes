@@ -11,7 +11,7 @@ header:
 
 <style type="text/css">
 .container { max-width:1024px; width:95%; margin:0 auto; }
-.timeline { padding: 3em 2em 2em; position: relative; border-left: 2px solid rgba(red, .8);	}
+.timeline { padding: 3em 2em 2em; position: relative; border-left: 2px solid rgba(red, .5);	}
 
 .timeline::before {
 		content: attr(date-is);
@@ -19,6 +19,9 @@ header:
 		left: 2em;
 		top: 1em;
 		font-weight: 700; font-weight: bold; font-size: .785rem;
+
+    	background: red;    	
+    	left:20px; width:5px; height:100%; z-index:400;  	
     	}
 	
 .timeline::after {
@@ -29,7 +32,7 @@ header:
 		top: 1em;		
 		left: -7px;
 		border-radius: 10px;		
-		border: 2px solid rgba(black, .5);
+		border: 2px solid rgba(red, .5);
 		background: yellow; }
 </style>
 
