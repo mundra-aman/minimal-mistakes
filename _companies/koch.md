@@ -17,15 +17,12 @@ I'm speaking with myself, number one, because I have a very good brain and I've 
 
 <style type="text/css">
 ul.timeline {
-	padding: 3em 2em 2em;
-	color: rgba(black, .7);
-	border-left: 2px solid rgba(black, .3);
-    list-style-type: none;
+	list-style-type: none;
     position: relative; }
 
 ul.timeline:before {
     content: ' ';
-    background: #d4d9df;
+    background: red;
     display: inline-block;
     position: absolute;
     left: 29px;
