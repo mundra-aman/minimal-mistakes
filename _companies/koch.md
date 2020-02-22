@@ -21,10 +21,10 @@ I'm speaking with myself, number one, because I have a very good brain and I've 
 
 .timeline::before {
 		content: attr(date-is);
-		position: absolute; display: block;
-		left: 2em;
-		top: 1em;
-		font-weight: 700; font-weight: bold; font-size: .785rem; }
+		display: inline-block; position: absolute;		
+		font-weight: 700; font-weight: bold; font-size: .785rem;
+    	background: red;    
+    	left:20px; width:5px; height:100%; z-index:400; }
 	
 .timeline::after {
 		content: '';
@@ -40,6 +40,7 @@ I'm speaking with myself, number one, because I have a very good brain and I've 
 
 
 <div class="container">
+	
 	<div class="timeline" date-is='20-07-1990'>
 		<h1>single div responsive timeline</h1>
 		<p>I'm speaking with myself, number one</p>
@@ -49,4 +50,5 @@ I'm speaking with myself, number one, because I have a very good brain and I've 
 		<h1>that's awesome</h1>
 		<p>I'm speaking with myself, number one</p>
 	</div>
+
 </div>
