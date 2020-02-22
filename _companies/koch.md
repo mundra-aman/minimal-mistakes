@@ -11,6 +11,8 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225697/dex993.htm
 https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 
+<style>
+	
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -18,8 +20,8 @@ https://www.sec.gov/Archives/edgar/data/41077/000119312505225958/dex993.htm
 
 ul.timeline {
     list-style-type: none;
-    position: relative;
-}
+    position: relative; }
+
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
@@ -28,12 +30,12 @@ ul.timeline:before {
     left: 29px;
     width: 2px;
     height: 100%;
-    z-index: 400;
-}
+    z-index: 400; }
+
 ul.timeline > li {
     margin: 20px 0;
-    padding-left: 20px;
-}
+    padding-left: 20px; }
+
 ul.timeline > li:before {
     content: ' ';
     background: white;
@@ -44,8 +46,7 @@ ul.timeline > li:before {
     left: 20px;
     width: 20px;
     height: 20px;
-    z-index: 400;
-}
+    z-index: 400; }
 
 
 <div class="container mt-5 mb-5">
@@ -72,3 +73,5 @@ ul.timeline > li:before {
 		</div>
 	</div>
 </div>
+
+</style>
