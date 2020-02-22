@@ -18,7 +18,11 @@ header:
 		position: absolute; display: inline-block;
 		left: 2em;
 		top: 1em;
-		font-weight: 700; font-weight: bold; font-size: .785rem;  	
+		font-weight: 700; font-weight: bold; font-size: .785rem;
+
+    	background: red;
+    	display: inline-block; position: absolute;
+    	left:20px; width:5px; height:100%; z-index:400;  	
     	}
 	
 .timeline::after {
