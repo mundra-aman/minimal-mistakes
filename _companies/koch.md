@@ -20,14 +20,13 @@ h1 { font-size: 2rem; margin-bottom: .5em; }
 p { font-family: 'Roboto', sans-serif; font-size: .8rem; }
 .container { max-width:1024px; width:95%; margin:0 auto; }
 
-ul.timeline { list-style-type: none; position: relative; 
-	
-	&::before {
-	    content: ' ';
-	    background: red;
-	    display: inline-block; position: absolute;
-	    left:20px; width:5px; height:100%; z-index:400; }
-    }
+ul.timeline { list-style-type: none; position: relative; }
+
+ul.timeline:before {
+    content: ' ';
+    background: red;
+    display: inline-block; position: absolute;
+    left:20px; width:5px; height:100%; z-index:400; }
 
 ul.timeline > li { margin: 20px 0; padding-left: 20px; }
 
