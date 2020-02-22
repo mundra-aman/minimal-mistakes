@@ -17,6 +17,9 @@ I'm speaking with myself, number one, because I have a very good brain and I've 
 
 <style type="text/css">
 ul.timeline {
+	padding: 3em 2em 2em;
+	color: rgba(black, .7);
+	border-left: 2px solid rgba(black, .3);
     list-style-type: none;
     position: relative; }
 
@@ -35,7 +38,7 @@ ul.timeline > li {
     padding-left: 20px; }
 
 ul.timeline > li:before {
-    content: attr(date-is);
+    content: ' ';
     background: white;
     display: inline-block;
     position: absolute;
@@ -50,7 +53,7 @@ ul.timeline > li:before {
 
 <div class="container">
 	<ul class="timeline">
-		<li date-is='20-07-1990'>	
+		<li>	
 			<h4 class="float-right"> 21 March, 2014 </h4>
 			<h2> New Web Design </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula</p>
