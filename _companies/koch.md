@@ -39,7 +39,7 @@ ul.timeline > li:before {
     position: absolute;
     border-radius: 50%;
     border: 3px solid green;
-    left: 20px;
+    left: 200px;
     width: 20px;
     height: 20px;
     z-index: 400; }
