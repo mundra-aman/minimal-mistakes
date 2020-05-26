@@ -1,21 +1,8 @@
 # main links
 main:
-  - title: "Business"
-    url: /business/
-
   - title: "Archive"
     url: /archive/
 
   - title: "Projects"
     url: /projects/
   
-
-business:
-  - title: "Companies"
-    url: /companies
-      
-  - title: "Achievers"
-    url: /achievers
-      
-  - title: "Case Studies"
-    url: /casestudies

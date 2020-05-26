@@ -270,28 +270,3 @@ defaults:
       share: true
       related: true
       sitemap: true
-  # _companies
-  - scope:
-      path: ""
-      type: companies
-    values:
-      layout: single
-      author_profile: false
-      share: false
-  # _achievers
-  - scope:
-      path: ""
-      type: achievers
-    values:
-      layout: single
-      author_profile: false
-      share: true
-
-# Collections
-collections:
-  companies:
-    output: true
-    permalink: /:collection/:path/
-  achievers:
-    output: true
-    permalink: /:collection/:path/
