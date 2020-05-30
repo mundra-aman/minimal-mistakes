@@ -39,10 +39,17 @@ Heiken Ashi candlesticks are similar to conventional ones, but rather than using
 
 Heikin-Ashi Candlesticks use the open-close data from the prior period and the open-high-low-close data from the current period to create a combo candlestick. The Heiken Ashi formula used to derive these average values is as follows:
 
-	- Open = (open of previous bar + close of previous bar)/2
-	- Close = (open + high + low + close)/4
-	- High = the maximum value from the high, open, or close of the current period
-	- Low = the minimum value from the low, open, or close of the current period
+	Open = (open of previous bar + close of previous bar)/2
+	Close = (open + high + low + close)/4
+	High = the maximum value from the high, open, or close of the current period
+	Low = the minimum value from the low, open, or close of the current period
+
+Heikin-Ashi Open price is a result of the previous Heikin-Ashi values. So the first HA candle is calculated using below standard solution: 
+
+	HA_Close = (Open + High + Low + Close) / 4
+	HA_Open = (Open + Close) / 2
+	HA_Low = Low
+	HA_High = High
 
 
 
