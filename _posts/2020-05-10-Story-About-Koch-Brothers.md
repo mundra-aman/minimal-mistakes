@@ -2,7 +2,7 @@
 title: "Koch Brothers and Business"
 layout: single
 classes: wide
-tags: 
+tags: [business]
 
 excerpt: "Founded by Fred C. Koch in 1940 with a current revenue of ‎US $110 billion (2019)""
 
