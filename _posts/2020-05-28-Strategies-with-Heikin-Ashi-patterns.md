@@ -20,9 +20,9 @@ categories:
 > Heikin-Ashi means "average bar" in Japanese.
 
 ## Introduction
-So Heiken-Ashi candles essentially captures the pace of price.
+Heiken-Ashi candles essentially captures the pace of price.
 
-Market fluctuations, volatility and price oscilattion lead to the formation of alternating bullish and bearish candles. The movement makes it difficult to judge the trend. To overcome this, chartists use smoothing techniques and this is where Heiken Ashi shines. Heiken Ashi make trends easier to spot, as it uses modified candlesticks.
+Market fluctuations, volatility and price oscilattion lead to the formation of alternating bullish and bearish candles. The movement makes it difficult to judge the trend. To overcome this, chartists use smoothing techniques and this is where Heiken Ashi shines. Heiken Ashi make trends easier to spot and help traders to remain longer in trade.
 
 The Heikin-Ashi technique can be used in conjunction with candlestick charts when trading securities to spot market trends and predict future prices. It's useful for making candlestick charts more readable and trends easier to analyze. For example, traders can use Heikin-Ashi charts to know when to stay in trades while a trend persists but get out when the trend pauses or reverses.
 
@@ -36,6 +36,8 @@ The values used to construct Heiken Ashi candlesticks, are averages. Averaging h
 
 ## How Heikin-Ashi is calculated
 Heiken Ashi candlesticks are similar to conventional ones, but rather than using opens, closes, highs and lows, they use average values for these four price metrics.
+
+Each of the Heikin Ashi bars start from the middle of the bar before it, and not from the level where the previous candle has closed. This is a major distinguishing factor between the standard and HA candlestick patterns.
 
 Heikin-Ashi Candlesticks use the open-close data from the prior period and the open-high-low-close data from the current period to create a combo candlestick. The Heiken Ashi formula used to derive these average values is as follows:
 
@@ -56,34 +58,40 @@ Heikin-Ashi Open price is a result of the previous Heikin-Ashi values. So the fi
 
 ## How to interprete and indentify trends using Heikin-Ashi patterns
 Heikin-Ashi Candlesticks provide chartists with a versatile tool that can filter noise, foreshadow reversals and identify classic chart patterns. It support all aspects of classical technical analysis and charting. Chartists can use Heikin-Ashi Candlesticks to identify support and resistance, draw trend lines or measure retracements. Volume indicators and momentum oscillators also work well.
+Heikin Ashi charts are often used as a technical indicator on a typical candlestick chart, to help highlight and clarify the current trend.
 
-A Heiken Ashi trader looks for two particular signals:
-- A green candle without a lower shadow, which is a particularly bullish signal
-- A red candle without an upper shadow, which is a particularly bearish signal
-
-
-There are five primary signals that identify trends and buying opportunities:
+Heikin Ashi charts are sometimes by swing traders or investors. Day traders tend to use Heikin Ashi charts more as an indicator, as HA charts have certain other benefits.	There are five primary signals that identify trends and buying opportunities:
 - green candles signify an uptrend
 - green candles with no lower "shadows" indicate a strong uptrend
 - candles with a small body surrounded by upper and lower shadows indicate a trend change
 - red candles indicate a downtrend
 - red candles with no higher shadows identify a strong downtrend
 
+
+A Heiken Ashi trader looks for two particular signals:
+- A green candle without a lower shadow, which is a particularly bullish signal
+- A red candle without an upper shadow, which is a particularly bearish signal
+
 These signals may make locating trends or trading opportunities easier than with traditional candlesticks. The trends are not interrupted by false signals as often and are thus more easily spotted. 
 
 
 
 
-## Heiken Ashi Candle Types
-Size of body, shadows, and range of candle determines whether it is bullish, bearish or a neutral candle.
+## Common Heiken Ashi Candle Types & patterns
+Size of body, shadows, and range of candle determines whether it is bullish, bearish or a neutral candle. 
 
 1. continuation candles - Small narrow range candles
 2. strong up-trend candles - wide range candles with no tail
 3. strong down-trend candles
 4. indecision candle - small body, long tail and shadow on both sides. These represent Trend change or pause in Trend
 5. Doji candle
-6. Spinning candle
+6. Spinning top candle
 7. Bearish candles - Such candles do not have any shadow
+
+Some of the common patterns formed on the Heikin Ashi chart include:
+Doji Reversal Candlestick
+Triangle Patterns
+Rising Wedge and Falling Wedge Patterns
 
 Initiation candle is one that sets the tone of Trend and defines underlying momentum for price. This is why Initiation candles are most important in Trend Analysis and Price action trading. Continuation candles are ones that reaffirm the direction of trend and are useful to increase positions in the direction of trend.
 
@@ -106,29 +114,29 @@ When using Heikin-Ashi candlesticks, a doji or spinning top in a downtrend shoul
 
 
 ## Trade strategies with Heiken-Ashi
-There are broadly 5 rules that need to be followed when trading with Heiken Ashi Candles. I have listed these below,
+There are broadly 5 patterns that need to be followed when trading with Heiken Ashi Candles.
 
-Rule Number 1 – Green candles with no lower “shadows” indicate a strong uptrend: When you spot these on charts, be in the trade and don’t think about profit booking. You might want to add to your long position and exit short positions.
+1. Green candles with no lower shadows indicate a strong uptrend: When you spot these on charts, be in the trade and don’t think about profit booking. You might want to add to your long position and exit short positions.
+2. Candles with a small body with upper and lower shadows indicate  trend change: These are indecision candles and require more confirmation.
+3. Green/Red candles with no upper shadow indicates strong a downtrend: When you spot these on charts, be in the trade and don’t think about profit booking. You might want to add to your short position and exit long positions
+4. Candles with long lower shadows represent Buying interest. Always take note of these candles and assess price action after you spot these candles.
+5. Candles with long upper shadows represent selling interest and be cautious with existing long positions if you spot such Candles.
 
-Rule Number 2 – Candles with a small body with upper and lower shadows indicate  trend change: These are indecision candles and require more confirmation.
+Every Heikin Ashi trading system should include price action rules:
+- Look for Support and Resistance levels.
+- Look for chart patterns for potential breakouts.
+- Hop into emerging trends and exit on slowing trends.
 
-Rule Number 3 – Red/Black candles with no upper shadow indicates strong a downtrend: When you spot these on charts, be in the trade and don’t think about profit booking. You might want to add to your short position and exit long positions
-
-Rule Number 4 – Candles with long lower shadows represent Buying interest. Always take note of these candles and assess price action after you spot these candles.
-
-Rule Number 5 – Candles with long upper shadows represent selling interest and be cautious with existing long positions if you spot such Candles.
+** Trailing Stop Method **
+Using a trailing stop is a good technique to pursue in a trending market. Smoothing benefits of the Heikin Ashi chart can be combined with a trailing stop indicator to get the most out of a trending market condition.
 
 
+** Heiken Ashi Trading Strategy For Short & Longer Time Frame Charts **
 
-Heiken Ashi Trading Strategy For Short & Longer Time Frame Charts
-Heiken Ashi Expansion Pattern
+** Heiken Ashi Expansion Pattern **
 
-Heiken Ashi Double Bottom Momentum Pattern
-
+** Heiken Ashi Double Bottom Momentum Pattern **
 https://tradingwithtrend.com/heiken-ashi-strategy
-
-
-
 
 
 Using Heiken Ashi along with momentum indicators, helps it easier to confirm the trend. 
