@@ -7,7 +7,7 @@ tags: [blockchain, mining, Ethereum]
 excerpt: "This post is about setting up a small blockchain mining rig at home."
 
 header:
-  image: /assets/images/bitcoin.jpg
+  image: /assets/images/feature_images/bitcoin.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 

@@ -7,7 +7,7 @@ tags: [life-snippets]
 excerpt: " "
 
 header:
-  image: /assets/images/life.jpg
+  image: /assets/images/feature_images/life.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 

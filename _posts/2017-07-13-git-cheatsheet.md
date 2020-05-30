@@ -7,11 +7,13 @@ tags: [git]
 excerpt: "This post is about the common git workflows and gotchas that I come across, while version controlling our codebase"
 
 header:
-  image: /assets/images/git.jpg
+  image: /assets/images/feature_images/git.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 
+permalink:
 published: true
+categories:
 ---
 
 

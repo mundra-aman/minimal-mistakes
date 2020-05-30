@@ -7,7 +7,7 @@ tags: [apache spark, analysis, spark]
 excerpt: ""
 
 header:
-  image: /assets/images/apache_spark.PNG
+  image: /assets/images/feature_images/apache_spark.PNG
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 

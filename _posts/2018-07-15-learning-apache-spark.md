@@ -7,7 +7,7 @@ tags: [apache spark, analysis, spark]
 excerpt: "This post provides pointers to learn about apache spark, the architecture and concepts related to it."
 
 header:
-  image: /assets/images/apache_spark.PNG
+  image: /assets/images/feature_images/apache_spark.PNG
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 

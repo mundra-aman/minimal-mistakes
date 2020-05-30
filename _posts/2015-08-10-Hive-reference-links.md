@@ -7,7 +7,7 @@ tags: [hadoop, apache hive]
 excerpt: "Reference videos, articles, slides and pointers to learn hive."
 
 header:
-  image: /assets/images/records_hive.jpg
+  image: /assets/images/feature_images/records_hive.jpg
   image_description: ""
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   

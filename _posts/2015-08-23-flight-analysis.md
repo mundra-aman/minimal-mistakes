@@ -7,11 +7,11 @@ tags: [hadoop, hive, analysis]
 excerpt: "This post is about analyzing 20 million rows of flight on-time/delay performance data using hadoop/hive."
 
 header:
-  image: /assets/images/flight_analysis.jpg
+  image: /assets/images/feature_images/flight_analysis.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 
-toc: true
+toc: false
 toc_label:
 toc_icon:
 

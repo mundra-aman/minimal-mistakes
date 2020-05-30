@@ -7,7 +7,7 @@ tags: [apache spark, analysis, spark]
 excerpt: "This post discusses about the working model of Apache Spark in detail."
 
 header:
-  image: /assets/images/spark_internals.jpg
+  image: /assets/images/feature_images/spark_internals.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 
