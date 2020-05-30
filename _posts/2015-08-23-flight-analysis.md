@@ -11,7 +11,7 @@ header:
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
 
-toc: false
+toc: true
 toc_label:
 toc_icon:
 

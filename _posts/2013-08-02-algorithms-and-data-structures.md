@@ -3,13 +3,18 @@ title: "Algorithms and Data Structures"
 layout: single
 classes: wide
 tags: [algorithms]
+
 excerpt: "This document describes about the general stuff a programmer should be familiar with.
 It discusses about the techniques and knowledge required to devise efficient and complete softwares & applications."
+
 header:
   image: /assets/images/feature_images/algorithms.jpg
   image_description: ""
   caption: "Photo credit: [**Aman Mundra**](/about/)"
+
+permalink:
 published: true
+categories: 
 ---
 
 # Algorithms, Object Oriented Programming, Data Structures and Software Engineering
