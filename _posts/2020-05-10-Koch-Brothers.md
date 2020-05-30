@@ -1,5 +1,5 @@
 ---
-title: "Koch Brothers and Business"
+title: "Koch Brothers: MBM Principles"
 layout: single
 classes: wide
 tags: [business]
@@ -7,9 +7,9 @@ tags: [business]
 excerpt: "Founded by Fred C. Koch in 1940 with a current revenue of ‎US $110 billion (2019)""
 
 header:
-  image: /assets/images/business/koch.jpg
-  image_description: ""
-  caption: "Photo credit: [**Aman Mundra**](/about/)"
+  image: 
+  image_description: 
+  caption:
 
 permalink:
 published: true
