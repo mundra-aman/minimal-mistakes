@@ -17,12 +17,12 @@ categories:
 ---
 
 
-## Introduction
 > Heikin-Ashi means "average bar" in Japanese.
+
+## Introduction
 So Heiken-Ashi candles essentially captures the pace of price.
 
-Market fluctuations, volatility and price oscilattion lead to the formation of alternating bullish and bearish candles. The movement makes it difficult to judge the trend. 
-To overcome this, chartists use smoothing techniques and this is where Heiken Ashi shines. Heiken Ashi make trends easier to spot, as it uses modified candlesticks.
+Market fluctuations, volatility and price oscilattion lead to the formation of alternating bullish and bearish candles. The movement makes it difficult to judge the trend. To overcome this, chartists use smoothing techniques and this is where Heiken Ashi shines. Heiken Ashi make trends easier to spot, as it uses modified candlesticks.
 
 The Heikin-Ashi technique can be used in conjunction with candlestick charts when trading securities to spot market trends and predict future prices. It's useful for making candlestick charts more readable and trends easier to analyze. For example, traders can use Heikin-Ashi charts to know when to stay in trades while a trend persists but get out when the trend pauses or reverses.
 
@@ -39,10 +39,10 @@ Heiken Ashi candlesticks are similar to conventional ones, but rather than using
 
 Heikin-Ashi Candlesticks use the open-close data from the prior period and the open-high-low-close data from the current period to create a combo candlestick. The Heiken Ashi formula used to derive these average values is as follows:
 
-Open = (open of previous bar + close of previous bar)/2
-Close = (open + high + low + close)/4
-High = the maximum value from the high, open, or close of the current period
-Low = the minimum value from the low, open, or close of the current period
+	- Open = (open of previous bar + close of previous bar)/2
+	- Close = (open + high + low + close)/4
+	- High = the maximum value from the high, open, or close of the current period
+	- Low = the minimum value from the low, open, or close of the current period
 
 
 
@@ -51,8 +51,8 @@ Low = the minimum value from the low, open, or close of the current period
 Heikin-Ashi Candlesticks provide chartists with a versatile tool that can filter noise, foreshadow reversals and identify classic chart patterns. It support all aspects of classical technical analysis and charting. Chartists can use Heikin-Ashi Candlesticks to identify support and resistance, draw trend lines or measure retracements. Volume indicators and momentum oscillators also work well.
 
 A Heiken Ashi trader looks for two particular signals:
-	- A green candle without a lower shadow, which is a particularly bullish signal
-	- A red candle without an upper shadow, which is a particularly bearish signal
+- A green candle without a lower shadow, which is a particularly bullish signal
+- A red candle without an upper shadow, which is a particularly bearish signal
 
 
 There are five primary signals that identify trends and buying opportunities:
@@ -90,8 +90,8 @@ As with normal candlesticks, Heikin-Ashi doji and spinning tops can be used to f
   <a href="/assets/images/post_images/hashi_dojispin.png"><img src="/assets/images/post_images/hashi_dojispin.png"></a>
 </figure>
 
-	- A doji is a small candlestick with an open and close that are virtually equal. There are 	small upper and lower shadows to denote little price movement.
-	- Spinning tops have small bodies (open-close range) and long upper/lower shadows (high-low range). Despite a lot of movement from high to low, prices finish near their opening point for little change. This shows indecision that can foreshadow a reversal.
+- A doji is a small candlestick with an open and close that are virtually equal. There are 	small upper and lower shadows to denote little price movement.
+- Spinning tops have small bodies (open-close range) and long upper/lower shadows (high-low range). Despite a lot of movement from high to low, prices finish near their opening point for little change. This shows indecision that can foreshadow a reversal.
 
 When using Heikin-Ashi candlesticks, a doji or spinning top in a downtrend should not immediately be considered bullish. It just shows indecision within the downtrend. Indecision is the first step to changing direction. Confirmation of a directional change (trend reversal) is required though. Once chartists spot a doji or spinning top in a downtrend, it is time to set a resistance level upon which to base a trend reversal.
 
