@@ -31,6 +31,8 @@ Amazon Kinesis is a fully managed and scalable AWS service which enables us to:
 2. [Amazon Kinesis Data Streams - Developer Guide](https://docs.aws.amazon.com/streams/latest/dev/kinesis-dg.pdf)
 
 
+
 ## Writing a python kinesis producer
+
 
 ## Writing a python kinesis consumer
