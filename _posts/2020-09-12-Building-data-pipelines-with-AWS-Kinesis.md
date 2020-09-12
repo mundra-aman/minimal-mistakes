@@ -35,8 +35,9 @@ The unit of data stored by Kinesis Data Streams is a data record. A data stream 
 A shard has a sequence of data records in a stream. When you create a stream, you specify the number of shards for the stream. The total capacity of a stream is the sum of the capacities of its shards. You can increase or decrease the number of shards in a stream as needed.
 A producer puts data records into shards and a consumer gets data records from shards.
 
-[What is Streaming Data?](https://aws.amazon.com/streaming-data/)
-[What Is Amazon Kinesis Data Streams?](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)
+1. [What is Streaming Data?](https://aws.amazon.com/streaming-data/)
+
+2. [What Is Amazon Kinesis Data Streams?](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)
 
 
 
