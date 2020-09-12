@@ -1,5 +1,5 @@
 ---
-title: "Building real time data pipeline with AWS Kinesis"
+title: "Building real time data pipelines with AWS Kinesis"
 layout: single
 classes: wide
 tags: [data-engineering, AWS, Kinesis]
@@ -16,7 +16,18 @@ published: true
 categories: 
 ---
 
-## Pointers to follow:
+# Amazon Kinesis Data Streams
 
-1. [Amazon Kinesis Data Streams - Developer Guide](https://docs.aws.amazon.com/streams/latest/dev/kinesis-dg.pdf)
+Amazon Kinesis is a fully managed and scalable AWS service which enables us to:
+	1. ingest, buffer and process data in real time
+	2. analyze real-time streaming data as it arrives and respond instantly instead of having to wait until all your data is collected before the processing can begin.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MbEfiX4sMXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+
+### Pointers to follow:
+
+1. [Amazon Kinesis Data Streams (KDS) - AWS Home Page](https://aws.amazon.com/kinesis/data-streams/)
+2. [Amazon Kinesis Data Streams - Developer Guide](https://docs.aws.amazon.com/streams/latest/dev/kinesis-dg.pdf)
+
 
