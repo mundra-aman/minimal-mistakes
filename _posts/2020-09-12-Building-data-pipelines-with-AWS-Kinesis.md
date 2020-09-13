@@ -36,7 +36,6 @@ A shard has a sequence of data records in a stream. When you create a stream, yo
 A producer puts data records into shards and a consumer gets data records from shards.
 
 1. [What is Streaming Data?](https://aws.amazon.com/streaming-data/)
-
 2. [What Is Amazon Kinesis Data Streams?](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)
 
 
@@ -44,11 +43,38 @@ A producer puts data records into shards and a consumer gets data records from s
 ## Official AWS Links:
 
 1. [Amazon Kinesis Data Streams (KDS) - AWS Home Page](https://aws.amazon.com/kinesis/data-streams/)
-2. [Amazon Kinesis Data Streams - Developer Guide](https://docs.aws.amazon.com/streams/latest/dev/kinesis-dg.pdf)
+2. [Streaming Data Solutions on AWS with Amazon Kinesis](https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf)
+3. [Amazon Kinesis Data Streams - Developer Guide](https://docs.aws.amazon.com/streams/latest/dev/kinesis-dg.pdf)
+
+
+
+## Shards
+
+
+
+## AWS CLI Kinesis commands
+
+
+
+## KCL and KPL Java libraries for building producers and consumers
+
+The Kinesis Producer Library (KPL) aggregates small user-formatted records into larger records up to 1 MB to make better use of Amazon Kinesis Data Streams throughput. 
+While the KCL for Java supports deaggregating these records.
+
+1. [What is the Kinesis Client Library?](https://docs.aws.amazon.com/streams/latest/dev/shared-throughput-kcl-consumers.html)
+
+One problem, the KCL and KPL are heavily focused on Java, but most of the data scientists love Python.
+One can always create amazon-kinesis-client-python library on top of Java MultiLangDaemon for interprocess communication, but it is not recommended.
 
 
 
 ## Writing a python kinesis producer
 
+1. [Kinesis Data Streams Producers](https://docs.amazonaws.cn/en_us/streams/latest/dev/amazon-kinesis-producers.html)
+2. [Implementing Efficient and Reliable Producers with the Amazon Kinesis Producer Library](https://aws.amazon.com/blogs/big-data/implementing-efficient-and-reliable-producers-with-the-amazon-kinesis-producer-library/)
+
+
 
 ## Writing a python kinesis consumer
+
+1. [Kinesis Data Streams Consumers](https://docs.amazonaws.cn/en_us/streams/latest/dev/amazon-kinesis-consumers.html)
