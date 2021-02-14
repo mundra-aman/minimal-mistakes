@@ -161,6 +161,7 @@ Another high wave type candle was formed with minor upper and long lower shadow.
 
 
 ## 12 Feb, 2021 Friday
+Nifty formed a Doji pattern on the daily charts while forming a small bullish candle on the weekly scale.
 The market inched closer to record high levels but erased all its gains in the last couple of sessions amid volatility to end flat
 Selling pressure was in FMCG, metals and pharma stocks. However, banking & financials provided strong support.
 During the week we saw maximum activity in medium-sized and small-sized companies. Going ahead, these mid and small-size companies could hurt the market if the Nifty50 index fails to break the 15,260 levels.
@@ -171,7 +172,7 @@ The broader markets outperformed frontliners on the weekly basis. The Nifty Midc
 #### Nifty50
 OHLC - 15186|15243|15081|15163 
 % change - −10.0 points (-0.066%)
-Candle - indecisive candle
+Candle - DOJI, indecisive candle
 VIX - 
 daily RSI - 68
 Support levels - 15081, followed by 15000
@@ -180,12 +181,14 @@ Key events -
 Analysis for tomorrow - 
 Sectoral contributors - 
 Daily candlestick chart - indecisiveness in the daily chart
-Weekly candlestick chart - 
+Weekly candlestick chart - small bullish candle
 FII v/s DII - FIIs net sold shares worth Rs 37.33 crore, DIIs net sold shares worth Rs 597.62 crore
 Comments on futures - high delivery percentage seen in ICICIGI (68%) with a future price of 1497
 
 #### Nifty Bank
 The Nifty Bank smartly outpaced Nifty50, rising 356.80 points or 1 percent to 36,108.90 on February 12. The important pivot level, which will act as crucial support for the index, is placed at 35,765.13, followed by 35,421.36. On the upside, key resistance levels are placed at 36,387.73 and 36,666.57.
+
+On the weekly basis, the Sensex added 812.67 points, or 1.6 percent, to end at 51,544.30, while the Nifty rose 239.05 points, or 1.6 percent, to finish at 15,163.30 levels. The index formed a Doji pattern on the daily charts while forming a small bullish candle on the weekly scale. Bank Nifty formed a bullish candle on the daily scale while there was Doji formation on the weekly scale.
 
 
 
