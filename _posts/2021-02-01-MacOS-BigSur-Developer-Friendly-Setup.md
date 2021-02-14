@@ -75,7 +75,9 @@ caffeinate -dt 7200
 {% highlight BASH %}
 
 mysql --version
-python --version
 conda --version
+python --version
+pip --version
+
 
 {% endhighlight %}
