@@ -1,5 +1,5 @@
 ---
-title: "Daily Market Analysis - 2021"
+title: "Daily Market Analysis - February 2021"
 layout: single
 classes: wide
 tags: [nifty50, sensex]
@@ -171,18 +171,31 @@ The broader markets outperformed frontliners on the weekly basis. The Nifty Midc
 
 #### Nifty50
 OHLC - 15186|15243|15081|15163 
+
 % change - −10.0 points (-0.066%)
+
 Candle - DOJI, indecisive candle
+
 VIX - 
+
 daily RSI - 68
+
 Support levels - 15081, followed by 15000
+
 Resistance levels - 15244 and 15325
+
 Key events - 
+
 Analysis for tomorrow - 
+
 Sectoral contributors - 
+
 Daily candlestick chart - indecisiveness in the daily chart
+
 Weekly candlestick chart - small bullish candle
+
 FII v/s DII - FIIs net sold shares worth Rs 37.33 crore, DIIs net sold shares worth Rs 597.62 crore
+
 Comments on futures - high delivery percentage seen in ICICIGI (68%) with a future price of 1497
 
 #### Nifty Bank
