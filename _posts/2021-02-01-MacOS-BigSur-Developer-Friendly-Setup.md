@@ -69,7 +69,7 @@ caffeinate -dt 7200
 
 
 ## Version Check bash commands
-I
+
 {% highlight BASH %}
 
 /usr/local/mysql/bin/mysql --version
