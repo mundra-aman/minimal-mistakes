@@ -45,6 +45,7 @@ https://opensource.com/article/19/5/python-3-default-mac
 /user/bin/python
 python --version
 echo $PATH
+which python
 conda --version
 jupyter notebook
 
