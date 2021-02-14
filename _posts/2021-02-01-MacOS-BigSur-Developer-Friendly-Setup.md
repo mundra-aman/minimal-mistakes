@@ -21,7 +21,7 @@ https://vladster.net/en/instructions/install-mysql-mac/
 
 {% highlight BASH %}
 
-
+// mysql server installer directory
 /usr/local/mysql/bin/mysql -u root -p 
 
 // set path for zsh
