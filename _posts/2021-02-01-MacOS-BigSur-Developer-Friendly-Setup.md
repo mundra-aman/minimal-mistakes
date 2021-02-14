@@ -26,6 +26,7 @@ https://vladster.net/en/instructions/install-mysql-mac/
 
 // set path for zsh
 sudo sh -c 'echo /usr/local/mysql/bin > /etc/paths.d/mysql'
+mysql --version
 mysql -u root -p  
 
 {% endhighlight %}
@@ -72,7 +73,7 @@ caffeinate -dt 7200
 
 {% highlight BASH %}
 
-/usr/local/mysql/bin/mysql --version
+mysql --version
 python --version
 conda --version
 
