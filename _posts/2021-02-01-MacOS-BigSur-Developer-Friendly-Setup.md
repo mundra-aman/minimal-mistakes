@@ -2,7 +2,7 @@
 title: "MacOS BigSur Developer Setup"
 layout: single
 classes: wide
-tags: [nifty50, sensex]
+tags: [macOS, BigSur, Data Engineering]
 
 excerpt: "Setting up my iMac for big data engineering and data science projects"
 
