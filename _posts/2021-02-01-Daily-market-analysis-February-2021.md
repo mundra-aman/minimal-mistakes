@@ -167,12 +167,8 @@ Selling pressure was in FMCG, metals and pharma stocks. However, banking & finan
 During the week we saw maximum activity in medium-sized and small-sized companies. Going ahead, these mid and small-size companies could hurt the market if the Nifty50 index fails to break the 15,260 levels.
 The broader markets outperformed frontliners on the weekly basis. The Nifty Midcap 100 and Nifty Smallcap 100 indices gained 2.18 percent and 3.85 percent
 
-
-
 #### Nifty50
-
 {% highlight BASH %}
-
 OHLC - 15186|15243|15081|15163 
 % change - −10.0 points (-0.066%)
 Candle - DOJI, indecisive candle
@@ -187,7 +183,6 @@ Daily candlestick chart - indecisiveness in the daily chart
 Weekly candlestick chart - small bullish candle
 FII v/s DII - FIIs net sold shares worth Rs 37.33 crore, DIIs net sold shares worth Rs 597.62 crore
 Comments on futures - high delivery percentage seen in ICICIGI (68%) with a future price of 1497
-
 {% endhighlight %}
 
 #### Nifty Bank
@@ -204,6 +199,7 @@ Fall below 15,100 will lead to further weakness
 According to pivot charts, the key support levels for the Nifty are placed at 15,081.7, followed by 15,000.1. If the index moves up, the key resistance levels to watch out for are 15,244.2 and 15,325.1.
 
 #### Nifty50
+{% highlight BASH %}
 OHLC - 
 % change - 
 Candle - 
@@ -216,10 +212,26 @@ Analysis for tomorrow -
 Sectoral contributors -
 Daily candlestick chart - 
 Weekly candlestick chart - 
+FII v/s DII
 Comments on futures - 
-
+{% endhighlight %}
 
 #### Nifty Bank
-
+{% highlight BASH %}
+OHLC - 
+% change - 
+Candle - 
+VIX - 
+daily RSI - 
+Support levels - 
+Resistance levels - 
+Key events - 
+Analysis for tomorrow - 
+Sectoral contributors -
+Daily candlestick chart - 
+Weekly candlestick chart - 
+FII v/s DII
+Comments on futures - 
+{% endhighlight %}
 
 
