@@ -21,9 +21,12 @@ https://vladster.net/en/instructions/install-mysql-mac/
 
 {% highlight BASH %}
 
-mysql -u root -p  
+
 /usr/local/mysql/bin/mysql -u root -p 
+
+// set path for zsh
 sudo sh -c 'echo /usr/local/mysql/bin > /etc/paths.d/mysql'
+mysql -u root -p  
 
 {% endhighlight %}
 
