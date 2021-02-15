@@ -194,15 +194,20 @@ On the weekly basis, the Sensex added 812.67 points, or 1.6 percent, to end at 5
 
 
 ## 15 Feb, 2021 Monday
+For the week ended February 12, Sensex and Nifty50 closed with gains of 1.6 percent.
 If the Nifty50 index crosses 15,270 for the 15,500 levels, it would be advisable to buy.
 Fall below 15,100 will lead to further weakness.
+A break below 15,000 would be an interesting one to participate in. In this scenario, a healthy profit-booking towards 14,600 – 14,400 cannot be ruled out
 
 Based on the chart of largecap companies, the weakness is increasing in the short-term, and it would probably lead to a quick correction to the level of 14,850 or 14,750. 
 According to pivot charts, the key support levels for the Nifty are placed at 15,081.7, followed by 15,000.1. If the index moves up, the key resistance levels to watch out for are 15,244.2 and 15,325.1.
 
-Nifty50 had a gap-up opening today and touched a record high of 15313.
+Nifty50 had a gap-up opening today and touched a record high of 15313, after showing signs of consolidation last week.
 Sensex also reached record high level of 52000 for the first time.
+stay long but consolidation could continue in the coming week, but at the same time small & midcaps might continue to outperform. The level of 15,300 – 15,000 will be seen as a crucial range and a breakout on either side is likely to dictate the direction of the market.
+The pragmatic strategy would be to wait for some sort of trend deciding action and then one should be looking to place aggressive bets
 
+Strong global cues and consistent buying by the FIIs helped the Indian market to hit fresh record highs.
 NBFC sector was in uptrend today.
 
 #### Nifty50
@@ -236,5 +241,7 @@ Analysis for tomorrow -
 Daily candlestick chart - 
 Weekly candlestick chart - 
 {% endhighlight %}
+
+
 
 
