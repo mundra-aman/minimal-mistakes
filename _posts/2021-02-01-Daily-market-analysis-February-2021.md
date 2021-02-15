@@ -2,7 +2,7 @@
 title: "Daily Market Analysis - February 2021"
 layout: single
 classes: wide
-tags: [nifty50, sensex]
+tags: [nifty50, sensex, niftybank, stock market]
 
 excerpt: "my daliy journal of Indian stock market"
 
@@ -202,7 +202,7 @@ According to pivot charts, the key support levels for the Nifty are placed at 15
 
 Nifty50 had a gap-up opening today and touched a record high of 15313.
 Sensex also reached record high level of 52000.
- 
+
 
 #### Nifty50
 {% highlight BASH %}
