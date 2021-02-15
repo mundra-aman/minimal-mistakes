@@ -200,6 +200,10 @@ Fall below 15,100 will lead to further weakness.
 Based on the chart of largecap companies, the weakness is increasing in the short-term, and it would probably lead to a quick correction to the level of 14,850 or 14,750. 
 According to pivot charts, the key support levels for the Nifty are placed at 15,081.7, followed by 15,000.1. If the index moves up, the key resistance levels to watch out for are 15,244.2 and 15,325.1.
 
+Nifty50 had a gap-up opening today and touched a record high of 15313.
+Sensex also reached record high level of 52000.
+ 
+
 #### Nifty50
 {% highlight BASH %}
 OHLC - 
