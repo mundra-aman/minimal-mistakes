@@ -201,8 +201,9 @@ Based on the chart of largecap companies, the weakness is increasing in the shor
 According to pivot charts, the key support levels for the Nifty are placed at 15,081.7, followed by 15,000.1. If the index moves up, the key resistance levels to watch out for are 15,244.2 and 15,325.1.
 
 Nifty50 had a gap-up opening today and touched a record high of 15313.
-Sensex also reached record high level of 52000.
+Sensex also reached record high level of 52000 for the first time.
 
+NBFC sector was in uptrend today.
 
 #### Nifty50
 {% highlight BASH %}
@@ -227,17 +228,13 @@ Comments on futures -
 OHLC - 
 % change - 
 Candle - 
-VIX - 
 daily RSI - 
 Support levels - 
 Resistance levels - 
 Key events - 
 Analysis for tomorrow - 
-Sectoral contributors -
 Daily candlestick chart - 
 Weekly candlestick chart - 
-FII v/s DII
-Comments on futures - 
 {% endhighlight %}
 
 
