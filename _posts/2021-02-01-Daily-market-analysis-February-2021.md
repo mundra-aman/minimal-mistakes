@@ -161,9 +161,10 @@ Another high wave type candle was formed with minor upper and long lower shadow.
 
 
 ## 12 Feb, 2021 Friday
+The market inched closer to record high levels but erased all its gains in the last couple of sessions amid volatility to end flat.
 Nifty formed a Doji pattern on the daily charts while forming a small bullish candle on the weekly scale.
-The market inched closer to record high levels but erased all its gains in the last couple of sessions amid volatility to end flat
 Selling pressure was in FMCG, metals and pharma stocks. However, banking & financials provided strong support.
+
 During the week we saw maximum activity in medium-sized and small-sized companies. Going ahead, these mid and small-size companies could hurt the market if the Nifty50 index fails to break the 15,260 levels.
 The broader markets outperformed frontliners on the weekly basis. The Nifty Midcap 100 and Nifty Smallcap 100 indices gained 2.18 percent and 3.85 percent
 
@@ -193,9 +194,10 @@ On the weekly basis, the Sensex added 812.67 points, or 1.6 percent, to end at 5
 
 
 ## 15 Feb, 2021 Monday
-If the Nifty50 index crosses 15,270 for the 15,500 levels, it would be advisable to buy
-Based on the chart of largecap companies, the weakness is increasing in the short-term, and it would probably lead to a quick correction to the level of 14,850 or 14,750. 
+If the Nifty50 index crosses 15,270 for the 15,500 levels, it would be advisable to buy.
 Fall below 15,100 will lead to further weakness.
+
+Based on the chart of largecap companies, the weakness is increasing in the short-term, and it would probably lead to a quick correction to the level of 14,850 or 14,750. 
 According to pivot charts, the key support levels for the Nifty are placed at 15,081.7, followed by 15,000.1. If the index moves up, the key resistance levels to watch out for are 15,244.2 and 15,325.1.
 
 #### Nifty50
