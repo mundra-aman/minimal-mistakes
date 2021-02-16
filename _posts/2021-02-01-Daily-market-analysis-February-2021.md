@@ -168,6 +168,9 @@ Selling pressure was in FMCG, metals and pharma stocks. However, banking & finan
 During the week we saw maximum activity in medium-sized and small-sized companies. Going ahead, these mid and small-size companies could hurt the market if the Nifty50 index fails to break the 15,260 levels.
 The broader markets outperformed frontliners on the weekly basis. The Nifty Midcap 100 and Nifty Smallcap 100 indices gained 2.18 percent and 3.85 percent
 
+Budget & MPC – Twin Impact on Markets - Post a momentous Budget and MPC week, markets opened with the residual firepower but slowed down and consolidated for most of the week. Despite this, Nifty attained highs of 15,257 for the first time in history.
+
+
 #### Nifty50
 {% highlight BASH %}
 OHLC - 15186|15243|15081|15163 
@@ -198,6 +201,7 @@ For the week ended February 12, Sensex and Nifty50 closed with gains of 1.6 perc
 If the Nifty50 index crosses 15,270 for the 15,500 levels, it would be advisable to buy.
 Fall below 15,100 will lead to further weakness.
 A break below 15,000 would be an interesting one to participate in. In this scenario, a healthy profit-booking towards 14,600 – 14,400 cannot be ruled out
+The market is now constrained within the immediate support and resistance of 14970 and 15250 and a break on either side will dictate the trend for the upcoming week.
 
 Based on the chart of largecap companies, the weakness is increasing in the short-term, and it would probably lead to a quick correction to the level of 14,850 or 14,750. 
 According to pivot charts, the key support levels for the Nifty are placed at 15,081.7, followed by 15,000.1. If the index moves up, the key resistance levels to watch out for are 15,244.2 and 15,325.1.
@@ -207,24 +211,28 @@ Sensex also reached record high level of 52000 for the first time.
 stay long but consolidation could continue in the coming week, but at the same time small & midcaps might continue to outperform. The level of 15,300 – 15,000 will be seen as a crucial range and a breakout on either side is likely to dictate the direction of the market.
 The pragmatic strategy would be to wait for some sort of trend deciding action and then one should be looking to place aggressive bets
 
+Indian share markets benchmarks BSE Sensex and Nifty 50 scaled fresh lifetime highs on Monday, on the back of firm global cues, upbeat Q3 earnings and strong foreign fund inflows
 Strong global cues and consistent buying by the FIIs helped the Indian market to hit fresh record highs.
 NBFC sector was in uptrend today.
+Nifty has strong resistance at 15,300 in the form of maximum concentration of Call OI for this week’s expiry as of now. On technical charts, the zone of 15300-15500 seems to be a very stiff and strong resistance area.
+One may look for profit booking in financials, rate sensitive and high beta stocks in favor of traditionally defensive sectors going ahead from here. While on the lower side, supports are placed at 15000 and 14850 for the immediate near term.
+Given the strength of the global markets and the CPI inflation figures, Nifty/Sensex can rise to the level of 15500/52500 levels and that could be the time to shift the portfolio from weak stocks to strong large-cap companies
 
 #### Nifty50
 {% highlight BASH %}
-OHLC - 
-% change - 
-Candle - 
+OHLC - 15270 | 15338 | 15254 | 15335
+% change - +172 points (+1.14%)
+Candle - strong bullish candle
 VIX - 
-daily RSI - 
+daily RSI - Above 70
 Support levels - 
 Resistance levels - 
 Key events - 
 Analysis for tomorrow - 
-Sectoral contributors -
-Daily candlestick chart - 
-Weekly candlestick chart - 
-FII v/s DII
+Sectoral contributors - Banking sector surged 3.5%
+Daily candlestick chart - bullish
+Weekly candlestick chart - bullish
+FII v/s DII - 
 Comments on futures - 
 {% endhighlight %}
 
