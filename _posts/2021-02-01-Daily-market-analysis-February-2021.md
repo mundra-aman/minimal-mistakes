@@ -236,20 +236,39 @@ FII v/s DII -
 Comments on futures - 
 {% endhighlight %}
 
-#### Nifty Bank
+
+
+## 16 Feb, 2021 Tuesday
+Nifty50 hit a life high of 15431 before investors preferred to book profits at higher levels.
+The index opened the day with gap-up gains, but was not able to hold the gains for long and witnessed a profit booking and closed the day on a flattish note at 15318.
+Bears tried to take control of D-Street in the second half of the trading sessions on Tuesday but bulls gave a tough fight and narrowed losses towards the close of the trade.
+Market, though volatile, kept its momentum during the morning hours, however, failing to hold on to it due to a weak opening of European markets. The downfall was aggravated by private banks, IT, and FMCG stocks while mid and small caps continued their outperformance.
+
+The Nifty 50 Index is still holding above the support level of 15250. It is critical to sustaining above the 15250 Nifty50 Index level to keep the short-term positive trend intact.
+If nifty50 breaks out above 15370, initiate buying and look for an exit around 15520. Overall, the investor should maintain a stop below 15250.
+15250 will act as immediate support followed by 15100 odd levels. If the index holds the above-said levels then we may see the current momentum extend further towards the immediate hurdle zone of 15400-15500 zone.
+
+The recent consolidation in the index is in line with expectations and the market is expected to continue on bullish momentum based on current price action.
+The weekly price action resulted in a High wave candle indicating a healthy breather after post budget rally measuring more than 23 % rally in just seven sessions the daily stochastic had approached to overbought trajectory which has resulted in a sideways consolidation in the last four sessions.
+
+After a 1,300 point surge on Monday, the Nifty Bank index saw some consolidation to end 200 points or 0.6% lower at 37,098.
+
+#### Nifty50
 {% highlight BASH %}
-OHLC - 
-% change - 
-Candle - 
-daily RSI - 
-Support levels - 
-Resistance levels - 
+OHLC - 15371 | 15431 | 15243 | 15317
+% change - +3 points (+0.02%)
+Candle - bearish candle
+VIX - 
+daily RSI - Above 70
+Support levels - 15250, 15100
+Resistance levels - 15520
 Key events - 
 Analysis for tomorrow - 
-Daily candlestick chart - 
-Weekly candlestick chart - 
+Sectoral contributors - 
+Daily candlestick chart - bearish
+Weekly candlestick chart - bullish
+FII v/s DII - 
+Comments on futures - 
 {% endhighlight %}
-
-
 
 
