@@ -272,3 +272,33 @@ Comments on futures -
 {% endhighlight %}
 
 
+
+## 18 Feb, 2021 Thursday (weekly expiry)
+The Indian market consolidated for a third day in a row on February 18, pushing benchmark indices below crucial support levels.
+The Sensex fell 379 points to 51,324, while the Nifty50 closed 90 points lower at 15,118.
+The Nifty is trading around 15,110 after trading in the 15,250-15,084 range.
+Traders are advised to refrain from building a new buying position until there is further improvement and a breakout of 15,370.
+The Nifty index opened flat and has been facing weakness for the last three trading sessions. The index failed to surpass 15,250 and drifted towards 15,080 levels. It remained negative to range-bound for the most part of the session and closed the day with the losses of around 90 points.
+
+The bearish rally in the market was led by private banks and auto stocks, while PSU banks continued their outperformance on hopes of privatisation
+Sectorally, action was seen in oil & gas, utilities, public sector, power, and metal, while auto, banks, finance, healthcare, realty and telecom witnessed profit booking.
+After a sharp run since March 2020 low, there is discomfort on valuations, as these levels are the highest India has traded in the past
+
+My Analysis - Nifty formed a bearish candle for the third consecutive day. Nifty has lost around 300 points in last 3 days from the record highs of 15400.
+Nifty bank has also lost over 550 points from the record high of 37500 in last 3 sessions. Major support and resistance level for nifty50 are 15000 and 15400 respectively.
+Market might consolidate and move in the 400-500 points zone also and breakout next week over positive cues. If nifty breaches 15000, major correction can be witnessed.
+Markets are richly valued and, therefore, are vulnerable to corrections.
+
+#### Nifty50
+{% highlight BASH %}
+OHLC - 15238 | 15249 | 15078 | 15120
+% change - -88 points (-0.58%)
+Candle - bearish candle
+VIX - 
+daily RSI - 62
+Support levels - 15085
+Resistance levels - 15370
+Daily candlestick chart - bearish
+Weekly candlestick chart - bearish
+FII v/s DII - 
+{% endhighlight %}
