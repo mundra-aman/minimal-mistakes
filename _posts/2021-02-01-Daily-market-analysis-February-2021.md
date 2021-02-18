@@ -288,6 +288,8 @@ My Analysis - Nifty formed a bearish candle for the third consecutive day. Nifty
 Nifty bank has also lost over 550 points from the record high of 37500 in last 3 sessions. Major support and resistance level for nifty50 are 15000 and 15400 respectively.
 Market might consolidate and move in the 400-500 points zone also and breakout next week over positive cues. If nifty breaches 15000, major correction can be witnessed.
 Markets are richly valued and, therefore, are vulnerable to corrections.
+One can expect Nifty to show upside bounce from the lows of around 15,000 levels in the next 1-2 sessions. 
+On the flip side, a decisive move below 14,950 is likely to trigger more weakness in the near term.
 
 #### Nifty50
 {% highlight BASH %}
