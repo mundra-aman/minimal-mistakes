@@ -304,3 +304,64 @@ Daily candlestick chart - bearish
 Weekly candlestick chart - bearish
 FII v/s DII - 
 {% endhighlight %}
+
+
+
+## 19 Feb, 2021 Friday
+
+##### Stock Market performance this week
+Markets kicked-off the week on a positive note, however in the later half of the week it witnessed selling pressure after touching new highs.
+Sensex, Nifty post weekly loss for 2nd straight week
+Benchmark indices corrected by around 1.2% this week.
+Nifty closed 0.9% lower at 14982 today. NIFTY is down 1.2% in the last one week.
+The Sensex tumbled 435 points.
+Nifty-50 dipped 137 points, or 0.91 per cent to 14,981.75.
+The Nifty-50 and BSE Sensex declined 1.2 per cent and 1.27 per cent respectively in the entire week.  
+Defying the benchmark indices, broader markets have continued to show strength and inched higher in the last few trading session.
+On the broader front, The BSE Midcap index closed lower by 1.67 per cent, Smallcap index down 0.76 per cent. 
+All sectoral indices closed red as selling was witnessed in all sectors throughout the day.
+The sentiment turned negative in the last four sessions of the week, as indices closed lower for four consecutive sessions and also erased all the previous gains in the first two trading sessions of the week.
+BSE Sensex and Nifty 50 ended at nine-day lows on Friday as bears took over the Dalal Street.
+The Nifty Bank hit its lowest level in 10 trading sessions and closed lower by 2.04%. 
+The biggest contributors to the fall in the banking index were ICICI Bank, HDFC Bank and State Bank of India.
+
+{% highlight BASH %}
+Nifty down 0.7% at 15,012 
+Sensex down 0.6% at 51,027 
+Nifty Bank down 1.5% at 36,033 
+Nifty Mid cap index down 1.5% 
+Nifty Small cap index down 0.6% 
+India Volatility Index up 2.1% to 22 
+PSU Bank index is the top sectoral laggard; down 4.4% 
+Nifty Auto index is the other major laggard; down 2.3% 
+Nifty Metal and Nifty Pharma index down 1.5% each
+UPL remains the top Nifty gainer; up 2.2%
+Tata Motors is the top Nifty laggard; down 4.3% 
+40 out of the 50 index stocks decline 
+1,127 stocks on the NSE decline while 725 trade with gains
+{% endhighlight %}
+
+
+##### Reason behind the market correction
+Markets today observed the worst day of the week as traders continue to book profits and weak global cues played the spoilsport.
+An abrupt and sharp rise in domestic as well as global bond yields led to this selling pressure in the bullish market.
+Bad performance in the Banking and Financial sectors dragged the market the most in the previous sessions as shares of HDFC Bank, SBI and Bajaj Finance witnessed heavy selling. 
+Rising crude oil prices and fears of rising inflation also impacted the performance of the markets this week. 
+Bond yields are largely inversely proportional to the returns in equity markets.
+Therefore, when bond yields decline, equity markets tend to outperform and as bond yields rise equity markets returns tend to falter. Hence, such a sharp rise in bond yields this week could be one the major reasons for a break in the equity party.
+
+##### Where could market possibly head from here next week
+Bounce back in Nifty from the lows of 15000 is highly possible, however be cautious if the index falls below 14,950.
+Technically, on weekly charts the index has formed a bar reversal candle which clearly suggests short term weakness will continue in the near future.
+However, the medium term texture of the market is still bullish and likely to continue if the nifty succeeds to trade above 14900-15000, which is earlier resistance level (Prior to the Budget of announcement).
+In addition, despite short term weakness the market is still trading well above short term and medium term averages which also support medium term uptrend.
+The market will continue to consolidate further as the Key index has entered below thr 15,000 level which was marked as the strong support by analysts. Traders might see some positive action if the key index will approach above 15,000 level, else the traders will witness more volatality.  
+As index managed to breached to its strong support of 15k mark which will acts as an immediate resistance now, so above 15k mark we may see some relief otherwise we may see more downside levels of 14,900-14,750 on the other hand 15,100-15,170 will act as a strong hurdle on the higher side.
+The index has made a bearish engulfing candlestick pattern which indicates price rejection at higher levels. The bulls are getting tired as the index is trading much higher than its mean levels and at an accelerated rising channel resistance. Hence, a brief corrective dip cannot be ruled out. Nifty50 has broken the immediate support of 15050 and a sustained price move below the support can trigger some more profit booking.
+Lack of any positive triggers may keep markets dull and range-bound.
+Fresh investments can be made on dips into quality bets as the market is in a longer term bull rally with currently intermediate top in the making. 
+
+From the high of 15431, the NIFTY has come off nearly 500-odd points. From the FO data, until expiry on 25FEB, we feel that some technical pullback is likely as the NIFTY has got deeply oversold in the immediate short term. It is unlikely that the NIFTY dips much below 15000 as the Index enjoys a good short term support at 14950-14900 levels. From the current levels, we expect some technical pullback to happen until 15200-odd levels. Fresh directional cues will appear only after that.
+
+If Nifty sustains below 14900 in the coming week, the correction is likely to extend towards 14730-14600. However, if the index manages to hold above 14900 and goes on to surpass 15470, a fresh up leg can be expected to unfold that could take the index towards 15910.
+
