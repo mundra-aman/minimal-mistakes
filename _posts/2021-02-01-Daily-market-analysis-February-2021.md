@@ -365,3 +365,38 @@ From the high of 15431, the NIFTY has come off nearly 500-odd points. From the F
 
 If Nifty sustains below 14900 in the coming week, the correction is likely to extend towards 14730-14600. However, if the index manages to hold above 14900 and goes on to surpass 15470, a fresh up leg can be expected to unfold that could take the index towards 15910.
 
+
+## 25 Feb, 2021 Thursday
+Sensex ends above 51K, Nifty near 15,100 (up by 115 points).
+Nifty ends the February F&O series near 15,100-mark.
+The Nifty formed a small Bodied candle on daily scale with long upper shadow which indicates that follow up is required to attempt the life time highs. It continues its formation of higher highs - higher lows of the last two trading sessions.Domestic market added strength to yesterday’s rally supported by positive F&O monthly rollovers, and robust global market. Small and mid-cap stocks continued its outperformance over the benchmark indices.
+It negated its formation of lower lows of the last four trading sessions but continues forming lower highs.
+Domestic market added strength to yesterday’s rally supported by positive F&O monthly rollovers, and robust global market. Small and mid-cap stocks continued its outperformance over the benchmark indices.
+Nifty has to continue to hold above 15,000 zones to extend its move towards 15,250 then 15,400 zones while on the downside immediate support exists at 14,900 and 14,850 levels
+
+Nifty forms Shooting Star pattern on F&O expiry day.
+Except FMCG, all other sectoral indices ended in the green with metal index rising 4% and energy index adding 3%.
+Market continued to rally on February 25 on the back of positive global cues with Nifty ending the February F&O series near 15,100-mark. At close, Sensex was up 257.62 points, or 0.51%, at 51,039.31, and the Nifty was up 115.40 points, or 0.77%, at 15,097.40.
+
+Despite a gap-up opening, the bulls appear to have failed to capitalise on the same as the Nifty witnessed intraday profit-booking from the highs of 15,176, which depicted a Shooting Star formation with a relatively long longer upper shadow.
+Hence, some intraday weakness can be expected if the Nifty slips below 15,065, though a short-term weakness can be expected on a close below 15,000, which can once again drag the index down into the sideways zone.
+A positive stance can be retained as long as the Nifty sustains above 15,000. If the bulls manage to push the index beyond 15,173, then the strength shall expand initially to 15,271, with eventual targets present around life highs present around 15,430. For the time, traders who are long are advised to hold their position with a stop below 15,000 on the closing basis.
+
+Reliance Industries stood among the top index contributer as it surged over four per cent in the intraday trade to hit the day's high of Rs 2,152.00.
+The India Volatility Index ended 5.3% lower at 22.89.
+1,264 stocks on the NSE ended with gains while 622 posted losses.
+
+Going ahead from here, from the current technical perspective, crossing of the previous day’s high, i.e., 15,176 will be crucial if Nifty has to extend its up move. Friday's session is likely to see the levels of 15,175 and 15,210 acting as immediate resistance points, while support will come in at 15,050 and 14,970 levels.
+
+The Relative Strength Index (RSI) on the daily chart stood neutral at 59.34; it did not show any divergence against price. The daily MACD was bearish and remained be ..
+A Shooting Star occurred on the charts. This is a classical Shooting Star as Nifty opened high, inched higher before closing more towards its low point of the day. This type of candle can probably form a temporary top again and push the market into consolidation. However, as always, this will require confirmation on the next trading day.
+Following two days of strong up move, chances are high that Nifty may slip into some consolidation. If the index extends its up move, it is likely to find strong resistance at 15,176 levels. From the options data as well, the level of 15,200 holds maximum Call OI as of now. From a technical perspective, the zone of 15,175-15,200 remains a critical resistance for the market to navigate in the immediate near-term.
+
+Read more at:
+https://economictimes.indiatimes.com/markets/stocks/news/trade-setup-nifty-may-slip-into-consolidation-phase-15175-15200-strong-resistance-zone/articleshow/81212245.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
+
+
+Read more at:
+https://economictimes.indiatimes.com/markets/stocks/news/trade-setup-nifty-may-slip-into-consolidation-phase-15175-15200-strong-resistance-zone/articleshow/81212245.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
+
+
