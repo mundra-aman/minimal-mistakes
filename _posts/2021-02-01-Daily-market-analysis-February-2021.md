@@ -392,11 +392,3 @@ The Relative Strength Index (RSI) on the daily chart stood neutral at 59.34; it 
 A Shooting Star occurred on the charts. This is a classical Shooting Star as Nifty opened high, inched higher before closing more towards its low point of the day. This type of candle can probably form a temporary top again and push the market into consolidation. However, as always, this will require confirmation on the next trading day.
 Following two days of strong up move, chances are high that Nifty may slip into some consolidation. If the index extends its up move, it is likely to find strong resistance at 15,176 levels. From the options data as well, the level of 15,200 holds maximum Call OI as of now. From a technical perspective, the zone of 15,175-15,200 remains a critical resistance for the market to navigate in the immediate near-term.
 
-Read more at:
-https://economictimes.indiatimes.com/markets/stocks/news/trade-setup-nifty-may-slip-into-consolidation-phase-15175-15200-strong-resistance-zone/articleshow/81212245.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
-
-
-Read more at:
-https://economictimes.indiatimes.com/markets/stocks/news/trade-setup-nifty-may-slip-into-consolidation-phase-15175-15200-strong-resistance-zone/articleshow/81212245.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
-
-
